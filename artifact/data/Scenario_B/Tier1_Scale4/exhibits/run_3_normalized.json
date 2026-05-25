@@ -1,0 +1,4943 @@
+{
+    "metadata": {
+        "exhibit_id": "COURT-EXHIBIT-SCENARIO-B-TIER1-S4-RUN3",
+        "provenance_anchors": [
+            {
+                "file": "run_3_audit.json",
+                "type": "K8sAudit",
+                "sha256": "664a0e75f1eb77070a3a49832d0b244fb640a0d1ecad026240ebfa3110f6174b"
+            },
+            {
+                "file": "run_3_istio.json",
+                "type": "IstioMesh",
+                "sha256": "1b61ef7936c6fa83b9fe01e8d05fa3765d560aee3634d6469817b440067a15fa"
+            },
+            {
+                "file": "run_3_network.pcap",
+                "type": "PCAP",
+                "sha256": "d4a50094d57603f120b98e60afd3cdfa3845b3f2b1a325b485072fc9cc094c3c"
+            },
+            {
+                "file": "run_3_ebpf.json",
+                "type": "eBPF",
+                "sha256": "7a537956d0c7e21fd9d11a2b89e5e82e273d826780d692c818439db9652996e3"
+            }
+        ]
+    },
+    "subject_actions": [
+        {
+            "evidence_id": "e81d2300-96a5-44a7-bdbc-0113d5a000aa",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "135e9cd7-4087-4eb6-8352-534243405036",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "37944a2f-f0f2-491b-8489-d7061cbb74f9",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "0f6a598c-042a-4087-ba6e-cf5a73e4eb6f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "bd63cab8-f8fd-4453-9b56-c9ac78df22dc",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "99cc8ec3-df81-47c2-9f4b-08ec53fedf8a",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "420efb70-5d41-4b86-bf32-45ece9c5ddfd",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "1fb0c40c-9f2c-4b33-a2da-778b8b46a4b9",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "76472c47-c62e-4d70-b865-cee40a6089a4",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "8154a5d8-b9c2-4f00-a4ec-eaf89766133e",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "e132fe30-9e3b-4ba0-8773-cf13c1b68316",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "04275562-26af-4fc2-aa1d-c6ed9e0b255e",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "d2e9edbe-d80f-43db-82fe-966eea5a1b8c",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "49a7a7ce-e96b-4b03-8e28-fe8f8085aaf6",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "03a21a76-69be-4e2c-8484-c823ace76012",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "582313fe-a539-4207-a0d4-f00311025b7b",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "3abcecf6-394f-4275-b164-e9d90becbb40",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "0a8ba606-08e8-460b-985c-f9e677453797",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "3a2fcaf8-e2ba-4b01-91b1-a6cec08c0c80",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "cc1e241e-0bb5-4019-bfd5-111cb71a49b1",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "854749ba-4635-4d46-9f2a-533f385adc7c",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "fbbf4381-b6dc-437f-a9a0-7ab19788f423",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "72b7de56-b46b-49b9-b269-2fbec04d3c07",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "97b8bd66-e91e-43e3-a1d3-9cf72bfae965",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "f4569b65-68d9-4491-8366-8eed48b3f7bb",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "ce186955-6383-4a2d-97a6-da9465d81da6",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "1af79378-dbca-483a-9f26-b738d6fe050b",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "931d977f-38f4-4972-aced-3c67e616e4b7",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "cb177473-37b3-415b-a4f6-1a98a7275bae",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "6b4acbf2-9944-4e80-b6be-811718e575ba",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "e67072f9-66e7-4709-8fb7-3868b4b942e0",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "959ea045-70e1-4dd3-a1bc-67a0fe6db6bc",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "85a76658-7c18-4eb8-bbb3-ccaa036bf91b",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "e9b9c874-774f-43fd-ba63-328bc0f14d4b",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "d6d85342-13e3-41ef-9530-a81778621427",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "f3d7c8ec-9822-46fa-b548-d72e24937fb3",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "0b5a0400-cb56-417a-bf5b-2703d90b47a6",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "90ee8645-9e84-44a2-8d1d-b624f767aef4",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "4e2df50a-157b-4ace-8add-17a72ca79d85",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "78c4a11f-744e-4283-9e7d-bf2353a4c35b",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "48e4271c-12b6-4dc5-83f7-b8f578599347",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "9efc6f14-72d6-4437-9237-eb7f20d6869c",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "10e7eb08-04c6-46ec-824d-3264185b1809",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "baf095b8-01de-4f0e-8913-13db0ffd1dd9",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "cc334223-e9b0-4438-b4b7-b3ee417cfc71",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "ab11c324-d7c3-458b-a364-5babc2639881",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "47ec2241-2913-4044-8f98-57699304f902",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "f7de70a1-35d4-4733-b27c-de350ac2b523",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "0aa4557f-327b-453b-8b89-ade1734cf4c5",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "656a9ed0-155a-45bf-97cd-5897422738c7",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "cf988ce7-71dd-4a9b-a6da-cc181c3a26ef",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "682cdabc-7e48-4c20-9b39-ac77a7b64020",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "7775e4c6-a68a-4352-b8c7-27ae96773c01",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "d399d191-0101-4860-93b7-233c4cb6b521",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "7c2b494b-f0b5-4767-9a0e-75c5d3976b69",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "e805bb87-7b46-4a8c-9e4b-68875f19e5da",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "3ef5f93b-f8c5-4a9a-aac5-7bd0c3645f1e",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "b8fc1ba4-f928-47da-a4d6-b8907af4e841",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "2f201878-47f4-4611-a969-994d684ca59f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "8e186ee8-70a3-408b-8fb0-99c1325cbe79",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "4219c4fb-1e57-44a6-987f-af283476d34f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "415fbcfd-e61e-4719-b9e8-a84779fd33b0",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "f464c382-3f4f-4356-b5aa-db766d4d99c2",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "08410e57-0e75-4ca7-a457-c283181fe044",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "f63898b4-a094-4eda-93b0-b0e9efb02a46",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "8b5254f5-ce14-4f0a-9940-cd263d55f0bb",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "495033ca-b553-4854-9a7d-3b21b0d1e372",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "0f2ad55d-8bbb-42f7-a5eb-d6010386333c",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "dc8588c7-219a-497a-bc88-7d76a839b300",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "9392dec9-3828-4dd5-869f-db189e7a0ed5",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "9ca47065-4814-4da3-9d41-c5aa87efca33",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "e933610b-5f77-4cb1-9680-331b868cbba5",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "0803ca80-59f3-47d7-9d2c-90741c9618cd",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "7c8ce07b-0304-4cf6-aa56-76b163698a59",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "8fc8add4-b028-465d-a4e4-67119b8ac645",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "94e31c45-cb28-4bc4-84cf-c0acaf51a930",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "58dc74fa-4dc6-4055-94b0-8c8bcb3502ae",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "217c9962-8e60-42fd-a979-bae696d93205",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "bfaa82b7-12ca-4251-8aa4-9224e0edfd62",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "a018f9d4-9b56-4e4c-8144-f18d844bad5e",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "11056cb5-7ca5-409b-9393-0714fd9457fe",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "af6068dd-1c38-427d-8768-41c242aa2704",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "59b12749-6b5e-4c0b-b440-9612bdbc4045",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "f969966d-69a0-43b7-b005-9f4972788913",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "c5dcf8b7-8277-4018-9f39-9a6e3f2d5d02",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "1d3daab3-7c21-4f55-9e4a-2a65b68fe79c",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "39cf6025-21e1-4769-bec8-3a0f97e47d1b",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "e99413ca-a79b-429a-8dd6-49edd211c578",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "02b5a3fb-a93a-48d8-a589-55a980a5becf",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "3151e705-4f21-4c9d-99ff-20cb39d25b23",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "a7374a29-d00f-49b5-a714-5857145014c0",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "e5ec027e-a3cf-460f-b2e0-845fd7895f42",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "bbc14e6a-8773-4153-b251-302f8c892bfd",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "b543db2b-56ff-4fdb-b66b-e4c62090e02f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "40f0f8eb-ad95-4715-ae90-e41fdc05ac12",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "a38ed1b1-c35e-4582-ace5-db559cefaf7f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "e5aa4797-b5ab-4a00-9e06-bab6cb2c1766",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_SCHEDULING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "36a417eb-6cc8-485e-84ee-06d67aa35788",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "adb349f4-a8f4-42cd-8217-f7708b5d5b0e",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "4bb04c53-e094-4a3e-9ff0-140fa680d69f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "2453aca2-e37e-4a62-b94a-ca93952c0ba9",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_ACTION",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "d9b4b440-816c-4b0a-a110-2c075920b3c5",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "149a739f-d636-4a0c-a83b-efce8c9413cb",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "17c5809c-531c-4539-93ae-aad5ed64286d",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "b5be81b2-adec-42a7-bd2c-a6bc21b37e66",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "c4f33cf1-083b-4d0d-a82a-f806e44e023e",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "b804cb38-f696-4470-ac17-3747d7e2b5b2",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "44d28a7f-5e1c-46a2-8b0e-7c2885953ab9",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "c434d463-f84e-47de-93d3-4b08903f3a3e",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "8c9568e9-0b1f-48ce-9fe5-6185281b5191",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "459d1685-37b5-4478-84f4-f69c9f18164f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "b27743e5-928a-4baa-a7a4-b0319c83e3f3",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "4237a5a4-054c-4f82-954f-17bb53cd1011",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "aacd8f78-95a3-47fb-911d-f6d5f1f9e717",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "4bf22754-0b21-4700-8a76-ad95d3a3114f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "8c840773-933a-42ba-888b-d7d7bcfd2a26",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "40707d48-2836-4826-a6c3-fbde0678535d",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "56206e25-6f72-4872-be90-7ab8c5158680",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "1fe76afe-89a4-4c8c-bb08-d0929398ba6c",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "3c1f82d6-a6cd-4dcb-a338-434cbbef0df3",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "8fbcf224-72ef-4c23-8bd3-e8d7d9339022",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "9384828d-021c-42ce-952b-a1c10efbf06d",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "7bfb0493-224c-4426-a5ca-6ce3e2b5b425",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "8309e50a-079f-42e3-a15c-2b189d65c80f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "c636184c-4e6c-4dfb-a1e2-7ef030f13e36",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "66fa94e6-90ae-4397-b8a7-9c31e0e7401c",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "07ea4843-1f61-43d8-93bc-69ed9d6796c2",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "30aebb6e-7047-424f-a01e-f971fba85a3d",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "3789d2c9-0889-41b8-85f5-84f4da9602c0",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "85bebde3-b3b4-460b-b904-d62fb67af580",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "9f4d852a-0971-4ab3-a843-ddf40355c438",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "be2e5de5-d6ed-4379-9af3-1e1efa65653c",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "ef688fa2-c0dd-4622-8456-36e89e8f0e26",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "37326a68-1a29-4246-a81f-4378121d43ab",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "90e2f7cf-30b7-4dd6-a398-3e480cea4130",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "c282ec50-ead1-4337-b592-0b4141a93be0",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "92f8aef8-12c3-4c86-bb48-9ed0e84d3691",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "ca807f2e-9a46-4938-a16f-415efff4c647",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "221d4e8b-cfb5-4a07-a48e-53a4db404efd",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "ce97becf-0a7d-4261-95f0-e4235f94a157",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "75bdb475-630d-41f4-91f1-c2dc4df21d2f",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "726065a4-8626-454a-b361-9b3c27c7a117",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "031c3abc-9203-4f6a-932d-7cd65a940edd",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "c4aa66ba-9a8d-43f1-8147-98a466111180",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "0d7d2f26-4874-469a-8dce-a237fc9e9e01",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "67ac718f-ff42-4c5f-a201-a3750e465363",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "60ccfb41-2c2c-4811-9831-9dd0fb33cce9",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "6ac20d93-1d27-4c89-9167-cc1ba9c4f90d",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "3d756a4b-4872-45cf-9fe2-023eeefff54a",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "5312e95c-563e-4324-9647-971ebc4d7c5d",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "085187d0-8d76-4a28-870c-21b864a1e1c3",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "d6065d47-635e-4e61-98c7-8b00fc79374b",
+            "timestamp": "2026-05-14T21:05:23.000000Z",
+            "identity": "system:unknown",
+            "event": "AUDIT_API_BINDING",
+            "protocol": "KubernetesAPI",
+            "status": "200",
+            "path": "KubernetesObject"
+        },
+        {
+            "evidence_id": "c7aa3e8c-ae47-4426-bfec-38945f265d0a",
+            "timestamp": "2026-05-14T21:06:45.024674813Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "bceb5de1-0070-4a6e-b1a0-7316e86e956e",
+            "timestamp": "2026-05-14T21:06:45.027553490Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "2fa63d44-d3a7-4dcd-9704-7574e554f0ae",
+            "timestamp": "2026-05-14T21:06:45.030080997Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "ba3665bc-aea5-4e24-bfbd-227571e09716",
+            "timestamp": "2026-05-14T21:06:45.031736567Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "15db0802-c116-4a76-a97d-5ea703c3cce7",
+            "timestamp": "2026-05-14T21:06:45.096245200Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "0c5becbb-9579-4667-af50-4e61171afb3c",
+            "timestamp": "2026-05-14T21:06:45.098866817Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "2deafe41-2962-473b-bf41-a2a92ec8f431",
+            "timestamp": "2026-05-14T21:06:45.143826934Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "bafdd196-a80c-41ae-b48a-2a2747fc0d11",
+            "timestamp": "2026-05-14T21:06:45.144935507Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "3b0608b3-7343-4dc7-bad5-ffe700fe29eb",
+            "timestamp": "2026-05-14T21:06:45.145796772Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "21bd6686-9f97-4f95-99c0-3246bbe717ba",
+            "timestamp": "2026-05-14T21:06:45.147728732Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "93dfeca7-7667-440c-ac9a-d26c1f432aa8",
+            "timestamp": "2026-05-14T21:06:45.148287920Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "eda061c0-2080-4015-be15-1b833468b79c",
+            "timestamp": "2026-05-14T21:06:45.152816415Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "7b4326f8-658d-4f5a-a202-d1062e7d6972",
+            "timestamp": "2026-05-14T21:06:45.185221427Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "b4a1e38c-6052-4c1a-ab20-b9f9b50879a7",
+            "timestamp": "2026-05-14T21:06:45.189181535Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "a3db349a-8304-42fe-99f2-20c386454a38",
+            "timestamp": "2026-05-14T21:06:45.190495234Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "7c740840-e811-4b9e-a498-667db91daadb",
+            "timestamp": "2026-05-14T21:06:45.193119205Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "4160d8f7-bb9c-4690-9e4e-23c1169c18f6",
+            "timestamp": "2026-05-14T21:06:45.194787962Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "51d65914-fcd1-4603-ac9c-c3b33a1e12cf",
+            "timestamp": "2026-05-14T21:06:45.198157042Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "ebb022a1-91c0-4c6e-8516-4961cb85705d",
+            "timestamp": "2026-05-14T21:06:45.199030990Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "7b8ee2dc-42e0-400f-8ea8-225672ef9053",
+            "timestamp": "2026-05-14T21:06:45.201904244Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "30c80dd8-4331-455a-a85b-2f7046d55fc5",
+            "timestamp": "2026-05-14T21:06:45.202707535Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "38132ea4-1470-4ce1-9396-4f8cfe68f4dc",
+            "timestamp": "2026-05-14T21:06:45.206460355Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "734b9e9d-7551-4faf-9dd3-87a59fd56935",
+            "timestamp": "2026-05-14T21:06:45.209543199Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "b6a1cc19-4c44-4adf-9d8b-b9eed16ddf0a",
+            "timestamp": "2026-05-14T21:06:45.210485717Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "9dd2d992-0fe9-42ae-9e6b-fcba1c31923d",
+            "timestamp": "2026-05-14T21:06:45.213036558Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "93531d03-9e0f-47e4-ac80-a3437e34385d",
+            "timestamp": "2026-05-14T21:06:45.213768746Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "e799079f-1d6a-4b8e-b38f-415404e54ac2",
+            "timestamp": "2026-05-14T21:06:45.217062006Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "735fde93-eb39-43a0-bc09-1edf52901767",
+            "timestamp": "2026-05-14T21:06:45.217594945Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "280b4d8b-6963-41f6-90e6-adc82a97d44a",
+            "timestamp": "2026-05-14T21:06:45.234236359Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "afcf6b6b-ad4c-46cd-93a3-9dc9ac022a78",
+            "timestamp": "2026-05-14T21:06:45.239227403Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "4404d951-68de-40ba-9238-fc992c1e2232",
+            "timestamp": "2026-05-14T21:06:45.254461932Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "624ad3e3-6246-4a4f-ac48-136fc0b12af2",
+            "timestamp": "2026-05-14T21:06:45.258709548Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "ac601f34-9dba-4996-8065-fcba1f5e9c8d",
+            "timestamp": "2026-05-14T21:06:45.262581263Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy"
+        },
+        {
+            "evidence_id": "bbc31305-6fd0-4ced-b7fc-5d8f951c1e28",
+            "timestamp": "2026-05-14T21:06:45.268200096Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "da409a12-8495-47b8-99f8-6a706c2b378f",
+            "timestamp": "2026-05-14T21:06:45.270814347Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "0995fbd6-625d-4db8-985d-5595af94ffac",
+            "timestamp": "2026-05-14T21:06:45.275120840Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "fbd36225-49e7-434d-b8fa-a8169ae835b7",
+            "timestamp": "2026-05-14T21:06:45.275166447Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "8e445f25-e80f-4195-9fc6-4027f1c656b6",
+            "timestamp": "2026-05-14T21:06:45.278465622Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "825cd08f-3172-4d34-9a5c-12f8817cd9fc",
+            "timestamp": "2026-05-14T21:06:45.278568048Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "ecc7dab0-28b0-4181-ba0f-ee8d299ea2b4",
+            "timestamp": "2026-05-14T21:06:45.281219937Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "e359b45b-8c6e-4db0-811f-034bb7f2cfb1",
+            "timestamp": "2026-05-14T21:06:45.282241077Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy"
+        },
+        {
+            "evidence_id": "1b69990e-868b-4461-9600-7b90fe750337",
+            "timestamp": "2026-05-14T21:06:45.284047127Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "962f5d21-bc55-4c3c-a17b-c0e79b7dc7b7",
+            "timestamp": "2026-05-14T21:06:45.289551882Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "bc892308-87c1-42ba-8fd2-9527d1d1010f",
+            "timestamp": "2026-05-14T21:06:45.309276413Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "cbce3218-b6d0-4e7a-b8c5-95b18e5adda4",
+            "timestamp": "2026-05-14T21:06:45.311152263Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "42b45f52-aa06-47fa-afe4-1269b7bc5afb",
+            "timestamp": "2026-05-14T21:06:45.312683907Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "1991e193-cf99-4e97-97cd-c138682a71ce",
+            "timestamp": "2026-05-14T21:06:45.313334346Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "61dcb311-d77a-49c1-b59b-f19335984604",
+            "timestamp": "2026-05-14T21:06:45.315887075Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "33307a5e-9571-44df-8d53-73a933726304",
+            "timestamp": "2026-05-14T21:06:45.317934427Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "48d2e644-27ae-453a-8d1d-03c6ec5ad49d",
+            "timestamp": "2026-05-14T21:06:45.318806913Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "99fc0cbb-92be-4399-a5de-0ce4557e7d2f",
+            "timestamp": "2026-05-14T21:06:45.319383520Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "26a7d86c-71d3-4683-9771-3febe69549a7",
+            "timestamp": "2026-05-14T21:06:45.321047372Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "48c0685d-fea9-44cd-9aad-f5eb9ecbc5e3",
+            "timestamp": "2026-05-14T21:06:45.321773871Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "814abe74-b435-4e28-861b-e735d1bb63d7",
+            "timestamp": "2026-05-14T21:06:45.323155873Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-restore"
+        },
+        {
+            "evidence_id": "a9d81b2a-1b64-4acd-8bb5-3bf3c947faaf",
+            "timestamp": "2026-05-14T21:06:45.323851400Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "824d3ee0-b5b9-488c-9f44-50d67ce70cbd",
+            "timestamp": "2026-05-14T21:06:45.325346518Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "791b6cb8-4c9d-4220-a179-0cbd060c0d76",
+            "timestamp": "2026-05-14T21:06:45.327029241Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "f197a6e9-c237-4514-b3cd-652b08b57ea5",
+            "timestamp": "2026-05-14T21:06:45.329352212Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "4a3cd98b-5c24-4798-9287-97fd4417605c",
+            "timestamp": "2026-05-14T21:06:45.332513846Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "ade8ca14-86ad-465a-959b-51e543d8d042",
+            "timestamp": "2026-05-14T21:06:45.342512668Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "02235376-3fca-456e-8fc0-cd19adf8fe17",
+            "timestamp": "2026-05-14T21:06:45.342652019Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "dc5cfc4a-caf4-469b-92d6-1e6b4579269a",
+            "timestamp": "2026-05-14T21:06:45.343684856Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "4c82d860-1f7a-4ef9-b9fc-47a367bf099a",
+            "timestamp": "2026-05-14T21:06:45.347204449Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "ce57a125-f972-40e8-bd13-6f117604c244",
+            "timestamp": "2026-05-14T21:06:45.347912277Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "4778e3a5-b120-44ac-8365-cc09786cc7db",
+            "timestamp": "2026-05-14T21:06:45.347951966Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "9812359e-1abd-47dc-8a91-291801ec45fa",
+            "timestamp": "2026-05-14T21:06:45.349315390Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "b86607a0-6aef-4cb7-900b-caae82a7f4b3",
+            "timestamp": "2026-05-14T21:06:45.352904814Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "ecc51dbf-f24f-4812-93aa-1731b9ba1a63",
+            "timestamp": "2026-05-14T21:06:45.355545318Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "42621536-133f-4ed0-b148-26641f527d42",
+            "timestamp": "2026-05-14T21:06:45.355917911Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-restore"
+        },
+        {
+            "evidence_id": "d8b696e5-9e04-49bb-ab4f-2cbfc478baa1",
+            "timestamp": "2026-05-14T21:06:45.379349704Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "c8f14d10-10cd-4e53-88d4-17a7f0563af4",
+            "timestamp": "2026-05-14T21:06:45.383307926Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "1247a106-43aa-4f66-b764-36a8d8844d1b",
+            "timestamp": "2026-05-14T21:06:45.387157526Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy"
+        },
+        {
+            "evidence_id": "6a69b26b-0c9d-45ba-b806-ce651422452a",
+            "timestamp": "2026-05-14T21:06:45.392380539Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "b0e5903a-27cb-4eb2-9209-c74ce96a4958",
+            "timestamp": "2026-05-14T21:06:45.410938234Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "0084aad9-dd3d-4080-ab27-9043061259c1",
+            "timestamp": "2026-05-14T21:06:45.412936102Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "f0198ace-aaaa-4a30-b21b-bb9f01d51d3b",
+            "timestamp": "2026-05-14T21:06:45.414884070Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "a9b4ed31-b14c-40de-b5ec-888a24bbeb36",
+            "timestamp": "2026-05-14T21:06:45.418136752Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "7c18e254-0750-407e-ae2c-c4c930330694",
+            "timestamp": "2026-05-14T21:06:45.420361093Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "f8f79ed2-0fff-49e8-947a-541d02d61683",
+            "timestamp": "2026-05-14T21:06:45.425898510Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "d3b6aea7-1486-4086-8094-065a2503a676",
+            "timestamp": "2026-05-14T21:06:45.432221298Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy"
+        },
+        {
+            "evidence_id": "0c6f7f3a-3456-432d-9b92-77e469a7fd5f",
+            "timestamp": "2026-05-14T21:06:45.449682856Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "0c6649c3-3d71-46d9-b11d-31a47e3bbbaf",
+            "timestamp": "2026-05-14T21:06:45.451861353Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "6228772d-835b-4abf-aebe-ad5a8e07cadd",
+            "timestamp": "2026-05-14T21:06:45.456163074Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "d939708a-ed80-4ce6-af6b-79acaf3dc2a0",
+            "timestamp": "2026-05-14T21:06:45.459559903Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "56befa08-442d-441b-a45c-feea5683229e",
+            "timestamp": "2026-05-14T21:06:45.461832578Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "d06f6101-a6eb-404a-b5ec-3b14a9159b7a",
+            "timestamp": "2026-05-14T21:06:45.465168492Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-restore"
+        },
+        {
+            "evidence_id": "4eaf4747-71a2-476a-a9fc-e36366d06deb",
+            "timestamp": "2026-05-14T21:06:45.467127037Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "02505e60-a6c4-4cb2-a038-6940bbe592b1",
+            "timestamp": "2026-05-14T21:06:45.490910801Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "cc9da5ca-a652-41a6-9b69-a37b974e080d",
+            "timestamp": "2026-05-14T21:06:45.491268680Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "f9adac3f-edae-4b2a-bbc1-46bc69e1e1cf",
+            "timestamp": "2026-05-14T21:06:45.495944083Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "3c866b26-78e0-45dc-9186-a5c0b8cd3573",
+            "timestamp": "2026-05-14T21:06:45.500321725Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-restore"
+        },
+        {
+            "evidence_id": "e2572444-981d-4452-b0a1-284a96a7d88b",
+            "timestamp": "2026-05-14T21:06:45.508821021Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "61f45831-a9e2-4858-916b-bac6272e46e2",
+            "timestamp": "2026-05-14T21:06:45.946919940Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "9f54e56c-9e8a-46cb-9b3d-a124276094fc",
+            "timestamp": "2026-05-14T21:06:45.954133356Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "11cfb624-f688-4576-9c03-abeba7985936",
+            "timestamp": "2026-05-14T21:06:45.956052122Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "ed346445-6cdc-4e74-a5b1-54bf9ca3bcf7",
+            "timestamp": "2026-05-14T21:06:45.960288696Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "26397ec8-fd97-4d5b-a427-de35410e23ee",
+            "timestamp": "2026-05-14T21:06:46.026679715Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "e7a37b1b-7d23-4f51-8d70-71dd431cec28",
+            "timestamp": "2026-05-14T21:06:46.033347577Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "e58129d2-92f3-4602-a995-a14d170fed0d",
+            "timestamp": "2026-05-14T21:06:46.058008409Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "d85e0f21-9fa0-4dcb-87e5-686e132db60b",
+            "timestamp": "2026-05-14T21:06:46.062111949Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "3c006e9d-eeed-4d11-aa8d-9293ae77cc16",
+            "timestamp": "2026-05-14T21:06:46.064803325Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "1635b5b5-0818-47e8-b83f-f58d60f7e6a4",
+            "timestamp": "2026-05-14T21:06:46.066515672Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.sh"
+        },
+        {
+            "evidence_id": "ee7da730-54ac-4be5-94f3-1e62465742b5",
+            "timestamp": "2026-05-14T21:06:46.067222134Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "0e553658-fad3-4e3d-ab9a-099df4acf12a",
+            "timestamp": "2026-05-14T21:06:46.070659964Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/find"
+        },
+        {
+            "evidence_id": "d09ab5bd-ce2d-4f43-ae03-67c40f1a9d46",
+            "timestamp": "2026-05-14T21:06:46.073961055Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/find"
+        },
+        {
+            "evidence_id": "503be2c2-ce06-4696-830e-ce1a96798254",
+            "timestamp": "2026-05-14T21:06:46.074295029Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.sh"
+        },
+        {
+            "evidence_id": "8a358cdf-0f43-487f-a92e-6369e3edb225",
+            "timestamp": "2026-05-14T21:06:46.077037360Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/sort"
+        },
+        {
+            "evidence_id": "a219476c-13ec-4b98-a5e5-c452391aaad2",
+            "timestamp": "2026-05-14T21:06:46.077217229Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/find"
+        },
+        {
+            "evidence_id": "31aeffcc-0abb-4495-a7e0-349b63c5f200",
+            "timestamp": "2026-05-14T21:06:46.080225126Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/10-listen-on-ipv6-by-default.sh"
+        },
+        {
+            "evidence_id": "b162a383-0948-4869-934c-a5b98f604714",
+            "timestamp": "2026-05-14T21:06:46.082076170Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "11df2295-05f1-4bfc-9bff-7c056188374c",
+            "timestamp": "2026-05-14T21:06:46.082533520Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/sort"
+        },
+        {
+            "evidence_id": "6b1cfc48-becf-411f-99b7-b796496d7b51",
+            "timestamp": "2026-05-14T21:06:46.082862236Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/find"
+        },
+        {
+            "evidence_id": "937d3b2a-7451-4def-a539-1dbb9fcc26c3",
+            "timestamp": "2026-05-14T21:06:46.084283033Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/touch"
+        },
+        {
+            "evidence_id": "c546b980-31b7-4a5a-90f9-80391451e9c6",
+            "timestamp": "2026-05-14T21:06:46.086036175Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/10-listen-on-ipv6-by-default.sh"
+        },
+        {
+            "evidence_id": "29caa0e8-96ed-4676-b3c6-50b4d723d52d",
+            "timestamp": "2026-05-14T21:06:46.087861944Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "15d7d557-6d72-468b-afa8-ece745e4b7bd",
+            "timestamp": "2026-05-14T21:06:46.090111503Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/touch"
+        },
+        {
+            "evidence_id": "95687d23-3d21-4efc-821f-353d8d633e27",
+            "timestamp": "2026-05-14T21:06:46.122880250Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/grep"
+        },
+        {
+            "evidence_id": "ea817e3e-1090-403c-9ea2-956852a6917e",
+            "timestamp": "2026-05-14T21:06:46.123641297Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/grep"
+        },
+        {
+            "evidence_id": "906af9e3-074e-443e-9e77-0cd436a23963",
+            "timestamp": "2026-05-14T21:06:46.128512391Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/sbin/apk"
+        },
+        {
+            "evidence_id": "0de35e71-8dbe-46f7-b127-c60fb2935e29",
+            "timestamp": "2026-05-14T21:06:46.129042333Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/grep"
+        },
+        {
+            "evidence_id": "5c5df59a-2460-4fe7-b1c5-e822368d8e70",
+            "timestamp": "2026-05-14T21:06:46.131570925Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cut"
+        },
+        {
+            "evidence_id": "cef8b2b9-26c7-47a1-a5c7-140638741c1c",
+            "timestamp": "2026-05-14T21:06:46.134495427Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/sbin/apk"
+        },
+        {
+            "evidence_id": "a704f8e8-7cdb-4384-af2f-d6a37a3538c9",
+            "timestamp": "2026-05-14T21:06:46.137112091Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cut"
+        },
+        {
+            "evidence_id": "a69f0e83-1f50-4c49-99e8-d45aa357c90b",
+            "timestamp": "2026-05-14T21:06:46.137245767Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/grep"
+        },
+        {
+            "evidence_id": "6c5f2a83-09b1-4ab6-892d-03a2590725d9",
+            "timestamp": "2026-05-14T21:06:46.137351140Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cut"
+        },
+        {
+            "evidence_id": "6c2a5156-7bbd-4f2a-9348-e375905c5240",
+            "timestamp": "2026-05-14T21:06:46.139850241Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cut"
+        },
+        {
+            "evidence_id": "ea4485d3-8963-4119-8645-27dbea19aaaa",
+            "timestamp": "2026-05-14T21:06:46.165470596Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/sha1sum"
+        },
+        {
+            "evidence_id": "2a56fbe4-f4cc-4422-a644-43393d8c57a2",
+            "timestamp": "2026-05-14T21:06:46.169003160Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/sha1sum"
+        },
+        {
+            "evidence_id": "e325927b-a9e9-4820-850a-84ea2cff97be",
+            "timestamp": "2026-05-14T21:06:46.169340576Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/sed"
+        },
+        {
+            "evidence_id": "e7586de2-f5dc-4a38-89f2-775ac399f0bd",
+            "timestamp": "2026-05-14T21:06:46.171019959Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/sed"
+        },
+        {
+            "evidence_id": "8528aba2-9cb9-4588-a783-9e6f54233bbe",
+            "timestamp": "2026-05-14T21:06:46.174940443Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/20-envsubst-on-templates.sh"
+        },
+        {
+            "evidence_id": "89aaa325-88af-410a-acfa-21315c01ebf5",
+            "timestamp": "2026-05-14T21:06:46.176824125Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "62ce7dc3-e51b-4cf8-8a00-80c8d170cc64",
+            "timestamp": "2026-05-14T21:06:46.179486462Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/20-envsubst-on-templates.sh"
+        },
+        {
+            "evidence_id": "a11c9b29-8166-48fd-a1c4-83870945cef5",
+            "timestamp": "2026-05-14T21:06:46.181203308Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/awk"
+        },
+        {
+            "evidence_id": "678e8a08-b222-4154-8197-e079d05eb85c",
+            "timestamp": "2026-05-14T21:06:46.182311550Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "efbb1d68-f204-46cc-815f-571f0a10e54e",
+            "timestamp": "2026-05-14T21:06:46.186984433Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/awk"
+        },
+        {
+            "evidence_id": "99b38f4d-ca02-4ca5-afd1-c418c7410864",
+            "timestamp": "2026-05-14T21:06:46.189408098Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/30-tune-worker-processes.sh"
+        },
+        {
+            "evidence_id": "74143e1d-730f-45a8-8b73-d55530ce5dd3",
+            "timestamp": "2026-05-14T21:06:46.191321557Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "fa200c7b-c868-489f-9305-1d8147f60d29",
+            "timestamp": "2026-05-14T21:06:46.192288175Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "51d1bb00-89fd-4a4b-a1d3-0f45b87c325d",
+            "timestamp": "2026-05-14T21:06:46.192294815Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/30-tune-worker-processes.sh"
+        },
+        {
+            "evidence_id": "366044fa-d186-4433-8c28-21b6a6809d8a",
+            "timestamp": "2026-05-14T21:06:46.194907649Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "7bacdd97-ad37-4717-b71e-19d33d65c340",
+            "timestamp": "2026-05-14T21:06:46.196496780Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/nginx"
+        },
+        {
+            "evidence_id": "0c71541f-7d47-4bfb-a1ca-12ec9f74eb71",
+            "timestamp": "2026-05-14T21:06:46.198473503Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/nginx"
+        },
+        {
+            "evidence_id": "386b9fd9-e45a-4e9d-b0af-8929fe866b23",
+            "timestamp": "2026-05-14T21:06:46.204052388Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "b29b8dcb-fff3-4632-9367-f316415670f0",
+            "timestamp": "2026-05-14T21:06:46.251301443Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.sh"
+        },
+        {
+            "evidence_id": "1ceaec7c-85ee-4d2d-a083-7c517b9e075a",
+            "timestamp": "2026-05-14T21:06:46.253369659Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/find"
+        },
+        {
+            "evidence_id": "770cacb8-948a-4282-a20a-a7c8158ba1c3",
+            "timestamp": "2026-05-14T21:06:46.257852738Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/find"
+        },
+        {
+            "evidence_id": "e599caa4-0d76-4560-836c-6811cf48381f",
+            "timestamp": "2026-05-14T21:06:46.260263756Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/sort"
+        },
+        {
+            "evidence_id": "a5d3b782-ceb5-45aa-ad9a-aeee1a7bc7e4",
+            "timestamp": "2026-05-14T21:06:46.261642475Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.sh"
+        },
+        {
+            "evidence_id": "9846c037-bce3-49f9-9a68-3b1dcfb6c54c",
+            "timestamp": "2026-05-14T21:06:46.262825049Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/10-listen-on-ipv6-by-default.sh"
+        },
+        {
+            "evidence_id": "28272e5f-04f3-4d8d-b6c4-6cfc1a183d42",
+            "timestamp": "2026-05-14T21:06:46.264748654Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/find"
+        },
+        {
+            "evidence_id": "f146a9a4-9468-40ea-887a-d28bb1368bda",
+            "timestamp": "2026-05-14T21:06:46.265305776Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "355ed176-c4df-4721-ae2c-fc8b71ae202a",
+            "timestamp": "2026-05-14T21:06:46.267360041Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/touch"
+        },
+        {
+            "evidence_id": "c2e8afc7-b55f-42c9-8b21-19609ef15212",
+            "timestamp": "2026-05-14T21:06:46.268944331Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/find"
+        },
+        {
+            "evidence_id": "af75a2e2-1600-448c-b8ad-70e5258a0547",
+            "timestamp": "2026-05-14T21:06:46.270454697Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/sort"
+        },
+        {
+            "evidence_id": "40acd543-8902-4a8d-81d3-6592e2a0f15b",
+            "timestamp": "2026-05-14T21:06:46.273238811Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/10-listen-on-ipv6-by-default.sh"
+        },
+        {
+            "evidence_id": "f08bcaae-f13f-45c4-b76b-53471f3c67bb",
+            "timestamp": "2026-05-14T21:06:46.275122313Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "96e72cef-0397-4e18-9f51-1080a5ba8ea4",
+            "timestamp": "2026-05-14T21:06:46.277783270Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/touch"
+        },
+        {
+            "evidence_id": "b35a0441-099c-47ac-b807-6d3f461db378",
+            "timestamp": "2026-05-14T21:06:46.285457147Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/grep"
+        },
+        {
+            "evidence_id": "354cbeb1-cb90-4d9f-8c8b-1d5bd984c1ea",
+            "timestamp": "2026-05-14T21:06:46.289259153Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/sbin/apk"
+        },
+        {
+            "evidence_id": "32b195c5-764c-4811-a1b0-775dc31ba267",
+            "timestamp": "2026-05-14T21:06:46.289953419Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cut"
+        },
+        {
+            "evidence_id": "9bb4440e-6846-4544-a517-0658db5bd4c7",
+            "timestamp": "2026-05-14T21:06:46.291274628Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cut"
+        },
+        {
+            "evidence_id": "cfaed475-a0c7-4dff-90b1-2beb102f4594",
+            "timestamp": "2026-05-14T21:06:46.293564394Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/grep"
+        },
+        {
+            "evidence_id": "37d6bfbb-43e2-4405-a1de-9b65d8c07ed7",
+            "timestamp": "2026-05-14T21:06:46.295724567Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/grep"
+        },
+        {
+            "evidence_id": "b3437929-68f2-4fc7-823d-856c90da4eb0",
+            "timestamp": "2026-05-14T21:06:46.299584510Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/sbin/apk"
+        },
+        {
+            "evidence_id": "f38f1cb9-1120-45c1-b025-16e695a2b3f7",
+            "timestamp": "2026-05-14T21:06:46.304294316Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/grep"
+        },
+        {
+            "evidence_id": "b2cc2c65-b63a-485a-8eda-97e3607a1134",
+            "timestamp": "2026-05-14T21:06:46.306080598Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cut"
+        },
+        {
+            "evidence_id": "99449791-9b6f-46d6-8290-dc289f095957",
+            "timestamp": "2026-05-14T21:06:46.309434438Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cut"
+        },
+        {
+            "evidence_id": "b72064f6-4d73-40d4-87b2-12cc43e838b0",
+            "timestamp": "2026-05-14T21:06:46.323389616Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/sha1sum"
+        },
+        {
+            "evidence_id": "12ae56ef-6d2f-4a4b-ba03-7d481f9d9ab8",
+            "timestamp": "2026-05-14T21:06:46.325499978Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/sha1sum"
+        },
+        {
+            "evidence_id": "3245b1ed-0509-429e-80b2-9f97221e7927",
+            "timestamp": "2026-05-14T21:06:46.325549554Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/sed"
+        },
+        {
+            "evidence_id": "af0c13d7-28cc-4a8c-9af6-f46cd3496390",
+            "timestamp": "2026-05-14T21:06:46.327612305Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/sed"
+        },
+        {
+            "evidence_id": "b1627b98-762d-4e68-90fb-1dc1de7175d9",
+            "timestamp": "2026-05-14T21:06:46.331376020Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/20-envsubst-on-templates.sh"
+        },
+        {
+            "evidence_id": "a9753763-aad1-4b54-aa57-f95b06d87a50",
+            "timestamp": "2026-05-14T21:06:46.332556454Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/20-envsubst-on-templates.sh"
+        },
+        {
+            "evidence_id": "d4482567-87ae-4ba8-85d6-a9be1f74dd08",
+            "timestamp": "2026-05-14T21:06:46.333989860Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "c46ab601-5a01-443a-bb87-eba8bfe891e0",
+            "timestamp": "2026-05-14T21:06:46.335659910Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "b5d96bcc-856b-4ef1-850a-97f82edc30b9",
+            "timestamp": "2026-05-14T21:06:46.338116150Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/awk"
+        },
+        {
+            "evidence_id": "ff4ee0df-4909-4b55-8ab3-0222af920791",
+            "timestamp": "2026-05-14T21:06:46.339294599Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/awk"
+        },
+        {
+            "evidence_id": "f3e99d50-a5a1-47c5-ac12-243438175d01",
+            "timestamp": "2026-05-14T21:06:46.343173504Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/30-tune-worker-processes.sh"
+        },
+        {
+            "evidence_id": "d0544c64-b9ee-47ea-8393-c60e8676aed7",
+            "timestamp": "2026-05-14T21:06:46.345425637Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "05dbff85-870c-44e6-8abd-4fed62cae862",
+            "timestamp": "2026-05-14T21:06:46.347637310Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/docker-entrypoint.d/30-tune-worker-processes.sh"
+        },
+        {
+            "evidence_id": "30f9e2e1-36e7-4a9e-8e68-cea8f32a0918",
+            "timestamp": "2026-05-14T21:06:46.349592149Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/basename"
+        },
+        {
+            "evidence_id": "e520e9a4-5cfa-4876-9af9-51cd02ad95d1",
+            "timestamp": "2026-05-14T21:06:46.350242111Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/nginx"
+        },
+        {
+            "evidence_id": "952e8b83-4e29-4dce-9002-93a4f4163183",
+            "timestamp": "2026-05-14T21:06:46.352448817Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/nginx"
+        },
+        {
+            "evidence_id": "fe557903-3f4f-483c-a689-df51c3cf1ab3",
+            "timestamp": "2026-05-14T21:06:46.443951861Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "c5501651-92b6-4096-a5ea-e368b942ec98",
+            "timestamp": "2026-05-14T21:06:46.451666875Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "8a6dc946-00e5-4b3d-8e5e-27b9cb780b38",
+            "timestamp": "2026-05-14T21:06:46.453636254Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "f1092003-2df8-4b9d-8c85-46fd4eeb0d06",
+            "timestamp": "2026-05-14T21:06:46.462518235Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "d6e8f92f-b09f-4426-93b9-1a60383a874a",
+            "timestamp": "2026-05-14T21:06:46.547112604Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "6a79b7b3-778f-4874-ab0b-71af4908a9b3",
+            "timestamp": "2026-05-14T21:06:46.550119761Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "29718ec7-f85f-42da-8ee9-4d6c22666738",
+            "timestamp": "2026-05-14T21:06:46.591395868Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "58b3faaf-7058-42f4-b79b-cfd631f5bcd0",
+            "timestamp": "2026-05-14T21:06:46.591724514Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "fda0189d-50a9-46d7-966a-6dff674d3db8",
+            "timestamp": "2026-05-14T21:06:46.602731446Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "08ea0236-2b47-4f78-920d-086ca45286ab",
+            "timestamp": "2026-05-14T21:06:46.608106389Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "b9efeb4d-0896-494d-b439-51dbc44b4c14",
+            "timestamp": "2026-05-14T21:06:46.626071570Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "6a83a7b9-50ed-4c75-a884-8a4a9852e7f6",
+            "timestamp": "2026-05-14T21:06:46.631177182Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "d55ed21e-7aa6-48d9-a380-32b06e9ff80e",
+            "timestamp": "2026-05-14T21:06:46.689345672Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-bpvqr",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/envoy"
+        },
+        {
+            "evidence_id": "a27c8cb4-f55c-421a-9ee2-2af1760171b8",
+            "timestamp": "2026-05-14T21:06:46.696985753Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-p8gvw",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/envoy"
+        },
+        {
+            "evidence_id": "5b9de1c5-3727-4c10-a49b-8caabf347261",
+            "timestamp": "2026-05-14T21:06:46.745374744Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "289bbb16-6e35-4fce-9de3-a469a9eff871",
+            "timestamp": "2026-05-14T21:06:46.757963009Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "08a1b6b1-0cda-42f9-a6a2-01cccddef1ce",
+            "timestamp": "2026-05-14T21:06:46.842967211Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "059c28b4-7389-492d-80ea-6261bf46de70",
+            "timestamp": "2026-05-14T21:06:46.872154871Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "f9d3edbc-0b59-4644-8b96-c6e299612a53",
+            "timestamp": "2026-05-14T21:06:46.973465282Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-jb8gt",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/envoy"
+        },
+        {
+            "evidence_id": "d12f05b8-05fd-4193-baf2-29c1001034bd",
+            "timestamp": "2026-05-14T21:06:47.100414018Z",
+            "identity": "baseline-0cd-scale4-59cc7c9cff-gwpvc",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/envoy"
+        },
+        {
+            "evidence_id": "66eaa101-ad2c-4f70-99b5-6d125eca68ac",
+            "timestamp": "2026-05-14T21:06:50.327496038Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "51466cbe-599f-47cf-8f07-f09a7c362085",
+            "timestamp": "2026-05-14T21:06:50.331521436Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "2874caff-ba71-44f2-9e50-fd80bc58c4bd",
+            "timestamp": "2026-05-14T21:06:50.393211147Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "a50cf2a8-f08a-4d3c-b7b9-75a5b50262b3",
+            "timestamp": "2026-05-14T21:06:50.422485341Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "cb724376-6f1c-49f1-a73b-dd8be93f183e",
+            "timestamp": "2026-05-14T21:06:50.451948879Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "23a8c9d9-7ebe-4032-99ea-a7026af7351b",
+            "timestamp": "2026-05-14T21:06:50.455006049Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy-save"
+        },
+        {
+            "evidence_id": "87f073ec-ae2c-4182-91bf-9c8c299adb48",
+            "timestamp": "2026-05-14T21:06:50.457754025Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "23dece1f-474b-43aa-85de-624387ea79b0",
+            "timestamp": "2026-05-14T21:06:50.460620882Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-legacy"
+        },
+        {
+            "evidence_id": "2d7abb69-3e30-4906-8a9a-97cb6c9b508c",
+            "timestamp": "2026-05-14T21:06:50.463666215Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "b32763d4-98d1-40fc-92e1-b3dc4b53d54a",
+            "timestamp": "2026-05-14T21:06:50.466595249Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "7466bed2-21b5-4181-b4e1-14744ecf9326",
+            "timestamp": "2026-05-14T21:06:50.469412985Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "3abf17ed-fc2e-4326-96a1-023dda6d82fb",
+            "timestamp": "2026-05-14T21:06:50.472443754Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft"
+        },
+        {
+            "evidence_id": "2bb58d8c-3b24-4a13-aad8-6e51faeb0a73",
+            "timestamp": "2026-05-14T21:06:50.502467046Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "db87e88f-9f44-423f-93fe-c1385727bc9d",
+            "timestamp": "2026-05-14T21:06:50.505353563Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy-save"
+        },
+        {
+            "evidence_id": "30deb71c-59fa-4189-8ee8-7dbcd54b3c37",
+            "timestamp": "2026-05-14T21:06:50.508348716Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-legacy"
+        },
+        {
+            "evidence_id": "5b45d865-6590-4779-b8a5-52256f311d59",
+            "timestamp": "2026-05-14T21:06:50.512448611Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "88dbe5d0-32e4-4222-bf9a-2376a7c7814e",
+            "timestamp": "2026-05-14T21:06:50.515295969Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "0279867b-50cd-4b81-a0d5-534733ead8a2",
+            "timestamp": "2026-05-14T21:06:50.518105564Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "752233e4-c1d7-4019-9809-317e2508a46a",
+            "timestamp": "2026-05-14T21:06:50.521533149Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft"
+        },
+        {
+            "evidence_id": "bd8fcd77-7ec7-4ff8-861b-f78ac580192a",
+            "timestamp": "2026-05-14T21:06:50.538436963Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "72a7646b-235f-40f6-8c99-d75cdad11da1",
+            "timestamp": "2026-05-14T21:06:50.541246968Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/ip6tables-nft-save"
+        },
+        {
+            "evidence_id": "58ea6771-3265-4fe7-8ce5-f0de5f447b6f",
+            "timestamp": "2026-05-14T21:06:50.544107442Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-restore"
+        },
+        {
+            "evidence_id": "15f5b380-38e1-4d58-accc-e311538fb5a8",
+            "timestamp": "2026-05-14T21:06:50.549403101Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/sbin/iptables-nft-save"
+        },
+        {
+            "evidence_id": "bf7257ba-0b36-4c22-8e47-15d2a6a50669",
+            "timestamp": "2026-05-14T21:06:54.235728941Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/sh"
+        },
+        {
+            "evidence_id": "0fc81161-d7a4-46fb-8fad-b397c04ca096",
+            "timestamp": "2026-05-14T21:06:54.240399790Z",
+            "identity": "tamper-pod-3",
+            "event": "TAMPER_FILE_DEL",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/rm"
+        },
+        {
+            "evidence_id": "dcd7c020-edf4-44ab-88ea-ff29bc38ae62",
+            "timestamp": "2026-05-14T21:06:51.476027111Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "926a32e6-706b-43a9-b71d-efbdc2d89d10",
+            "timestamp": "2026-05-14T21:06:51.478552843Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "fd49e20c-30fd-406e-b357-3e17420dc57c",
+            "timestamp": "2026-05-14T21:06:51.527564587Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "28db986c-4114-487b-9100-3c76b5f29b1f",
+            "timestamp": "2026-05-14T21:06:51.553828337Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/sh"
+        },
+        {
+            "evidence_id": "259ac428-c351-44fc-84d6-9f0681b9e4c8",
+            "timestamp": "2026-05-14T21:06:51.555831282Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/bin/sleep"
+        },
+        {
+            "evidence_id": "a181fef8-7c23-4ae6-8367-398102a6a427",
+            "timestamp": "2026-05-14T21:06:51.744666986Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/kind/bin/mount-product-files.sh"
+        },
+        {
+            "evidence_id": "60d1e5fb-9834-493e-8cca-de3cd87c7c0f",
+            "timestamp": "2026-05-14T21:06:51.748289471Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/jq"
+        },
+        {
+            "evidence_id": "ab42a141-b4a4-430d-b0af-4d713e701719",
+            "timestamp": "2026-05-14T21:06:51.809988436Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/bin/cp"
+        },
+        {
+            "evidence_id": "92eebe59-0430-46f6-aa2b-38b66bc8f8ae",
+            "timestamp": "2026-05-14T21:06:51.837068030Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/pilot-agent"
+        },
+        {
+            "evidence_id": "7e51cb9d-654e-4cba-a99c-89f2017998b3",
+            "timestamp": "2026-05-14T21:06:51.896642124Z",
+            "identity": "tamper-pod-3",
+            "event": "PROC_EXEC",
+            "protocol": "eBPF",
+            "status": "200",
+            "path": "/usr/local/bin/envoy"
+        },
+        {
+            "evidence_id": "7741d7d8-0500-4d12-a128-93ea753bd1e1",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:43.414837Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9c"
+        },
+        {
+            "evidence_id": "f8e664ca-e063-4b96-9a0e-d8cb8cbe22ee",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:43.461093Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9c"
+        },
+        {
+            "evidence_id": "7498c30d-b2cb-4782-8edb-0dd8cd89ae33",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:43.461596Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9c"
+        },
+        {
+            "evidence_id": "3b330688-4d30-406a-ac08-ccba11c3917c",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:43.543033Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9c"
+        },
+        {
+            "evidence_id": "61da9752-8b7d-4148-bffe-dad32b388826",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.035562Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default-1"
+        },
+        {
+            "evidence_id": "3aac2585-b0ed-48ca-a221-7eafb4851d64",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.036367Z\tinfo\tdelta\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default resources"
+        },
+        {
+            "evidence_id": "213e3161-d351-4f3a-b838-81d42235b484",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.056539Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default-1"
+        },
+        {
+            "evidence_id": "074eb20f-e7b0-4fb2-871f-cc8cabac3458",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.057320Z\tinfo\tdelta\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default resources"
+        },
+        {
+            "evidence_id": "f11c37a4-f1e2-419a-97f3-4fc2760387b1",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.127437Z\tinfo\tdelta\tEDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default resources"
+        },
+        {
+            "evidence_id": "35184978-db6a-4a02-84aa-7ade88677bfe",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.155988Z\tinfo\tdelta\tEDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default resources"
+        },
+        {
+            "evidence_id": "0b552cdf-bfed-4c64-9851-1809a0d9623f",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.213112Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default resources"
+        },
+        {
+            "evidence_id": "fd875b30-d6dc-4b2a-8927-ab56fd25fd19",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.299910Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default-1"
+        },
+        {
+            "evidence_id": "e83c5a50-dd6f-4602-80e1-ae1affefadd0",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.300942Z\tinfo\tdelta\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default resources"
+        },
+        {
+            "evidence_id": "8b98004f-2ffb-4df0-a968-b9de55429529",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.303347Z\tinfo\tdelta\tRDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default resources"
+        },
+        {
+            "evidence_id": "e2533916-812c-4c2e-8173-498aaf11e566",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.364397Z\tinfo\tdelta\tEDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default resources"
+        },
+        {
+            "evidence_id": "f7417f46-040d-45c6-931c-b51b60c77307",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.427492Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default resources"
+        },
+        {
+            "evidence_id": "5bf2d3cf-0c09-4d12-bc31-c6b5042ea2b6",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.431197Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default-1"
+        },
+        {
+            "evidence_id": "d32a26b6-d71c-4639-bd9f-9fd4ef17804a",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.431571Z\tinfo\tdelta\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default resources"
+        },
+        {
+            "evidence_id": "50a299b2-0bd8-42d7-a571-144dbf0a9363",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.478117Z\tinfo\tdelta\tEDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default resources"
+        },
+        {
+            "evidence_id": "737cda69-92d2-48db-b24e-5950f8b1f6f2",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.503478Z\tinfo\tdelta\tRDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default resources"
+        },
+        {
+            "evidence_id": "3b3a141c-c696-4935-8635-d1ada9e750d7",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.578148Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default resources"
+        },
+        {
+            "evidence_id": "9d0f6297-5313-47a2-aeca-fea5ef7e0f16",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.642138Z\tinfo\tdelta\tRDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default resources"
+        },
+        {
+            "evidence_id": "53f20114-225c-4d7b-bfca-dc15412de676",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.913899Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default resources"
+        },
+        {
+            "evidence_id": "9873540d-941f-4774-ba6a-fa0aabde4ac0",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:47.949359Z\tinfo\tdelta\tRDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default resources"
+        },
+        {
+            "evidence_id": "1fa8f82e-3bce-480b-92a7-d98bc978fb9f",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.770400Z\tinfo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default resources:24 remo"
+        },
+        {
+            "evidence_id": "f6043bfe-ab19-4dfe-bd70-a94644d6f558",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.770590Z\tinfo\tdelta\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default resources:21 remo"
+        },
+        {
+            "evidence_id": "a4238f71-283c-4266-82b1-e305f671f9e3",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.771477Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default resources:20 remo"
+        },
+        {
+            "evidence_id": "aae6c0c6-dbb8-44f8-aaa6-fb0d20ce9caf",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.772140Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-gwpvc.default resources:7 remov"
+        },
+        {
+            "evidence_id": "2ab95ab7-6503-45af-b0d1-9e65e1696225",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.798783Z\tinfo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default resources:24 remo"
+        },
+        {
+            "evidence_id": "b01aa34c-66cb-4b8e-92bd-3466a18a709f",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.798982Z\tinfo\tdelta\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default resources:21 remo"
+        },
+        {
+            "evidence_id": "0e114c66-d97d-4fa2-bab0-f36629204bb4",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.800082Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default resources:20 remo"
+        },
+        {
+            "evidence_id": "a920086f-cf72-4cc9-b415-e566317b4cbd",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.801189Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-p8gvw.default resources:7 remov"
+        },
+        {
+            "evidence_id": "916f5503-de95-462a-982e-0d3668320259",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.830738Z\tinfo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default resources:24 remo"
+        },
+        {
+            "evidence_id": "21984797-0c14-45d7-bdbf-8c4add37293e",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.830992Z\tinfo\tdelta\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default resources:21 remo"
+        },
+        {
+            "evidence_id": "e2b2c282-f2ca-4223-93ec-14f8a7bab421",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.832605Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default resources:20 remo"
+        },
+        {
+            "evidence_id": "ab5fb913-c6d6-421b-9983-caf1e3ced32b",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.836031Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-jb8gt.default resources:7 remov"
+        },
+        {
+            "evidence_id": "a43eaa47-4725-4fe3-b50e-2c16385743a5",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.862889Z\tinfo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default resources:24 remo"
+        },
+        {
+            "evidence_id": "1ae25acc-9eb7-4c84-9547-daf5256b60f8",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.863110Z\tinfo\tdelta\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default resources:21 remo"
+        },
+        {
+            "evidence_id": "fe0f475f-8e4f-43d4-a356-8bdf391ddbad",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.864291Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default resources:20 remo"
+        },
+        {
+            "evidence_id": "bb732249-839d-4694-b621-89f00c87006b",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:48.865243Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-bpvqr.default resources:7 remov"
+        },
+        {
+            "evidence_id": "26bd5f20-ab14-42c5-94ce-f802667ec5d4",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:49.461788Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/tamper-pod-3"
+        },
+        {
+            "evidence_id": "f98e234d-19b9-4887-9bf9-f798a9555c36",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:52.096964Z\tinfo\tdelta\tADS: new delta connection for node:tamper-pod-3.default-1360"
+        },
+        {
+            "evidence_id": "36f7d1ba-dda8-405b-8b60-68ac72920ca1",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:52.097410Z\tinfo\tdelta\tCDS: PUSH request for node:tamper-pod-3.default resources:24 removed:0 size:26.5k"
+        },
+        {
+            "evidence_id": "5f534977-a12e-45b6-b6b1-80dcc9a6b77d",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:52.155922Z\tinfo\tdelta\tEDS: PUSH request for node:tamper-pod-3.default resources:21 removed:0 size:4.0kB"
+        },
+        {
+            "evidence_id": "425c9c46-f955-4407-9724-c9ea99fc177e",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:52.245586Z\tinfo\tdelta\tLDS: PUSH request for node:tamper-pod-3.default resources:20 removed:0 size:66.9k"
+        },
+        {
+            "evidence_id": "dec4d79e-d9a7-4da5-96ed-c956f05d5e9a",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:52.367050Z\tinfo\tdelta\tRDS: PUSH request for node:tamper-pod-3.default resources:7 removed:0 size:5.9kB "
+        },
+        {
+            "evidence_id": "8f0a2d7d-6487-4f12-a281-05f1859c7e5e",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:53.811353Z\tinfo\tdelta\tCDS: PUSH for node:tamper-pod-3.default resources:24 removed:0 size:26.5kB cached"
+        },
+        {
+            "evidence_id": "803ba3f1-a2b4-4603-8ccd-85299df93c7f",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:53.811578Z\tinfo\tdelta\tEDS: PUSH for node:tamper-pod-3.default resources:21 removed:0 size:4.0kB empty:0"
+        },
+        {
+            "evidence_id": "2799b87e-7b61-4554-93ed-8349676719dc",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:53.812507Z\tinfo\tdelta\tLDS: PUSH for node:tamper-pod-3.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "7cb793f1-d48a-4a5f-b9e7-66fcd31920b0",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:06:53.812996Z\tinfo\tdelta\tRDS: PUSH for node:tamper-pod-3.default resources:7 removed:0 size:5.9kB cached:7"
+        },
+        {
+            "evidence_id": "099fc84a-55eb-4400-91fe-60e030e7f65a",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:07:12.393391Z\tinfo\tdelta\tADS: \"10.244.0.209:37986\" tamper-pod-3.default-1360 terminated"
+        },
+        {
+            "evidence_id": "efbb4cf6-92fd-478d-8333-ff6a8286bbde",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:07:14.801447Z\tinfo\tdelta\tADS: \"10.244.0.208:43506\" baseline-0cd-scale4-59cc7c9cff-gwpvc.default-1359 termi"
+        },
+        {
+            "evidence_id": "4832bc1d-3a80-4513-8f2f-6bdd46f1dd79",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:07:14.807542Z\tinfo\tdelta\tADS: \"10.244.0.207:38928\" baseline-0cd-scale4-59cc7c9cff-bpvqr.default-1356 termi"
+        },
+        {
+            "evidence_id": "a6d55c38-3e77-4177-9dd5-180c10217d41",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:07:14.852976Z\tinfo\tdelta\tADS: \"10.244.0.205:45054\" baseline-0cd-scale4-59cc7c9cff-jb8gt.default-1358 termi"
+        },
+        {
+            "evidence_id": "5d85218b-51e0-4720-8599-42fb9ae3645d",
+            "timestamp": "2026-05-14T21:05:22.000000Z",
+            "identity": "istiod-control-plane",
+            "event": "MESH_ROUTE_RECONCILE",
+            "protocol": "gRPC/XDS",
+            "status": "SYNCED",
+            "path": "2026-05-14T21:07:14.866342Z\tinfo\tdelta\tADS: \"10.244.0.206:33910\" baseline-0cd-scale4-59cc7c9cff-p8gvw.default-1357 termi"
+        },
+        {
+            "evidence_id": "90b33c95-6e94-4e57-b620-3ffaca1cdc6d",
+            "timestamp": "May 14, 2026 16:06:38.096466000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "DATA",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "22f30a1e-f3b2-4769-932b-8a627b45c12f",
+            "timestamp": "May 14, 2026 16:06:38.098472000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "DATA",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "f75cb659-60b5-497f-9cc8-6649004c58ed",
+            "timestamp": "May 14, 2026 16:06:38.139457000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "754e2643-a686-4dfb-9eee-bc1ae4845c43",
+            "timestamp": "May 14, 2026 16:06:38.304689000 CDT",
+            "identity": "172.29.208.1",
+            "event": "NET_FLOW",
+            "protocol": "MDNS",
+            "status": "CAPTURED",
+            "path": "172.29.208.1 -> 224.0.0.251"
+        },
+        {
+            "evidence_id": "a9873edb-e92d-40ee-a706-bff7c253eac6",
+            "timestamp": "May 14, 2026 16:06:38.306024000 CDT",
+            "identity": "",
+            "event": "NET_FLOW",
+            "protocol": "MDNS",
+            "status": "CAPTURED",
+            "path": " -> "
+        },
+        {
+            "evidence_id": "a81ff48b-bf50-4a13-8031-c59af8d288e0",
+            "timestamp": "May 14, 2026 16:06:38.307135000 CDT",
+            "identity": "172.29.208.1",
+            "event": "NET_FLOW",
+            "protocol": "MDNS",
+            "status": "CAPTURED",
+            "path": "172.29.208.1 -> 224.0.0.251"
+        },
+        {
+            "evidence_id": "7f24dc37-6edf-469c-81b4-aeaa0ee6e0a3",
+            "timestamp": "May 14, 2026 16:06:38.308411000 CDT",
+            "identity": "",
+            "event": "NET_FLOW",
+            "protocol": "MDNS",
+            "status": "CAPTURED",
+            "path": " -> "
+        },
+        {
+            "evidence_id": "108dae2d-e7f8-40c9-89e7-782472cf18da",
+            "timestamp": "May 14, 2026 16:06:38.353593000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "8ebd5f83-477d-41dc-ae22-52e97bc28ebf",
+            "timestamp": "May 14, 2026 16:06:38.353615000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "a6c1f45d-8b78-4d62-8461-a6a26a23cb67",
+            "timestamp": "May 14, 2026 16:06:38.353633000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "a7a4adc2-66f9-428e-81aa-87f612fc74ff",
+            "timestamp": "May 14, 2026 16:06:38.354680000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "05a43dda-574c-4913-bcc1-1c40925aebed",
+            "timestamp": "May 14, 2026 16:06:38.354695000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "a62040c4-2464-4c1c-a09e-0384adcf3d00",
+            "timestamp": "May 14, 2026 16:06:38.355193000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "189aab7f-1135-4df7-9040-374727ade3c0",
+            "timestamp": "May 14, 2026 16:06:38.355212000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "b8495572-33ba-43e8-84af-f53aae59a9bf",
+            "timestamp": "May 14, 2026 16:06:38.355228000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "cbe18465-f890-4ad3-8497-820b02016594",
+            "timestamp": "May 14, 2026 16:06:38.356149000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "217d408c-ce21-4412-b9b0-a0ab07bafe7e",
+            "timestamp": "May 14, 2026 16:06:38.356172000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "260297ff-014a-4315-9de9-c97954baa088",
+            "timestamp": "May 14, 2026 16:06:38.359531000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "686ee336-2874-4366-a2e8-3195543ef3d6",
+            "timestamp": "May 14, 2026 16:06:38.359552000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "03db7758-c0ff-47b9-86ac-c2f8c18b163a",
+            "timestamp": "May 14, 2026 16:06:38.359566000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "9e08bb55-37ed-4fb2-9cbf-f58c96830dbd",
+            "timestamp": "May 14, 2026 16:06:38.359924000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "7cfec6bb-fdd7-43df-8553-aa955034322a",
+            "timestamp": "May 14, 2026 16:06:38.359966000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "a7ae866f-f0c7-4a05-97be-478cae7639e8",
+            "timestamp": "May 14, 2026 16:06:38.360322000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "c1291e9d-af0e-4ebf-8e40-34f906cfa4cb",
+            "timestamp": "May 14, 2026 16:06:38.360335000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "e775a101-651d-449b-a2ff-c613bc3d7ec4",
+            "timestamp": "May 14, 2026 16:06:38.360865000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "fbd289f6-9c6f-4557-b4a0-2af591fc91d2",
+            "timestamp": "May 14, 2026 16:06:38.360923000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "4f3a0455-2fd5-4cdd-bb7c-9fe72bde4613",
+            "timestamp": "May 14, 2026 16:06:38.363687000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "ae527ac1-be8d-4168-acff-978bd604d467",
+            "timestamp": "May 14, 2026 16:06:38.363915000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "2db638dd-9b69-48ed-8ec3-cf9ce6c4c63c",
+            "timestamp": "May 14, 2026 16:06:38.363946000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "e33ca19e-364f-4dcd-a69d-b1fbfc84e854",
+            "timestamp": "May 14, 2026 16:06:38.364005000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "629e066f-19d0-4456-b0b1-0143468f9f3e",
+            "timestamp": "May 14, 2026 16:06:38.364050000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "263836c7-92da-4b43-9180-4441ab8d7a5f",
+            "timestamp": "May 14, 2026 16:06:38.364178000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "f6a76342-0d71-4c2b-b1ee-785d7a6ef210",
+            "timestamp": "May 14, 2026 16:06:38.364900000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "2f6a342f-ac11-4353-8cfa-8822a8817ff5",
+            "timestamp": "May 14, 2026 16:06:38.365008000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "572da0b7-dbe6-49d7-a70d-d61867d47948",
+            "timestamp": "May 14, 2026 16:06:38.365054000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "3e3f45d6-8acc-4786-b754-a48c30c9023a",
+            "timestamp": "May 14, 2026 16:06:38.365165000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "4c9e63f0-2ae5-4d81-b95f-fad875c90a8b",
+            "timestamp": "May 14, 2026 16:06:38.365218000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "c2765bcd-ca54-411b-80dc-33533a2dbaad",
+            "timestamp": "May 14, 2026 16:06:38.365359000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "06f214f9-5210-4a0b-b195-ebd04601923f",
+            "timestamp": "May 14, 2026 16:06:38.365411000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "581c2661-b163-4e7c-ba61-6ca4c8a3eb94",
+            "timestamp": "May 14, 2026 16:06:38.365584000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "534273fd-4a9b-4629-b9cf-2635398d4ed0",
+            "timestamp": "May 14, 2026 16:06:38.366151000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "24f17b32-5190-4e2e-a6c7-ed272540a479",
+            "timestamp": "May 14, 2026 16:06:38.366255000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "8eaca278-7d02-4f80-b70a-56af8d27ce04",
+            "timestamp": "May 14, 2026 16:06:38.366343000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "27a4233d-3b58-45e1-9e97-54d79ceb3083",
+            "timestamp": "May 14, 2026 16:06:38.366445000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "e37230a5-baa5-433d-815a-315603b21d04",
+            "timestamp": "May 14, 2026 16:06:38.369166000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "7667dd81-6b1c-4c45-a9dc-782a62ea3dd8",
+            "timestamp": "May 14, 2026 16:06:38.369266000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "8d39ba46-e7ff-4d17-bc53-49c832fa58fc",
+            "timestamp": "May 14, 2026 16:06:38.369273000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "2a469cf0-45d1-4aad-965d-1f32904a29fb",
+            "timestamp": "May 14, 2026 16:06:38.369331000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "3aa63ae3-3434-46ca-90b8-d1baa9a7d42b",
+            "timestamp": "May 14, 2026 16:06:38.369383000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "dabbaf79-46e3-445b-a7c7-f5b6ca8990f7",
+            "timestamp": "May 14, 2026 16:06:38.369558000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "c4b1b4ff-4a53-4008-9ee2-aee13ef8ab26",
+            "timestamp": "May 14, 2026 16:06:38.369664000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "8f97bbd6-1ff7-48e6-82ba-da66cd9906ac",
+            "timestamp": "May 14, 2026 16:06:38.369695000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "9f184bc8-df3d-4198-9a99-36b76ad3f578",
+            "timestamp": "May 14, 2026 16:06:38.369700000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "752be9d1-1c22-4272-ba91-84bc4e49ad2a",
+            "timestamp": "May 14, 2026 16:06:38.369709000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "a66ad36f-e985-4460-9c6e-48d530d3e43a",
+            "timestamp": "May 14, 2026 16:06:38.369712000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "7c8fad1b-0d7b-49ad-b6fb-81f2f968e942",
+            "timestamp": "May 14, 2026 16:06:38.369742000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "37accdfe-679b-4d1f-b48e-f6004cf2b2de",
+            "timestamp": "May 14, 2026 16:06:38.372917000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "6e057316-f4e7-4ed0-af84-c13afe067d10",
+            "timestamp": "May 14, 2026 16:06:38.373564000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "ff0b39bd-d2cb-4c40-bca3-417dfb305df2",
+            "timestamp": "May 14, 2026 16:06:38.373631000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "e80ad588-e8b5-46b0-822f-f1d42ddb17b5",
+            "timestamp": "May 14, 2026 16:06:38.373694000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "8b7f7226-3b40-407c-8ae8-00b765f12047",
+            "timestamp": "May 14, 2026 16:06:38.373701000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "726f31a9-aeb5-4edd-9e5a-90a0a25d5c8c",
+            "timestamp": "May 14, 2026 16:06:38.373873000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "db881cd7-7679-40b0-b5cd-eeddb8059599",
+            "timestamp": "May 14, 2026 16:06:38.374202000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "68cb04bf-a3a2-4905-a999-d1ac23cc5866",
+            "timestamp": "May 14, 2026 16:06:38.379981000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "205e847c-73d1-4283-a534-64c0b28dd9e1",
+            "timestamp": "May 14, 2026 16:06:38.380135000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "7625cbd0-68ae-4616-836c-2a3bb0516b69",
+            "timestamp": "May 14, 2026 16:06:38.380686000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "4aff5c7d-60be-4552-aa6f-cbba42de5608",
+            "timestamp": "May 14, 2026 16:06:38.381024000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "4ba28529-179b-433c-b5b0-57b75d7c4619",
+            "timestamp": "May 14, 2026 16:06:38.387822000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "d51f6bf6-0301-4ed7-81c8-864514ba94d1",
+            "timestamp": "May 14, 2026 16:06:38.387879000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "c8649017-e317-4715-b1e1-54d6124a7720",
+            "timestamp": "May 14, 2026 16:06:38.396562000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "DATA",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "203ba326-96f2-4fa6-80e0-1007b1f341e5",
+            "timestamp": "May 14, 2026 16:06:38.396625000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "9505f3ca-6434-4ee3-b0ca-5dc1eed465f8",
+            "timestamp": "May 14, 2026 16:06:38.402778000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "51613e59-f828-484d-811e-08a37c01706d",
+            "timestamp": "May 14, 2026 16:06:38.403480000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "0a39f447-530c-4415-b2b8-2adb734b092d",
+            "timestamp": "May 14, 2026 16:06:38.403665000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "f5639998-7c7d-4f16-a2ee-e9e3e29b9b18",
+            "timestamp": "May 14, 2026 16:06:38.403949000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "2bd04fcc-d63d-42d8-a5e0-1732bad715d2",
+            "timestamp": "May 14, 2026 16:06:38.404418000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "e070778a-b91d-4c4b-94a1-ad8685da87cb",
+            "timestamp": "May 14, 2026 16:06:38.404703000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "6508a04b-4c35-49e6-9dab-b6f3ca21cf98",
+            "timestamp": "May 14, 2026 16:06:38.404913000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "38d9cc35-21d1-41b8-9ff3-3553dfbe5c75",
+            "timestamp": "May 14, 2026 16:06:38.405341000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "f8cbdf70-69d4-4137-8ba9-09799f7db63c",
+            "timestamp": "May 14, 2026 16:06:38.405581000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "88312169-c86b-4dfb-b748-b25742b88dd6",
+            "timestamp": "May 14, 2026 16:06:38.406049000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "3a739208-64a6-4884-abfc-41ee481d8b60",
+            "timestamp": "May 14, 2026 16:06:38.406380000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "8e2df089-fa63-4a2e-91c8-f357d9db4268",
+            "timestamp": "May 14, 2026 16:06:38.406739000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "ef94137d-f521-43ba-9873-59b1aca0a5fc",
+            "timestamp": "May 14, 2026 16:06:38.406801000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "1cfc5029-17fa-4562-900b-86d927a6ad49",
+            "timestamp": "May 14, 2026 16:06:38.407459000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "6ac942e5-d1d9-4450-98a8-42bb74816ab1",
+            "timestamp": "May 14, 2026 16:06:38.407661000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "11ca0522-2851-4e1b-96bb-c3223ebd84e6",
+            "timestamp": "May 14, 2026 16:06:38.408284000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "d1512830-b65e-4a3c-bddb-2244610c995f",
+            "timestamp": "May 14, 2026 16:06:38.408728000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "855fd31a-303b-4d40-b177-f466263b5334",
+            "timestamp": "May 14, 2026 16:06:38.409248000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "58ebb2e4-e732-44b0-9a39-26dda43f17a8",
+            "timestamp": "May 14, 2026 16:06:38.410006000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "c4a22c3f-4ffe-4f8b-aa71-9145a4ec99b5",
+            "timestamp": "May 14, 2026 16:06:38.410237000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "a059d1ba-8a1c-4973-b4d3-43d6ae1f91a7",
+            "timestamp": "May 14, 2026 16:06:38.410415000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "382a3e97-2bfa-4d18-be8d-b1a2a06b7560",
+            "timestamp": "May 14, 2026 16:06:38.411308000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "39b2b772-a351-493f-97c8-2c85247321b8",
+            "timestamp": "May 14, 2026 16:06:38.411366000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "8e1effdc-e625-4246-93a9-9a89b32b4e69",
+            "timestamp": "May 14, 2026 16:06:38.412678000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "41837a6f-8e8d-494f-a8f8-2ebe61f43c2a",
+            "timestamp": "May 14, 2026 16:06:38.413249000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "90ab332e-20b5-471e-8a78-3410288b9acf",
+            "timestamp": "May 14, 2026 16:06:38.413738000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TLS",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "3226dd38-96f5-4e26-a7b1-d4772c95312d",
+            "timestamp": "May 14, 2026 16:06:38.413854000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "9f2ca333-5271-4254-9dad-b913da2581e0",
+            "timestamp": "May 14, 2026 16:06:38.431454000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        },
+        {
+            "evidence_id": "36e9b53d-bb47-4324-9ec2-9e02e30d8d28",
+            "timestamp": "May 14, 2026 16:06:38.431458000 CDT",
+            "identity": "127.0.0.1",
+            "event": "NET_FLOW",
+            "protocol": "TCP",
+            "status": "CAPTURED",
+            "path": "127.0.0.1 -> 127.0.0.1"
+        }
+    ]
+}

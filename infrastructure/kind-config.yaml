@@ -1,0 +1,14 @@
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+  image: kindest/node:v1.31.0
+  extraMounts:
+  - hostPath: /home/pentestnet/forensic-k8s/infrastructure/audit-policy.yaml
+    containerPath: /etc/kubernetes/pki/audit-policy.yaml
+    readOnly: true
+  # Overriding the Kubelet default pod limit
+  kubeadmConfigPatches:
+  - |
+    kind: KubeletConfiguration
+    maxPods: 300

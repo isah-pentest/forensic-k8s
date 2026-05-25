@@ -1,0 +1,27 @@
+# System Boundaries & Environment Isolation
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.idea/
+
+# Cluster Credentials & Volatile Host States
+.kube/
+config
+*.token
+*.key
+*.pem
+secrets/
+
+# Large Binary Captures (Block files exceeding GitHub's 100MB limit)
+*.pcap
+*.pcapng
+*.img
+*.iso
+
+# Temporary Workspaces & Local Logs
+*.log
+tmp/
+dist/
+build/

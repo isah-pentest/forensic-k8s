@@ -1,0 +1,135 @@
+{
+    "metadata": {
+        "exhibit_id": "COURT-EXHIBIT-0AB-Tier1-S4-RUN1",
+        "provenance_anchors": [
+            {
+                "file": "run_1_audit.json",
+                "type": "K8s-Audit",
+                "sha256": "b7c6ab65633b530c8c244368ad6edcfa5faec33bd11b3e9429ef44734aa68d76"
+            },
+            {
+                "file": "run_1_istio.json",
+                "type": "Istio-Logs",
+                "sha256": "1593cf0014ac7f88213b3bdffa31317352dec7c6a3e14afcbcd870b4e8a83d68"
+            }
+        ]
+    },
+    "subject_actions": [
+        {
+            "evidence_id": "3482649b-8e7e-4f62-b1ed-6231caaeab72",
+            "timestamp": "2026-05-14T12:50:37Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-8fpkf",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container nginx"
+        },
+        {
+            "evidence_id": "4eb5c3af-c897-432f-9da0-aff5dcec7ccc",
+            "timestamp": "2026-05-14T12:50:37Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-8fpkf",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container istio-proxy"
+        },
+        {
+            "evidence_id": "bb16374e-0825-4182-96db-6d8c531f50f8",
+            "timestamp": "2026-05-14T12:50:37Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mbt7",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container nginx"
+        },
+        {
+            "evidence_id": "a26a40be-8091-43a0-a75c-cbcdbe3aa852",
+            "timestamp": "2026-05-14T12:50:37Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mbt7",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container istio-proxy"
+        },
+        {
+            "evidence_id": "e346e8a6-c3a2-4200-8b45-d2293652d905",
+            "timestamp": "2026-05-14T12:50:37Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-8mkx4",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container nginx"
+        },
+        {
+            "evidence_id": "c792997d-f5d7-4784-815b-3c3ad7b4fa6f",
+            "timestamp": "2026-05-14T12:50:37Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-8mkx4",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container istio-proxy"
+        },
+        {
+            "evidence_id": "a99ea016-db5d-45d0-a845-70412a3b5010",
+            "timestamp": "2026-05-14T12:50:37Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-8wmjn",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container nginx"
+        },
+        {
+            "evidence_id": "d82667e0-8a92-4b13-876e-741fb8ebe40a",
+            "timestamp": "2026-05-14T12:50:37Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-8wmjn",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container istio-proxy"
+        },
+        {
+            "evidence_id": "02bb18f8-2648-4d72-b574-b93de71d8f61",
+            "timestamp": "2026-05-14T12:50:42.963262Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:42.963262Z\tinfo\tdelta\tADS: \"10.244.0.149:32780\" baseline-0cd-scale4-59cc7c9cff-8fpkf.default-3445 terminated"
+        },
+        {
+            "evidence_id": "0a2ddaf5-1747-4e90-bb19-b7ba1425a9dc",
+            "timestamp": "2026-05-14T12:50:42.974930Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:42.974930Z\tinfo\tdelta\tADS: \"10.244.0.148:54780\" baseline-0cd-scale4-59cc7c9cff-8wmjn.default-3448 terminated"
+        },
+        {
+            "evidence_id": "ae90cb0c-4322-4336-85d6-f32adb4ad823",
+            "timestamp": "2026-05-14T12:50:42.979356Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:42.979356Z\tinfo\tdelta\tADS: \"10.244.0.147:45462\" baseline-0cd-scale4-59cc7c9cff-2mbt7.default-3446 terminated"
+        },
+        {
+            "evidence_id": "8df37b5f-0add-4b12-8dfc-c2c72278a64b",
+            "timestamp": "2026-05-14T12:50:42.991162Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:42.991162Z\tinfo\tdelta\tADS: \"10.244.0.150:42044\" baseline-0cd-scale4-59cc7c9cff-8mkx4.default-3447 terminated"
+        }
+    ]
+}

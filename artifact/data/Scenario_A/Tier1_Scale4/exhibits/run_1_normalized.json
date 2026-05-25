@@ -1,0 +1,1141 @@
+{
+    "metadata": {
+        "exhibit_id": "COURT-EXHIBIT-A-Tier1-S4-RUN1",
+        "scenario": "Network Service Discovery (T1046)",
+        "provenance_anchors": [
+            {
+                "file": "run_1_audit.json",
+                "type": "K8s-Audit",
+                "sha256": "b505209cb3f23f898e30258b3ff8b604d4869cd0b145856b14754f8afe209dba"
+            },
+            {
+                "file": "run_1_istio.json",
+                "type": "Istio-Logs",
+                "sha256": "78eee689265fd39565130d9b29eeed61fc2afd1e2bf7165a37c21f022ec39ff0"
+            }
+        ]
+    },
+    "subject_actions": [
+        {
+            "evidence_id": "c89cf6b7-e92d-4dc7-95e2-37b97a8ec899",
+            "timestamp": "2026-05-14T19:49:18.993911Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "cess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9cff-***** (actual name not yet known)"
+        },
+        {
+            "evidence_id": "52d648aa-ec73-4050-8eaf-69eb8fce8c0c",
+            "timestamp": "2026-05-14T19:49:18Z",
+            "identity": "node:deployment-controller",
+            "event": "K8S_SCALINGREPLICASET",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Deployment/baseline-0cd-scale4"
+        },
+        {
+            "evidence_id": "e33e910e-8d93-4a43-b534-2c54d7f4eb87",
+            "timestamp": "2026-05-14T19:49:19.041485Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "cess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9cff-***** (actual name not yet known)"
+        },
+        {
+            "evidence_id": "e9b3a5be-462a-442a-af36-9dc4671b1334",
+            "timestamp": "2026-05-14T19:49:19.054508Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "cess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9cff-***** (actual name not yet known)"
+        },
+        {
+            "evidence_id": "efcd0eb3-fc9e-4a00-9a91-8949acbe1dd2",
+            "timestamp": "2026-05-14T19:49:19.084819Z",
+            "identity": "node:k8s-api",
+            "event": "K8S_SCHEDULED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "27e8045d-1ffd-423e-b26e-3ecc58744a51",
+            "timestamp": "2026-05-14T19:49:19.112490Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "cess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9cff-***** (actual name not yet known)"
+        },
+        {
+            "evidence_id": "5285111c-e241-4ed1-bd88-0cb26bab4512",
+            "timestamp": "2026-05-14T19:49:19.128076Z",
+            "identity": "node:k8s-api",
+            "event": "K8S_SCHEDULED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "af7e3743-57b9-420e-bc35-407e2c11fdce",
+            "timestamp": "2026-05-14T19:49:19.131524Z",
+            "identity": "node:k8s-api",
+            "event": "K8S_SCHEDULED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "a68cde55-e706-455d-b38b-ce6890743747",
+            "timestamp": "2026-05-14T19:49:19.179106Z",
+            "identity": "node:k8s-api",
+            "event": "K8S_SCHEDULED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "2c4e563d-86f7-4eb9-90da-3c107c6f5b84",
+            "timestamp": "2026-05-14T19:49:19Z",
+            "identity": "node:replicaset-controller",
+            "event": "K8S_SUCCESSFULCREATE",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "ReplicaSet/baseline-0cd-scale4-59cc7c9cff"
+        },
+        {
+            "evidence_id": "58c24a33-e670-4be9-a9a9-5da56e5a9ce1",
+            "timestamp": "2026-05-14T19:49:19Z",
+            "identity": "node:replicaset-controller",
+            "event": "K8S_SUCCESSFULCREATE",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "ReplicaSet/baseline-0cd-scale4-59cc7c9cff"
+        },
+        {
+            "evidence_id": "682e21ba-0ac7-49c1-9bc7-17c437dfa4b0",
+            "timestamp": "2026-05-14T19:49:19Z",
+            "identity": "node:replicaset-controller",
+            "event": "K8S_SUCCESSFULCREATE",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "ReplicaSet/baseline-0cd-scale4-59cc7c9cff"
+        },
+        {
+            "evidence_id": "50b58d56-4c9d-482e-9f4f-ec2684bd4302",
+            "timestamp": "2026-05-14T19:49:19Z",
+            "identity": "node:replicaset-controller",
+            "event": "K8S_SUCCESSFULCREATE",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "ReplicaSet/baseline-0cd-scale4-59cc7c9cff"
+        },
+        {
+            "evidence_id": "e4249a16-dbdb-45c0-b76a-d40b2679eebf",
+            "timestamp": "2026-05-14T19:49:19Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "484c6d45-b15c-449d-8f6e-1c7763936a33",
+            "timestamp": "2026-05-14T19:49:19Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "8a70ea28-060b-4aee-9b59-ff229deb2599",
+            "timestamp": "2026-05-14T19:49:19Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "fa4f513b-25ef-406d-ae13-2ef9cf83a3b4",
+            "timestamp": "2026-05-14T19:49:19Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "aa3f0438-0aac-45af-9203-07b3d0e88dd2",
+            "timestamp": "2026-05-14T19:49:20Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "82372797-a306-4f85-9854-d7951a27a8f4",
+            "timestamp": "2026-05-14T19:49:20Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "90f60c3b-6194-45ac-9087-4087038b820b",
+            "timestamp": "2026-05-14T19:49:20Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "0e1019f1-8ff2-4265-89a8-b0ccb24cfdb9",
+            "timestamp": "2026-05-14T19:49:20Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "a625009e-0f92-4367-a0e5-4ca29e5ae347",
+            "timestamp": "2026-05-14T19:49:20Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "eedff262-7932-48ed-ae3a-e359acd2cd27",
+            "timestamp": "2026-05-14T19:49:20Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "be678f14-6ba0-46f7-bdd8-700bb78b5e32",
+            "timestamp": "2026-05-14T19:49:20Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "eb48207d-7d18-4cba-9fc2-4f114a78edb3",
+            "timestamp": "2026-05-14T19:49:20Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "74d7c2d0-8987-49b3-b103-69a90e7788ac",
+            "timestamp": "2026-05-14T19:49:21Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "546fa50a-9eea-4901-a3a1-855d348aceaf",
+            "timestamp": "2026-05-14T19:49:21Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "fd89b239-6ef5-4447-ab18-0a36643d10ed",
+            "timestamp": "2026-05-14T19:49:21Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "19c4b4d7-93e6-4a01-8f9c-841c97b4f79a",
+            "timestamp": "2026-05-14T19:49:21Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "fa807322-e422-468f-93a4-8adea7d41634",
+            "timestamp": "2026-05-14T19:49:21Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "3062f757-b99a-425c-87f1-3ef5b51172dd",
+            "timestamp": "2026-05-14T19:49:21Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "f5ff9cf1-588b-4276-94c2-6f54b6ac2a59",
+            "timestamp": "2026-05-14T19:49:21Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "fb3c7dcc-4f5e-4904-959e-b983cd0ba53a",
+            "timestamp": "2026-05-14T19:49:21Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "57417a16-c9b3-4b46-bad7-f59122b4e23b",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "23c196f6-b03f-4645-8ba8-bc7762899931",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "e9ba32a8-d254-4e00-a085-a24d8106897e",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "0894d3a0-87b0-43b9-9fa9-135e014755df",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "a4668b13-eba8-4399-b47f-1704f26e1adc",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "91bedc27-340f-4bd6-aaab-58f384edf2bb",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "05f53256-f65a-4f01-8b7e-06c92de88d24",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "3b53bc99-183c-48d0-b122-46008487803c",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "235ff14f-0dd5-491f-96a9-080acaa65721",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "609deec6-6fa8-4caf-9a5e-432380bbb41c",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "0d5b5007-6477-41e7-878d-1e11c52905f3",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "4e77231d-7238-4828-8a7f-a268015c7bcb",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "4ba18089-8ed0-49dc-9ec4-65b5965175b3",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "fb2ae42b-010b-4e48-a9e3-3dd9aceef9df",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "53f646fe-d483-4e6b-803b-e00f8885e4d2",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "b58cae89-8382-4c00-b47d-f07def22cd65",
+            "timestamp": "2026-05-14T19:49:22Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "b7a06b48-0edf-41da-8ef6-3023b83cb185",
+            "timestamp": "2026-05-14T19:49:23.245853Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "026-05-14T19:49:23.245853Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default-51"
+        },
+        {
+            "evidence_id": "ac8178ca-30e4-4e0a-b1ad-8649ae7f0c11",
+            "timestamp": "2026-05-14T19:49:23.246902Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "87aa610e-b2cd-4563-be1e-f6200b2f5c18",
+            "timestamp": "2026-05-14T19:49:23.252634Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "026-05-14T19:49:23.252634Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default-52"
+        },
+        {
+            "evidence_id": "99ade397-0e53-44d4-9339-555d64fb1742",
+            "timestamp": "2026-05-14T19:49:23.253204Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "5abac4b1-4e14-4a02-acff-7b675436d5c4",
+            "timestamp": "2026-05-14T19:49:23.270826Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "026-05-14T19:49:23.270826Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default-53"
+        },
+        {
+            "evidence_id": "8ed4f701-e5d6-4f23-9f4d-779b423124a2",
+            "timestamp": "2026-05-14T19:49:23.271363Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "e577fcbe-6ee3-4390-b142-2791a43ff1b2",
+            "timestamp": "2026-05-14T19:49:23.279804Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": " for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "3d60ceb6-a1c6-4aea-b2d3-47b731dabf19",
+            "timestamp": "2026-05-14T19:49:23.289556Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "026-05-14T19:49:23.289556Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default-54"
+        },
+        {
+            "evidence_id": "44ee4c12-2b6c-4e5f-a9d0-4536e32e823b",
+            "timestamp": "2026-05-14T19:49:23.293580Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "8f044ae3-f41b-420d-a334-c20e8f5a31ea",
+            "timestamp": "2026-05-14T19:49:23.302358Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": " for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "19de60f1-0764-477c-8465-f10068a25caa",
+            "timestamp": "2026-05-14T19:49:23.318241Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": " for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "7f7084db-da72-4538-b9b6-06e40e46ff4c",
+            "timestamp": "2026-05-14T19:49:23.346756Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": " for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "6caae12d-016b-4356-96d5-34c9ade2d1c8",
+            "timestamp": "2026-05-14T19:49:23.360884Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "4Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "e8c1d426-d64b-4ad3-8a77-c03181fbf185",
+            "timestamp": "2026-05-14T19:49:23.360948Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "8Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "661ed839-cfba-4e5b-8864-03eb7a9db181",
+            "timestamp": "2026-05-14T19:49:23.361134Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "4Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "c3d515a9-3197-482c-9465-8f4abad58d4d",
+            "timestamp": "2026-05-14T19:49:23.389600Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "0Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "a950f444-f8e8-484f-beac-7cdbda5a7ce2",
+            "timestamp": "2026-05-14T19:49:23.419735Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "USH request for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "b7778917-403e-42c4-a601-b74ccf9a1d45",
+            "timestamp": "2026-05-14T19:49:23.421272Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "USH request for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "4fb281db-73bd-48fd-aac2-c17c347c5aa4",
+            "timestamp": "2026-05-14T19:49:23.430251Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "USH request for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "ab3951f3-cdaa-4d23-afe4-6037dd4865f6",
+            "timestamp": "2026-05-14T19:49:23.445294Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "USH request for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "97d62a5f-35d5-46c0-bbec-27d9d1ad9ac7",
+            "timestamp": "2026-05-14T19:49:24.082847Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "fo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "996e2754-d23d-441b-88e0-b7b96b941718",
+            "timestamp": "2026-05-14T19:49:24.083018Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "a\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21"
+        },
+        {
+            "evidence_id": "ef4f7e86-79b9-4a0d-a3ba-ea23aeb0f584",
+            "timestamp": "2026-05-14T19:49:24.083936Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "24.083936Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "076044fb-2826-4633-96b6-4500e69bc3c9",
+            "timestamp": "2026-05-14T19:49:24.084807Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-7js9v.default resources:7 removed:0 size:5.9kB cached:7/7"
+        },
+        {
+            "evidence_id": "34775968-1bdf-4435-99ee-ca50534b27e5",
+            "timestamp": "2026-05-14T19:49:24.114476Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "fo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "0692b07c-91c5-4127-842a-180e51522b2f",
+            "timestamp": "2026-05-14T19:49:24.114654Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "a\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21"
+        },
+        {
+            "evidence_id": "f71bc383-08bd-48ad-a493-9e0a231483ad",
+            "timestamp": "2026-05-14T19:49:24.116000Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "24.116000Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "2ace36ae-c7c1-4654-ac64-f85bf0c32796",
+            "timestamp": "2026-05-14T19:49:24.117056Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-kl6ql.default resources:7 removed:0 size:5.9kB cached:7/7"
+        },
+        {
+            "evidence_id": "f61d3d9e-f637-4614-a832-25dcaa1260b4",
+            "timestamp": "2026-05-14T19:49:24.145832Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "fo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "9983926f-e762-483a-bf72-6c9a072c1e3c",
+            "timestamp": "2026-05-14T19:49:24.146446Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "a\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21"
+        },
+        {
+            "evidence_id": "81c6a4a5-bfbb-443b-8e45-d944dc3dd5a8",
+            "timestamp": "2026-05-14T19:49:24.149496Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "24.149496Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "04d9ddf6-8ee6-4276-b9d4-38c933db58f9",
+            "timestamp": "2026-05-14T19:49:24.149820Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-ljkqc.default resources:7 removed:0 size:5.9kB cached:7/7"
+        },
+        {
+            "evidence_id": "e7946b57-963b-4aa2-8f2f-9761a4ef284e",
+            "timestamp": "2026-05-14T19:49:24.171109Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "fo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "d50fc7a7-9eb4-4570-ab74-ed2c05d824fc",
+            "timestamp": "2026-05-14T19:49:24.171403Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "a\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21"
+        },
+        {
+            "evidence_id": "d91fef08-a2e1-4785-a1f9-b885ebe28e0a",
+            "timestamp": "2026-05-14T19:49:24.175292Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "24.175292Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "ea8f4b30-617b-4678-9cf6-dd3bade06d7b",
+            "timestamp": "2026-05-14T19:49:24.175578Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-kld4z.default resources:7 removed:0 size:5.9kB cached:7/7"
+        },
+        {
+            "evidence_id": "6f9c4148-b013-4b8a-b525-372fc3b6b50a",
+            "timestamp": "2026-05-14T19:49:24.609756Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T19:49:24.609756Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/discovery-probe-1"
+        },
+        {
+            "evidence_id": "c30136d7-18d8-427f-bd37-e0b30f5ab31f",
+            "timestamp": "2026-05-14T19:49:24.635326Z",
+            "identity": "node:k8s-api",
+            "event": "K8S_SCHEDULED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "169769ac-f280-4a2e-b11a-54c845067e56",
+            "timestamp": "2026-05-14T19:49:25Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "92a6b0bb-1a26-48c8-931f-e190d235d8ce",
+            "timestamp": "2026-05-14T19:49:25Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "c4f25c12-3fe1-46bf-8d50-13c72c5789f4",
+            "timestamp": "2026-05-14T19:49:25Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "8c904c0f-6559-464d-a235-b6dbde7302b8",
+            "timestamp": "2026-05-14T19:49:26Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLING",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "47811c4a-d81b-4e1a-81b5-febebdbcd3f6",
+            "timestamp": "2026-05-14T19:49:26Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "d7daf5bb-0976-4626-83b0-898b787ddd4e",
+            "timestamp": "2026-05-14T19:49:26Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "1fbc343c-f829-468d-a515-ea7a074f6a68",
+            "timestamp": "2026-05-14T19:49:26Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "30271057-3b87-44d4-a384-325b1aec4a6d",
+            "timestamp": "2026-05-14T19:49:26Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "c0e81880-d83b-4684-bdb6-482e69cad4d8",
+            "timestamp": "2026-05-14T19:49:26Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "2948a2ff-447d-4b9d-8327-ba113d35cd5d",
+            "timestamp": "2026-05-14T19:49:27.289850Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T19:49:27.289850Z\tinfo\tdelta\tADS: new delta connection for node:discovery-probe-1.default-55"
+        },
+        {
+            "evidence_id": "ae1176f6-e309-4dee-8c53-2431c17667cb",
+            "timestamp": "2026-05-14T19:49:27.290205Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": ".290205Z\tinfo\tdelta\tCDS: PUSH request for node:discovery-probe-1.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "82275120-a9f1-4b00-ab06-8c29fba56c3c",
+            "timestamp": "2026-05-14T19:49:27.312031Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "a\tEDS: PUSH request for node:discovery-probe-1.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "cb779796-2bc8-4948-be42-50b1be32effb",
+            "timestamp": "2026-05-14T19:49:27.333041Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "5-14T19:49:27.333041Z\tinfo\tdelta\tLDS: PUSH request for node:discovery-probe-1.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "70acc167-6a5c-4073-a252-222f305c64f8",
+            "timestamp": "2026-05-14T19:49:27.360066Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "Z\tinfo\tdelta\tRDS: PUSH request for node:discovery-probe-1.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "a4fe36f6-fba8-4d63-8158-77b2843e2bb8",
+            "timestamp": "2026-05-14T19:49:27Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "c87d8d89-7c79-4161-95e7-314661c02dc4",
+            "timestamp": "2026-05-14T19:49:44Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "f9ff17dc-8085-4f56-9719-a6aeb831315b",
+            "timestamp": "2026-05-14T19:49:44Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "f1af0047-49b7-41fd-84d0-f49ab5bd572a",
+            "timestamp": "2026-05-14T19:49:44Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "3dde1ce5-7095-46f0-8ff1-71fb45dd4a24",
+            "timestamp": "2026-05-14T19:49:44Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "f4a40899-7a88-4e09-888a-e3dcf1634505",
+            "timestamp": "2026-05-14T19:49:44Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "53b6b408-4a49-4b8b-8c4e-3faf8b594e66",
+            "timestamp": "2026-05-14T19:49:44Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "9f90b0ec-e774-4f68-9c58-745def178922",
+            "timestamp": "2026-05-14T19:49:44Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "f57b15ab-330f-4753-9581-35e491f1692b",
+            "timestamp": "2026-05-14T19:49:44Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "1e391709-44d1-4734-8e10-001db404cc40",
+            "timestamp": "2026-05-14T19:49:45Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "tag": "ATTACK_SIGNAL",
+            "protocol": "K8s-Audit",
+            "path": "Pod/discovery-probe-1"
+        },
+        {
+            "evidence_id": "815ad2b8-6242-4c56-aa2b-6b7fc44bfed0",
+            "timestamp": "2026-05-14T19:49:49.951796Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "26-05-14T19:49:49.951796Z\tinfo\tdelta\tADS: \"10.244.0.55:48448\" baseline-0cd-scale4-59cc7c9cff-ljkqc.default-53 terminated"
+        },
+        {
+            "evidence_id": "eb5a05cc-d2b5-41f4-9a25-4dd62d8c7b48",
+            "timestamp": "2026-05-14T19:49:49.961037Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "26-05-14T19:49:49.961037Z\tinfo\tdelta\tADS: \"10.244.0.57:43386\" baseline-0cd-scale4-59cc7c9cff-kld4z.default-52 terminated"
+        },
+        {
+            "evidence_id": "66914648-9e11-45f5-aa96-b7fd437c0db5",
+            "timestamp": "2026-05-14T19:49:49.993352Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "26-05-14T19:49:49.993352Z\tinfo\tdelta\tADS: \"10.244.0.56:46146\" baseline-0cd-scale4-59cc7c9cff-kl6ql.default-51 terminated"
+        },
+        {
+            "evidence_id": "fa7fa662-b381-4e44-a3f5-dc66f517a668",
+            "timestamp": "2026-05-14T19:49:49Z",
+            "identity": "node:kubelet",
+            "event": "K8S_UNHEALTHY",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-ljkqc"
+        },
+        {
+            "evidence_id": "67a038ee-cfce-4d3a-b620-8efef686dbc3",
+            "timestamp": "2026-05-14T19:49:49Z",
+            "identity": "node:kubelet",
+            "event": "K8S_UNHEALTHY",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-7js9v"
+        },
+        {
+            "evidence_id": "49c849e8-d93a-4ff8-99dd-0d71b84f95f5",
+            "timestamp": "2026-05-14T19:49:49Z",
+            "identity": "node:kubelet",
+            "event": "K8S_UNHEALTHY",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kl6ql"
+        },
+        {
+            "evidence_id": "358c8208-06e1-441c-9590-db6777a0c1e4",
+            "timestamp": "2026-05-14T19:49:49Z",
+            "identity": "node:kubelet",
+            "event": "K8S_UNHEALTHY",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "K8s-Audit",
+            "path": "Pod/baseline-0cd-scale4-59cc7c9cff-kld4z"
+        },
+        {
+            "evidence_id": "83ba0cbd-ed5f-40b5-9788-02da1bdce64d",
+            "timestamp": "2026-05-14T19:49:50.107979Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "tag": "BACKGROUND_NOISE",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "26-05-14T19:49:50.107979Z\tinfo\tdelta\tADS: \"10.244.0.54:34454\" baseline-0cd-scale4-59cc7c9cff-7js9v.default-54 terminated"
+        }
+    ]
+}

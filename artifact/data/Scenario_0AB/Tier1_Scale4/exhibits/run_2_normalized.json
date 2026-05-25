@@ -1,0 +1,985 @@
+{
+    "metadata": {
+        "exhibit_id": "COURT-EXHIBIT-0AB-Tier1-S4-RUN2",
+        "provenance_anchors": [
+            {
+                "file": "run_2_audit.json",
+                "type": "K8s-Audit",
+                "sha256": "22bd90f224bd07c29ab0cd49aa97c6d4f51f4b444ce79c39cee47aee95c332b4"
+            },
+            {
+                "file": "run_2_istio.json",
+                "type": "Istio-Logs",
+                "sha256": "d8ef1da580cd28ccc8a4b5b4ad287bca57a2843e1a78d20409958fd8ba58d04d"
+            }
+        ]
+    },
+    "subject_actions": [
+        {
+            "evidence_id": "b991dd92-7a87-4c8d-99d2-fb3a36cbf6ed",
+            "timestamp": "2026-05-14T12:50:53.320360Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:53.320360Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9cff-***** (actual name not yet known)"
+        },
+        {
+            "evidence_id": "6e81080a-6f85-4fa8-8415-be32f215db81",
+            "timestamp": "2026-05-14T12:50:53.359460Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:53.359460Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9cff-***** (actual name not yet known)"
+        },
+        {
+            "evidence_id": "fd6bf10a-6a21-45bc-a99d-bf991041815b",
+            "timestamp": "2026-05-14T12:50:53.365357Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:53.365357Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9cff-***** (actual name not yet known)"
+        },
+        {
+            "evidence_id": "da617fc0-5619-45df-b45c-720ff78ec2f4",
+            "timestamp": "2026-05-14T12:50:53.408903Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:53.408903Z\tinfo\tProcess sidecar injection request\tpath=/inject pod=default/baseline-0cd-scale4-59cc7c9cff-***** (actual name not yet known)"
+        },
+        {
+            "evidence_id": "1755f93d-1964-433c-bcf0-c34a81519b55",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:deployment-controller",
+            "event": "K8S_SCALINGREPLICASET",
+            "target": "Deployment/baseline-0cd-scale4",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Scaled up replica set baseline-0cd-scale4-59cc7c9cff to 4"
+        },
+        {
+            "evidence_id": "84b73c6d-576c-48ec-bf92-8e5d43fd4754",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:replicaset-controller",
+            "event": "K8S_SUCCESSFULCREATE",
+            "target": "ReplicaSet/baseline-0cd-scale4-59cc7c9cff",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created pod: baseline-0cd-scale4-59cc7c9cff-p9pwg"
+        },
+        {
+            "evidence_id": "8d4c8bec-5b9d-48df-a1e3-e62bfd3448e6",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:default-scheduler",
+            "event": "K8S_SCHEDULED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Successfully assigned default/baseline-0cd-scale4-59cc7c9cff-p9pwg to forensic-k8s-control-plane"
+        },
+        {
+            "evidence_id": "0b73d9b0-fcb0-4b44-8485-d8efd916e5ad",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:replicaset-controller",
+            "event": "K8S_SUCCESSFULCREATE",
+            "target": "ReplicaSet/baseline-0cd-scale4-59cc7c9cff",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created pod: baseline-0cd-scale4-59cc7c9cff-pbkfh"
+        },
+        {
+            "evidence_id": "0f510aa6-0942-45a2-a59a-00c08ec61a5b",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:default-scheduler",
+            "event": "K8S_SCHEDULED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Successfully assigned default/baseline-0cd-scale4-59cc7c9cff-pbkfh to forensic-k8s-control-plane"
+        },
+        {
+            "evidence_id": "225b8dca-3860-4f5e-a4bc-c63c7985bcfc",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:replicaset-controller",
+            "event": "K8S_SUCCESSFULCREATE",
+            "target": "ReplicaSet/baseline-0cd-scale4-59cc7c9cff",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created pod: baseline-0cd-scale4-59cc7c9cff-zkbr2"
+        },
+        {
+            "evidence_id": "a74e52a9-44b0-44a0-b7ae-3ae9464c04e4",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:default-scheduler",
+            "event": "K8S_SCHEDULED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Successfully assigned default/baseline-0cd-scale4-59cc7c9cff-zkbr2 to forensic-k8s-control-plane"
+        },
+        {
+            "evidence_id": "2d65e052-08f7-41f0-96b2-571ec316c6e8",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:replicaset-controller",
+            "event": "K8S_SUCCESSFULCREATE",
+            "target": "ReplicaSet/baseline-0cd-scale4-59cc7c9cff",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created pod: baseline-0cd-scale4-59cc7c9cff-2mkvp"
+        },
+        {
+            "evidence_id": "7ee0068e-1b04-42e5-9286-6c40bb66aafc",
+            "timestamp": "2026-05-14T12:50:53Z",
+            "identity": "node:default-scheduler",
+            "event": "K8S_SCHEDULED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Successfully assigned default/baseline-0cd-scale4-59cc7c9cff-2mkvp to forensic-k8s-control-plane"
+        },
+        {
+            "evidence_id": "e212b456-e4c9-4e65-b9a4-68ca4e8dd274",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine"
+        },
+        {
+            "evidence_id": "ab5803ee-6e8d-4bf7-8774-496ba35e4ae3",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine"
+        },
+        {
+            "evidence_id": "6ff30745-dcde-4a4c-9bb3-fcfa13843b1e",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine"
+        },
+        {
+            "evidence_id": "08d61d80-9d8b-47ba-a547-728f5ae5f69b",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container istio-init"
+        },
+        {
+            "evidence_id": "74f9965a-5a37-4e6f-a00d-1aef3f2c4c6b",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container istio-init"
+        },
+        {
+            "evidence_id": "9709024d-5f84-4022-b220-8fd615f954dc",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container istio-init"
+        },
+        {
+            "evidence_id": "9510d06d-333b-4082-8ce9-cfbbae978133",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine"
+        },
+        {
+            "evidence_id": "047843c1-c327-49b3-a0cf-cbdef2de418e",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container istio-init"
+        },
+        {
+            "evidence_id": "abd490d2-25df-49b5-af92-7e3ec8cf0e94",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container istio-init"
+        },
+        {
+            "evidence_id": "87130341-b50e-4bc4-a2b7-289da7113f5a",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container istio-init"
+        },
+        {
+            "evidence_id": "ae028d3c-619f-429d-9cc3-5c6afbb79bff",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container istio-init"
+        },
+        {
+            "evidence_id": "e27565df-25d5-42c3-b06d-c27b73c422a5",
+            "timestamp": "2026-05-14T12:50:54Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container istio-init"
+        },
+        {
+            "evidence_id": "566e5ea7-da45-48c9-83ca-5ccd66273b51",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"nginx:alpine\" already present on machine"
+        },
+        {
+            "evidence_id": "8bcb3d4c-cdbe-487d-ab9f-dde5dfdbdc0f",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"nginx:alpine\" already present on machine"
+        },
+        {
+            "evidence_id": "4750d37b-f7bf-482e-a12e-c8177b06f103",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"nginx:alpine\" already present on machine"
+        },
+        {
+            "evidence_id": "529c37f6-5e9a-489b-bd43-4a3fe854ce14",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"nginx:alpine\" already present on machine"
+        },
+        {
+            "evidence_id": "067aac76-acd8-4fee-acfe-c2c5b03b7868",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container nginx"
+        },
+        {
+            "evidence_id": "548d380c-3106-4644-9fd1-9d84257c4155",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container nginx"
+        },
+        {
+            "evidence_id": "6f13868d-e363-4d27-8045-e6407715800b",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container nginx"
+        },
+        {
+            "evidence_id": "ca95f456-da7c-47ae-91f3-53f0cc72edaa",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container nginx"
+        },
+        {
+            "evidence_id": "386e6b30-c1ee-4961-8f86-62f237b1b08f",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container nginx"
+        },
+        {
+            "evidence_id": "f58ae1bd-c5d4-42b6-a87f-25774900c78a",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine"
+        },
+        {
+            "evidence_id": "09bcdb98-fb69-4c3e-8419-010bd3f34102",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container nginx"
+        },
+        {
+            "evidence_id": "adcc85a7-1a6f-4096-ab9e-f2a5dca9386e",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container nginx"
+        },
+        {
+            "evidence_id": "2e690888-2106-4402-a778-32be7353a188",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine"
+        },
+        {
+            "evidence_id": "0dd8317d-a9cb-446a-8b81-8c4cba7a5a4f",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine"
+        },
+        {
+            "evidence_id": "05f36675-8800-44cd-a78a-7555b20f9a27",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container nginx"
+        },
+        {
+            "evidence_id": "dba503da-dcb2-4624-b070-8548e15ea149",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_PULLED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine"
+        },
+        {
+            "evidence_id": "eb14121d-964b-4f07-9cb4-742405fba5e5",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container istio-proxy"
+        },
+        {
+            "evidence_id": "ed78278a-530c-49e4-9a3f-6d258a824fbf",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container istio-proxy"
+        },
+        {
+            "evidence_id": "2b4bee60-7075-442e-99e6-7090d528707c",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container istio-proxy"
+        },
+        {
+            "evidence_id": "65d06f95-54ae-4a54-8a1b-ff8508687de6",
+            "timestamp": "2026-05-14T12:50:55Z",
+            "identity": "node:kubelet",
+            "event": "K8S_CREATED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Created container istio-proxy"
+        },
+        {
+            "evidence_id": "96d6781f-db82-43bf-9524-92d2300fb2aa",
+            "timestamp": "2026-05-14T12:50:56.402271Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.402271Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default-3450"
+        },
+        {
+            "evidence_id": "b814e7cc-8a83-4017-a542-59b44d6dba42",
+            "timestamp": "2026-05-14T12:50:56.403152Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.403152Z\tinfo\tdelta\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "a2f67d42-5ca1-47a6-9484-feb43bcacd43",
+            "timestamp": "2026-05-14T12:50:56.441433Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.441433Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default-3451"
+        },
+        {
+            "evidence_id": "b2ce529e-5e6b-4f9f-8e88-d15604b470a8",
+            "timestamp": "2026-05-14T12:50:56.441878Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.441878Z\tinfo\tdelta\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "e4e39e90-60fa-4c82-87f3-2c9c108877a7",
+            "timestamp": "2026-05-14T12:50:56.452624Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.452624Z\tinfo\tdelta\tEDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "b64e73c1-a56f-438c-98ea-e96a722b8277",
+            "timestamp": "2026-05-14T12:50:56.471240Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.471240Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default-3452"
+        },
+        {
+            "evidence_id": "7f81291f-cd7a-4938-ab0b-b023b2890544",
+            "timestamp": "2026-05-14T12:50:56.471788Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.471788Z\tinfo\tdelta\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "6442d45e-0ce1-4115-92d3-79fc7b6b1698",
+            "timestamp": "2026-05-14T12:50:56.478263Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.478263Z\tinfo\tdelta\tADS: new delta connection for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default-3453"
+        },
+        {
+            "evidence_id": "52c25588-ea5c-42bc-9bfa-3d43bafb1721",
+            "timestamp": "2026-05-14T12:50:56.478868Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.478868Z\tinfo\tdelta\tCDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "871b81be-50b4-4015-81e7-ca125c363882",
+            "timestamp": "2026-05-14T12:50:56.502766Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.502766Z\tinfo\tdelta\tEDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "7a90fcbb-7f0a-47ef-a001-9b1e7248648c",
+            "timestamp": "2026-05-14T12:50:56.503842Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.503842Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "a1ae6df2-5d47-4747-a4c8-742f0f8b67db",
+            "timestamp": "2026-05-14T12:50:56.508334Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.508334Z\tinfo\tdelta\tEDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "0429c015-67cb-41e3-99b8-816abf9ebd5c",
+            "timestamp": "2026-05-14T12:50:56.520129Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.520129Z\tinfo\tdelta\tEDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21 filtered:0"
+        },
+        {
+            "evidence_id": "3957e0a2-fc33-404d-94bf-33759ec2fa41",
+            "timestamp": "2026-05-14T12:50:56.537512Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.537512Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "533fbe52-5262-4d43-a410-160efd87fa0e",
+            "timestamp": "2026-05-14T12:50:56.559483Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.559483Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "6f8ac39a-e909-4e79-8282-de011d4f1870",
+            "timestamp": "2026-05-14T12:50:56.559639Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.559639Z\tinfo\tdelta\tRDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "232f9bbc-e12a-4b0b-97ac-16f51daab913",
+            "timestamp": "2026-05-14T12:50:56.568910Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.568910Z\tinfo\tdelta\tLDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "81edaa13-41a9-42dc-ac3f-2fd969026f57",
+            "timestamp": "2026-05-14T12:50:56.593306Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.593306Z\tinfo\tdelta\tRDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "3f66adb1-fdc3-414a-9040-5fb011b26946",
+            "timestamp": "2026-05-14T12:50:56.603216Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.603216Z\tinfo\tdelta\tRDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "53cd19a2-b8e8-4aae-b0c9-83b23d658ba0",
+            "timestamp": "2026-05-14T12:50:56.609777Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:56.609777Z\tinfo\tdelta\tRDS: PUSH request for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default resources:7 removed:0 size:5.9kB cached:7/7 filtered:0"
+        },
+        {
+            "evidence_id": "96311122-6cda-4f04-81c9-f8fe89fd462b",
+            "timestamp": "2026-05-14T12:50:56Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container istio-proxy"
+        },
+        {
+            "evidence_id": "58bea0e8-e90d-4c23-ab18-4113a51b8765",
+            "timestamp": "2026-05-14T12:50:56Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container istio-proxy"
+        },
+        {
+            "evidence_id": "e31584ea-4564-4374-9a28-2bd08e5ac645",
+            "timestamp": "2026-05-14T12:50:56Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container istio-proxy"
+        },
+        {
+            "evidence_id": "50e0ef57-7d9e-43ba-a2ce-8b945cd023e5",
+            "timestamp": "2026-05-14T12:50:56Z",
+            "identity": "node:kubelet",
+            "event": "K8S_STARTED",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Started container istio-proxy"
+        },
+        {
+            "evidence_id": "745ddef3-1f7c-4906-8a30-6c05fd4c909a",
+            "timestamp": "2026-05-14T12:50:57.406877Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.406877Z\tinfo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "6268fe1d-f639-4d58-a853-adc12056bce1",
+            "timestamp": "2026-05-14T12:50:57.407054Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.407054Z\tinfo\tdelta\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21"
+        },
+        {
+            "evidence_id": "b741020f-76df-4d3b-8306-4e81dae9e863",
+            "timestamp": "2026-05-14T12:50:57.408095Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.408095Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "e7e271f0-5761-49c0-a7bf-fc9f9acc938b",
+            "timestamp": "2026-05-14T12:50:57.408559Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.408559Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-2mkvp.default resources:7 removed:0 size:5.9kB cached:7/7"
+        },
+        {
+            "evidence_id": "19453ffe-ef00-43c1-9e89-31d548cf083c",
+            "timestamp": "2026-05-14T12:50:57.427817Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.427817Z\tinfo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "9d1c77ea-ff81-4792-8c08-671be3437bca",
+            "timestamp": "2026-05-14T12:50:57.428362Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.428362Z\tinfo\tdelta\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21"
+        },
+        {
+            "evidence_id": "515e17dc-3459-4e7a-857e-6e1cefe8611d",
+            "timestamp": "2026-05-14T12:50:57.429957Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.429957Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "b45268ca-1df0-4590-9a7b-58e423b5b837",
+            "timestamp": "2026-05-14T12:50:57.430641Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.430641Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-p9pwg.default resources:7 removed:0 size:5.9kB cached:7/7"
+        },
+        {
+            "evidence_id": "5529bb16-b333-4f6a-a4c5-1d6ccbf5729b",
+            "timestamp": "2026-05-14T12:50:57.449261Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.449261Z\tinfo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "aa465802-6fca-401c-8f2a-131b9d14d556",
+            "timestamp": "2026-05-14T12:50:57.449430Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.449430Z\tinfo\tdelta\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21"
+        },
+        {
+            "evidence_id": "09e4e25d-bc93-4c21-af18-ebaef1cbb181",
+            "timestamp": "2026-05-14T12:50:57.450345Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.450345Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "0ff4c9af-f013-44e6-9ce0-7c73043465f9",
+            "timestamp": "2026-05-14T12:50:57.450535Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.450535Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-pbkfh.default resources:7 removed:0 size:5.9kB cached:7/7"
+        },
+        {
+            "evidence_id": "b1867ba5-de2e-47a2-bc5c-e8ee81514e17",
+            "timestamp": "2026-05-14T12:50:57.471785Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.471785Z\tinfo\tdelta\tCDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default resources:24 removed:0 size:26.5kB cached:21/21"
+        },
+        {
+            "evidence_id": "da3e2361-92b0-48b4-908c-818db8dabe48",
+            "timestamp": "2026-05-14T12:50:57.471998Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.471998Z\tinfo\tdelta\tEDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default resources:21 removed:0 size:4.0kB empty:0 cached:21/21"
+        },
+        {
+            "evidence_id": "48b9431e-d78e-4d10-aaef-3b49bc0ab045",
+            "timestamp": "2026-05-14T12:50:57.473082Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.473082Z\tinfo\tdelta\tLDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default resources:20 removed:0 size:66.9kB"
+        },
+        {
+            "evidence_id": "5d066f3d-54f3-42f2-a351-2f982f653322",
+            "timestamp": "2026-05-14T12:50:57.473835Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:50:57.473835Z\tinfo\tdelta\tRDS: PUSH for node:baseline-0cd-scale4-59cc7c9cff-zkbr2.default resources:7 removed:0 size:5.9kB cached:7/7"
+        },
+        {
+            "evidence_id": "5988dfb1-d4b6-478e-a13c-beceb6acdc7d",
+            "timestamp": "2026-05-14T12:51:07Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container nginx"
+        },
+        {
+            "evidence_id": "b1919710-5ac7-4ccd-b915-0d99c10105dd",
+            "timestamp": "2026-05-14T12:51:07Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container istio-proxy"
+        },
+        {
+            "evidence_id": "34e47df5-3c6f-464e-9cb2-2438b054c045",
+            "timestamp": "2026-05-14T12:51:07Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container nginx"
+        },
+        {
+            "evidence_id": "70f5adfb-5477-496e-a69e-70d5e0f43f9c",
+            "timestamp": "2026-05-14T12:51:07Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container istio-proxy"
+        },
+        {
+            "evidence_id": "0a805322-aa92-4ac8-8ab7-89c250cfa18d",
+            "timestamp": "2026-05-14T12:51:07Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container nginx"
+        },
+        {
+            "evidence_id": "9f22a985-b112-41b6-972b-fbbd61b51b61",
+            "timestamp": "2026-05-14T12:51:07Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container istio-proxy"
+        },
+        {
+            "evidence_id": "7e3b841f-5bbf-47fc-8d5e-169ecc63b56c",
+            "timestamp": "2026-05-14T12:51:08Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container nginx"
+        },
+        {
+            "evidence_id": "05b3323f-9d27-4d8c-9525-0e6a4f732fa3",
+            "timestamp": "2026-05-14T12:51:08Z",
+            "identity": "node:kubelet",
+            "event": "K8S_KILLING",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Normal",
+            "path": "Logic -> Stopping container istio-proxy"
+        },
+        {
+            "evidence_id": "e88868c7-d264-4d6b-86b7-1a151bfa089e",
+            "timestamp": "2026-05-14T12:51:08Z",
+            "identity": "node:kubelet",
+            "event": "K8S_UNHEALTHY",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-pbkfh",
+            "protocol": "K8s-Audit",
+            "status": "Warning",
+            "path": "Logic -> Readiness probe failed: HTTP probe failed with statuscode: 503"
+        },
+        {
+            "evidence_id": "77eb5b18-956b-4589-b32a-03c3593b561e",
+            "timestamp": "2026-05-14T12:51:08Z",
+            "identity": "node:kubelet",
+            "event": "K8S_UNHEALTHY",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-zkbr2",
+            "protocol": "K8s-Audit",
+            "status": "Warning",
+            "path": "Logic -> Readiness probe failed: HTTP probe failed with statuscode: 503"
+        },
+        {
+            "evidence_id": "8a10bdaa-d1b5-4cee-8ce1-795d9381d8f3",
+            "timestamp": "2026-05-14T12:51:08Z",
+            "identity": "node:kubelet",
+            "event": "K8S_UNHEALTHY",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-2mkvp",
+            "protocol": "K8s-Audit",
+            "status": "Warning",
+            "path": "Logic -> Readiness probe failed: HTTP probe failed with statuscode: 503"
+        },
+        {
+            "evidence_id": "6721cccc-fcc6-47f8-83ff-9bb3f6854da5",
+            "timestamp": "2026-05-14T12:51:09Z",
+            "identity": "node:kubelet",
+            "event": "K8S_UNHEALTHY",
+            "target": "Pod/baseline-0cd-scale4-59cc7c9cff-p9pwg",
+            "protocol": "K8s-Audit",
+            "status": "Warning",
+            "path": "Logic -> Readiness probe failed: HTTP probe failed with statuscode: 503"
+        },
+        {
+            "evidence_id": "6f2331c8-b13f-4094-a139-dab62e780edd",
+            "timestamp": "2026-05-14T12:51:13.013788Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:51:13.013788Z\tinfo\tdelta\tADS: \"10.244.0.151:35152\" baseline-0cd-scale4-59cc7c9cff-pbkfh.default-3452 terminated"
+        },
+        {
+            "evidence_id": "69571c8b-b113-4b38-a31f-8427c75e9ef6",
+            "timestamp": "2026-05-14T12:51:13.056310Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:51:13.056310Z\tinfo\tdelta\tADS: \"10.244.0.154:47644\" baseline-0cd-scale4-59cc7c9cff-p9pwg.default-3453 terminated"
+        },
+        {
+            "evidence_id": "69d328fd-8bef-45a9-9fd7-a4c6dd0f6ccf",
+            "timestamp": "2026-05-14T12:51:13.060961Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:51:13.060961Z\tinfo\tdelta\tADS: \"10.244.0.153:48488\" baseline-0cd-scale4-59cc7c9cff-2mkvp.default-3451 terminated"
+        },
+        {
+            "evidence_id": "cec8810b-98f9-4477-bbed-880de731cae0",
+            "timestamp": "2026-05-14T12:51:13.068167Z",
+            "identity": "istio-pilot",
+            "event": "MESH_SIGNAL",
+            "protocol": "Istio-Mesh",
+            "status": "LOGGED",
+            "path": "2026-05-14T12:51:13.068167Z\tinfo\tdelta\tADS: \"10.244.0.152:57008\" baseline-0cd-scale4-59cc7c9cff-zkbr2.default-3450 terminated"
+        }
+    ]
+}

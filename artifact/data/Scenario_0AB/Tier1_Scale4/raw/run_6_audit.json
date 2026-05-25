@@ -1,0 +1,1863 @@
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "apps/v1",
+        "kind": "Deployment",
+        "name": "baseline-0cd-scale4",
+        "namespace": "default",
+        "resourceVersion": "348361",
+        "uid": "8edf1cde-fbf9-4c68-b4d7-ffb4a09c95af"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Scaled up replica set baseline-0cd-scale4-59cc7c9cff to 4",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4.18af6faf5e9da467",
+        "namespace": "default",
+        "resourceVersion": "348363",
+        "uid": "a00bb33b-6d79-46d7-8fb9-4f7fd74bf712"
+    },
+    "reason": "ScalingReplicaSet",
+    "reportingComponent": "deployment-controller",
+    "reportingInstance": "",
+    "source": {
+        "component": "deployment-controller"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "apps/v1",
+        "kind": "ReplicaSet",
+        "name": "baseline-0cd-scale4-59cc7c9cff",
+        "namespace": "default",
+        "resourceVersion": "348362",
+        "uid": "e6fd198f-d4a5-436e-ac8e-b89f95cc6df6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Created pod: baseline-0cd-scale4-59cc7c9cff-6tk2c",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff.18af6faf605d0318",
+        "namespace": "default",
+        "resourceVersion": "348367",
+        "uid": "d1502537-0484-4d5b-a417-cf67c152beaf"
+    },
+    "reason": "SuccessfulCreate",
+    "reportingComponent": "replicaset-controller",
+    "reportingInstance": "",
+    "source": {
+        "component": "replicaset-controller"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348366",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Successfully assigned default/baseline-0cd-scale4-59cc7c9cff-6tk2c to forensic-k8s-control-plane",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6faf611242c2",
+        "namespace": "default",
+        "resourceVersion": "348369",
+        "uid": "b89bbd4b-57d0-4a40-b26d-e1d72be53a3f"
+    },
+    "reason": "Scheduled",
+    "reportingComponent": "default-scheduler",
+    "reportingInstance": "",
+    "source": {
+        "component": "default-scheduler"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "apps/v1",
+        "kind": "ReplicaSet",
+        "name": "baseline-0cd-scale4-59cc7c9cff",
+        "namespace": "default",
+        "resourceVersion": "348362",
+        "uid": "e6fd198f-d4a5-436e-ac8e-b89f95cc6df6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Created pod: baseline-0cd-scale4-59cc7c9cff-5dk84",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff.18af6faf620ad4d4",
+        "namespace": "default",
+        "resourceVersion": "348373",
+        "uid": "2faeec51-1a7b-47a9-b6a1-a2a5db9ce9bc"
+    },
+    "reason": "SuccessfulCreate",
+    "reportingComponent": "replicaset-controller",
+    "reportingInstance": "",
+    "source": {
+        "component": "replicaset-controller"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348371",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Successfully assigned default/baseline-0cd-scale4-59cc7c9cff-5dk84 to forensic-k8s-control-plane",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6faf62c6ef57",
+        "namespace": "default",
+        "resourceVersion": "348376",
+        "uid": "de0e6e74-640c-4cbb-b573-f37186b2b6b3"
+    },
+    "reason": "Scheduled",
+    "reportingComponent": "default-scheduler",
+    "reportingInstance": "",
+    "source": {
+        "component": "default-scheduler"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "apps/v1",
+        "kind": "ReplicaSet",
+        "name": "baseline-0cd-scale4-59cc7c9cff",
+        "namespace": "default",
+        "resourceVersion": "348362",
+        "uid": "e6fd198f-d4a5-436e-ac8e-b89f95cc6df6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Created pod: baseline-0cd-scale4-59cc7c9cff-x7qv7",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff.18af6faf6213a926",
+        "namespace": "default",
+        "resourceVersion": "348377",
+        "uid": "83ede5ed-11a4-4b96-b950-68df283ef985"
+    },
+    "reason": "SuccessfulCreate",
+    "reportingComponent": "replicaset-controller",
+    "reportingInstance": "",
+    "source": {
+        "component": "replicaset-controller"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348370",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Successfully assigned default/baseline-0cd-scale4-59cc7c9cff-x7qv7 to forensic-k8s-control-plane",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6faf62c6f09e",
+        "namespace": "default",
+        "resourceVersion": "348379",
+        "uid": "29176978-85bd-4563-897f-b90fdd427729"
+    },
+    "reason": "Scheduled",
+    "reportingComponent": "default-scheduler",
+    "reportingInstance": "",
+    "source": {
+        "component": "default-scheduler"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "apps/v1",
+        "kind": "ReplicaSet",
+        "name": "baseline-0cd-scale4-59cc7c9cff",
+        "namespace": "default",
+        "resourceVersion": "348362",
+        "uid": "e6fd198f-d4a5-436e-ac8e-b89f95cc6df6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Created pod: baseline-0cd-scale4-59cc7c9cff-8qv4k",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff.18af6faf63f445a8",
+        "namespace": "default",
+        "resourceVersion": "348380",
+        "uid": "70bcab86-97fa-4670-b943-19609e72b50a"
+    },
+    "reason": "SuccessfulCreate",
+    "reportingComponent": "replicaset-controller",
+    "reportingInstance": "",
+    "source": {
+        "component": "replicaset-controller"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:56Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348378",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:56Z",
+    "message": "Successfully assigned default/baseline-0cd-scale4-59cc7c9cff-8qv4k to forensic-k8s-control-plane",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:56Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6faf64ff22f8",
+        "namespace": "default",
+        "resourceVersion": "348385",
+        "uid": "3ff48bd3-bfb0-4a88-a570-4d255085b664"
+    },
+    "reason": "Scheduled",
+    "reportingComponent": "default-scheduler",
+    "reportingInstance": "",
+    "source": {
+        "component": "default-scheduler"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6faf85fd6921",
+        "namespace": "default",
+        "resourceVersion": "348391",
+        "uid": "d4d26f89-0b5f-45a3-8f43-047e96d79aeb"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Created container istio-init",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6faf8925400e",
+        "namespace": "default",
+        "resourceVersion": "348392",
+        "uid": "2f953297-31b9-4100-8041-d17dee820b2c"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6faf8963cfb4",
+        "namespace": "default",
+        "resourceVersion": "348393",
+        "uid": "1702f7cb-2001-44b9-a554-6807f21593b7"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6faf8b152400",
+        "namespace": "default",
+        "resourceVersion": "348394",
+        "uid": "a537e27d-170f-4191-8b17-083f3221326a"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6faf8c084248",
+        "namespace": "default",
+        "resourceVersion": "348395",
+        "uid": "006eafec-292b-42dd-84fd-a30f246235a4"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Created container istio-init",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6faf8c3e0283",
+        "namespace": "default",
+        "resourceVersion": "348396",
+        "uid": "b23917e0-9b35-400a-8f02-5ca899f08885"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Created container istio-init",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6faf8eabcc92",
+        "namespace": "default",
+        "resourceVersion": "348397",
+        "uid": "9ab432e8-7477-49c4-a2e3-1d0873dc23e4"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Created container istio-init",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6faf90770d15",
+        "namespace": "default",
+        "resourceVersion": "348398",
+        "uid": "c427e85e-212d-4f09-890e-bc4ad13e8ef7"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Started container istio-init",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6faf98e9e90f",
+        "namespace": "default",
+        "resourceVersion": "348399",
+        "uid": "91ade12f-803c-4bb3-861e-0c8648d4418e"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Started container istio-init",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6faf9dfe22c5",
+        "namespace": "default",
+        "resourceVersion": "348400",
+        "uid": "b94ada36-f6f9-485b-86de-174f974283c9"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Started container istio-init",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fafa0ad24ce",
+        "namespace": "default",
+        "resourceVersion": "348401",
+        "uid": "09f23f19-5126-49ca-ae36-9b0995678b73"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:57Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.initContainers{istio-init}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:57Z",
+    "message": "Started container istio-init",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:57Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fafa0b94794",
+        "namespace": "default",
+        "resourceVersion": "348402",
+        "uid": "7c932d33-d95b-43a7-8ca4-2fbdee466c08"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fafb38090e8",
+        "namespace": "default",
+        "resourceVersion": "348403",
+        "uid": "b9e1b364-8463-436a-b5dc-25d1dd5cf4c6"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fafb3aae549",
+        "namespace": "default",
+        "resourceVersion": "348404",
+        "uid": "85839c2e-7b64-4416-b8e0-7f0c8259e789"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fafb3dff485",
+        "namespace": "default",
+        "resourceVersion": "348406",
+        "uid": "a0281df9-2422-44c0-a6ba-a1c7a21a774b"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fafb41b31f0",
+        "namespace": "default",
+        "resourceVersion": "348407",
+        "uid": "888fa165-87ac-47fb-9fa7-9541045d3a4f"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fafb6bf4e36",
+        "namespace": "default",
+        "resourceVersion": "348409",
+        "uid": "5fa7347a-a360-4e91-beed-845c354b8b61"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fafb7895f72",
+        "namespace": "default",
+        "resourceVersion": "348411",
+        "uid": "863f38df-fad8-45c5-b8b7-69847984b55a"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fafb79fe18d",
+        "namespace": "default",
+        "resourceVersion": "348412",
+        "uid": "a6c48701-be05-4bbb-898b-66fd2915ebeb"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fafb842b208",
+        "namespace": "default",
+        "resourceVersion": "348414",
+        "uid": "cbb423ed-34ce-48dd-813a-a78d4cada7c5"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fafc8f7aaca",
+        "namespace": "default",
+        "resourceVersion": "348415",
+        "uid": "df970966-f01f-4a1e-bf5a-d608dc577646"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fafc9168ceb",
+        "namespace": "default",
+        "resourceVersion": "348417",
+        "uid": "b461e71d-27e4-4a14-acde-d0adf5e56a55"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fafca76c55a",
+        "namespace": "default",
+        "resourceVersion": "348418",
+        "uid": "7b87d962-8600-4db0-b6a4-21fb25aaf1b2"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fafca89c89b",
+        "namespace": "default",
+        "resourceVersion": "348419",
+        "uid": "f27afe31-37ee-48e7-9cc6-7f93b4e81562"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fafcaa12850",
+        "namespace": "default",
+        "resourceVersion": "348420",
+        "uid": "374050b0-5032-40b6-b811-820d12e3ab1f"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fafcb47cb29",
+        "namespace": "default",
+        "resourceVersion": "348421",
+        "uid": "853d8fec-e1f2-45b4-8f20-029eee94623c"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Created container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fafcd9205e6",
+        "namespace": "default",
+        "resourceVersion": "348422",
+        "uid": "8420edc3-1991-4eb6-a4b0-0a563faa5242"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fafcffb1508",
+        "namespace": "default",
+        "resourceVersion": "348423",
+        "uid": "757393cc-6346-40d1-9d58-c3ee9b62068c"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Created container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fafd005611c",
+        "namespace": "default",
+        "resourceVersion": "348424",
+        "uid": "2f39a881-e824-49d8-909e-fc5d03036084"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Container image \"docker.io/istio/proxyv2:1.29.2\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fafd01c9da4",
+        "namespace": "default",
+        "resourceVersion": "348425",
+        "uid": "62b684dd-75aa-47b9-80fa-f0186a7b5441"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Created container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fafd095effa",
+        "namespace": "default",
+        "resourceVersion": "348426",
+        "uid": "2fe9b55e-082f-443c-affc-0267d1c07842"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:58Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:58Z",
+    "message": "Created container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:58Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fafd53309ea",
+        "namespace": "default",
+        "resourceVersion": "348427",
+        "uid": "88099334-5803-4de0-9de4-2f7521b6c810"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:59Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:59Z",
+    "message": "Started container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:59Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fafe132fa42",
+        "namespace": "default",
+        "resourceVersion": "348428",
+        "uid": "b145b43f-3e52-4f23-a014-723c97a46fc8"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:59Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:59Z",
+    "message": "Started container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:59Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fafe4b87a72",
+        "namespace": "default",
+        "resourceVersion": "348429",
+        "uid": "d4d37245-2e35-424b-b029-507ac83143ac"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:59Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:59Z",
+    "message": "Started container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:59Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fafe655fec4",
+        "namespace": "default",
+        "resourceVersion": "348430",
+        "uid": "e49ceeaf-2e04-4a89-87a7-65234bcb8214"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:52:59Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:52:59Z",
+    "message": "Started container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:52:59Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fafe832e67d",
+        "namespace": "default",
+        "resourceVersion": "348431",
+        "uid": "6cd1ba86-c81d-46e6-8028-3d6f8fa0be94"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:10Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:10Z",
+    "message": "Stopping container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:10Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fb2a9a73996",
+        "namespace": "default",
+        "resourceVersion": "348483",
+        "uid": "8148c4a2-7688-4d6f-a506-dd66d05aa560"
+    },
+    "reason": "Killing",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:10Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:10Z",
+    "message": "Stopping container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:10Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fb2a9a8b7f1",
+        "namespace": "default",
+        "resourceVersion": "348484",
+        "uid": "315ce8a0-2c60-4570-9804-6154fb7597c9"
+    },
+    "reason": "Killing",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:10Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:10Z",
+    "message": "Stopping container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:11Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fb2a9ca03e5",
+        "namespace": "default",
+        "resourceVersion": "348485",
+        "uid": "5b24bb76-71b3-48df-80bc-944bbe7cfa44"
+    },
+    "reason": "Killing",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:10Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:10Z",
+    "message": "Stopping container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:11Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fb2a9cd4277",
+        "namespace": "default",
+        "resourceVersion": "348486",
+        "uid": "e3341cd5-ab02-46ca-b664-aea1765f347d"
+    },
+    "reason": "Killing",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:10Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:10Z",
+    "message": "Stopping container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:11Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fb2a9e26931",
+        "namespace": "default",
+        "resourceVersion": "348487",
+        "uid": "937d9fac-e960-4dd5-9e61-95dfc458937d"
+    },
+    "reason": "Killing",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:10Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:10Z",
+    "message": "Stopping container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:11Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fb2a9e42b93",
+        "namespace": "default",
+        "resourceVersion": "348488",
+        "uid": "877a8155-a67f-4187-92ac-67ae0e20d543"
+    },
+    "reason": "Killing",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:10Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:10Z",
+    "message": "Stopping container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:11Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fb2a9f82f3a",
+        "namespace": "default",
+        "resourceVersion": "348489",
+        "uid": "04350a5d-7ba6-40ee-9691-d903d408e58a"
+    },
+    "reason": "Killing",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:10Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:10Z",
+    "message": "Stopping container istio-proxy",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:11Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fb2a9fa0d32",
+        "namespace": "default",
+        "resourceVersion": "348490",
+        "uid": "df917726-c5f8-4ae7-996b-4521f350c659"
+    },
+    "reason": "Killing",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:12Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c",
+        "namespace": "default",
+        "resourceVersion": "348368",
+        "uid": "8a439e1a-ddb4-4931-aa53-3291a5821f5e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:12Z",
+    "message": "Readiness probe failed: HTTP probe failed with statuscode: 503",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:12Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-6tk2c.18af6fb2f19cd6df",
+        "namespace": "default",
+        "resourceVersion": "348495",
+        "uid": "6a6768bd-d7af-40c7-bdd0-31059966ab79"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:12Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84",
+        "namespace": "default",
+        "resourceVersion": "348374",
+        "uid": "caf373ac-a931-4c09-9190-d840940824b6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:12Z",
+    "message": "Readiness probe failed: HTTP probe failed with statuscode: 503",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:12Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-5dk84.18af6fb2f3f66972",
+        "namespace": "default",
+        "resourceVersion": "348496",
+        "uid": "287e561a-28bc-44f0-9eeb-6a5dbc7bc211"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:12Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7",
+        "namespace": "default",
+        "resourceVersion": "348375",
+        "uid": "305aa537-151d-4f86-9719-2049b6c776b3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:12Z",
+    "message": "Readiness probe failed: HTTP probe failed with statuscode: 503",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:12Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-x7qv7.18af6fb2f46ed7b2",
+        "namespace": "default",
+        "resourceVersion": "348497",
+        "uid": "26cd0831-0472-4f76-aff7-661cbb171425"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-14T12:53:12Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{istio-proxy}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k",
+        "namespace": "default",
+        "resourceVersion": "348382",
+        "uid": "e373d8f5-eac2-415b-a27a-cebf63012c4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-14T12:53:12Z",
+    "message": "Readiness probe failed: HTTP probe failed with statuscode: 503",
+    "metadata": {
+        "creationTimestamp": "2026-05-14T12:53:12Z",
+        "name": "baseline-0cd-scale4-59cc7c9cff-8qv4k.18af6fb2f5d84c72",
+        "namespace": "default",
+        "resourceVersion": "348498",
+        "uid": "3ed5a652-f5ce-4034-aaee-d9cf19792e87"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}

@@ -1,0 +1,41 @@
+% ================================================================
+% TABLE 3 — CORE RELIABILITY AND DETERMINISM RESULTS
+% Auto-generated from automated_reliability_metrics.csv
+%              and determinism_scores.csv
+% ================================================================
+
+\begin{table*}[t]
+\centering
+\caption{Core Reliability Ratio ($R$) and Determinism ($D$) per Telemetry Source, Scenario, and Scale Tier ($n=10$ runs per active tier, $R$ = mean$\pm\sigma$, $D = 1 - \sigma_R/\mu_R$, clamped to $[0,1]$). \textbf{Bold} $R$ values: below forensic sufficiency threshold ($R < 0.80$). \textbf{Bold} $D$ values: below determinism threshold ($D < 0.70$). PCAP excluded from $R$ and $D$ computation (fixed-window collection; see \S\ref{sec:threats}). Disabled sources marked {---}; execution-excluded tiers marked {---$^\dagger$}.}
+\label{tab:core_reliability}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{lcccccccccccccccccccccccc}
+\hline
+\textbf{Source} & \multicolumn{6}{c}{\textbf{ScenA} (T1046)} & \multicolumn{6}{c}{\textbf{ScenB} (T1610+T1609)} & \multicolumn{6}{c}{\textbf{ScenC} (T1552.007)} & \multicolumn{6}{c}{\textbf{ScenD} (T1499.003)} \\
+\cmidrule(lr){2-7} \cmidrule(lr){8-13} \cmidrule(lr){14-19} \cmidrule(lr){20-25}
+ & \textbf{R}$_{\mathbf{4p}}$ & \textbf{D}$_{\mathbf{4p}}$ & \textbf{R}$_{\mathbf{50p}}$ & \textbf{D}$_{\mathbf{50p}}$ & \textbf{R}$_{\mathbf{100p}}$ & \textbf{D}$_{\mathbf{100p}}$ & \textbf{R}$_{\mathbf{4p}}$ & \textbf{D}$_{\mathbf{4p}}$ & \textbf{R}$_{\mathbf{50p}}$ & \textbf{D}$_{\mathbf{50p}}$ & \textbf{R}$_{\mathbf{100p}}$ & \textbf{D}$_{\mathbf{100p}}$ & \textbf{R}$_{\mathbf{4p}}$ & \textbf{D}$_{\mathbf{4p}}$ & \textbf{R}$_{\mathbf{50p}}$ & \textbf{D}$_{\mathbf{50p}}$ & \textbf{R}$_{\mathbf{100p}}$ & \textbf{D}$_{\mathbf{100p}}$ & \textbf{R}$_{\mathbf{4p}}$ & \textbf{D}$_{\mathbf{4p}}$ & \textbf{R}$_{\mathbf{50p}}$ & \textbf{D}$_{\mathbf{50p}}$ & \textbf{R}$_{\mathbf{100p}}$ & \textbf{D}$_{\mathbf{100p}}$ \\
+\hline
+\rowcolor[HTML]{F2F2F2}
+Audit & $1.00 \pm 0.11$ & $0.927$ & $0.97 \pm 0.11$ & $0.895$ & \textbf{$0.68 \pm 0.20$} & $0.713$ & $1.00 \pm 3.40$ & \textbf{$0.452$} & $0.86 \pm 0.21$ & $0.764$ & \multicolumn{1}{c}{---$^\dagger$} & \multicolumn{1}{c}{---$^\dagger$} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} \\
+Istio & $1.00 \pm 0.00$ & $1.000$ & $1.00 \pm 0.01$ & $0.992$ & \textbf{$0.74 \pm 0.31$} & \textbf{$0.609$} & $0.94 \pm 0.32$ & $0.752$ & \textbf{$0.31 \pm 0.08$} & $0.731$ & \multicolumn{1}{c}{---$^\dagger$} & \multicolumn{1}{c}{---$^\dagger$} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} \\
+\rowcolor[HTML]{F2F2F2}
+eBPF & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & \multicolumn{1}{c}{---} & $0.92 \pm 0.40$ & $0.705$ & \textbf{$0.56 \pm 0.18$} & \textbf{$0.686$} & \multicolumn{1}{c}{---$^\dagger$} & \multicolumn{1}{c}{---$^\dagger$} & \textbf{$0.57 \pm 0.00$} & $1.000$ & \textbf{$0.42 \pm 0.05$} & $0.879$ & \textbf{$0.55 \pm 0.00$} & $0.993$ & \textbf{$0.61 \pm 0.18$} & $0.713$ & \textbf{$0.43 \pm 0.00$} & $0.999$ & \textbf{$0.55 \pm 0.00$} & $0.994$ \\
+\midrule
+Fused & $1.00 \pm 0.06$ & $0.956$ & $0.98 \pm 0.07$ & $0.934$ & \textbf{$0.71 \pm 0.20$} & $0.717$ & $1.00 \pm 0.48$ & $0.754$ & \textbf{$0.61 \pm 0.11$} & $0.817$ & \multicolumn{1}{c}{---$^\dagger$} & \multicolumn{1}{c}{---$^\dagger$} & \textbf{$0.73 \pm 0.00$} & $1.000$ & \textbf{$0.44 \pm 0.05$} & $0.889$ & \textbf{$0.56 \pm 0.00$} & $0.994$ & \textbf{$0.76 \pm 0.11$} & $0.855$ & \textbf{$0.45 \pm 0.00$} & $0.999$ & \textbf{$0.56 \pm 0.00$} & $0.994$ \\
+\hline
+\end{tabular}
+\begin{flushleft}
+\scriptsize
+$R = \min(\bar{R}_{\mathrm{raw}},\,1.00)$ where $\bar{R}_{\mathrm{raw}} = \mu_{\mathrm{observed}} / \mu_{\mathrm{baseline}}$. $D = 1 - (\sigma_R / \mu_R)$, clamped to $[0,1]$; $D{=}1.000$ indicates perfectly reproducible event counts across all ten runs; $D < 0.70$ (bold) indicates forensically significant non-determinism.\\
+[2pt]
+$^\dagger$~ScenB at Scale~100p excluded ($n=1$; 9 of 10 trials failed due to single-node resource exhaustion under four-source concurrent capture; see \S\ref{sec:threats}).\\
+[2pt]
+PCAP omitted: NET\_FLOW count fixed at 100~packets per run by collection window design, rendering $R{=}1.00$ and $D{=}1.00$ by construction. PCAP is evaluated qualitatively in \S\ref{sec:results}.\\
+[2pt]
+Audit ScenB~4p raw $R_{\mathrm{raw}}{=}6.20$~($\sigma{=}3.40$) reflects adversarial event amplification prior to T1609 log deletion; $D{=}0.452$ is the lowest observed value in the dataset, quantifying stochastic flush-cycle timing variance under active tampering.
+\end{flushleft}
+\end{table*}
+
+% ================================================================

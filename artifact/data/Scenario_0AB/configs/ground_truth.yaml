@@ -1,0 +1,56 @@
+scenario_metadata:
+  id: "0-AB"
+  name: "Baseline Scalability and Forensic Reliability"
+  environment: "Kind-K8s-WSL2"
+  mesh_enabled: true
+  forensic_sensors: ["AuditLog", "IstioEnvoy",]
+
+ground_truth_definitions:
+  batch_1:
+    trial_range: [1, 10]
+    scale_factor: 4
+    expected_objects: 4
+    intent: "Steady-state baseline"
+  batch_2:
+    trial_range: [11, 20]
+    scale_factor: 50
+    expected_objects: 50
+    intent: "Moderate workload load testing"
+  batch_3:
+    trial_range: [21, 30]
+    scale_factor: 100
+    expected_objects: 100
+    intent: "High-density stress and saturation testing"
+
+verification_logic:
+  primary_key: "objectRef.name"
+  success_condition: "Unique_UID_Count == scale_factor"
+
+scenario_metadata:
+  id: "0-CD"
+  name: "Kernel-Network Baseline and Low-Level Telemetry Evaluation"
+  environment: "Kind-K8s-WSL2"
+  mesh_enabled: true
+  forensic_sensors: ["PCAP", "eBPF", "DockerStats"]
+
+ground_truth_definitions:
+  batch_1:
+    trial_range: [1, 10]
+    scale_factor: 4
+    expected_objects: 4
+    intent: "Kernel/Network steady-state baseline"
+  batch_2:
+    trial_range: [11, 20]
+    scale_factor: 50
+    expected_objects: 50
+    intent: "Syscall and Packet density evaluation"
+  batch_3:
+    trial_range: [21, 30]
+    scale_factor: 100
+    expected_objects: 100
+    intent: "Kernel saturation and Network buffer stress testing"
+
+verification_logic:
+  primary_key: "process.executable"  # eBPF primary key
+  secondary_key: "frame.number"      # PCAP primary key
+  success_condition: "Unique_Process_Exec_Count >= scale_factor"

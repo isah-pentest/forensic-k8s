@@ -1,0 +1,5809 @@
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:29Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qgc8g",
+        "namespace": "default",
+        "resourceVersion": "166458",
+        "uid": "8d6f9a63-d675-4e96-b68f-85eefa579de5"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:29Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:29Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qgc8g.18b067d7ee9dfe3b",
+        "namespace": "default",
+        "resourceVersion": "167558",
+        "uid": "8110b7ac-f49a-4c41-bfaf-32d1c8a78604"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zpgrd",
+        "namespace": "default",
+        "resourceVersion": "166653",
+        "uid": "1026600b-6cbd-4978-a753-0dac724ec434"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zpgrd.18b067d7fc973a67",
+        "namespace": "default",
+        "resourceVersion": "167561",
+        "uid": "eef2825c-c745-466c-9781-f8c9cca8f6ea"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zsvjr",
+        "namespace": "default",
+        "resourceVersion": "166642",
+        "uid": "bb903e5a-ebc7-4889-aee2-9b8b6158c94c"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zsvjr.18b067d7fe4d3e24",
+        "namespace": "default",
+        "resourceVersion": "167563",
+        "uid": "b543c132-d087-445c-adb2-a66821c56c84"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-p8h7m",
+        "namespace": "default",
+        "resourceVersion": "166561",
+        "uid": "a331d775-efa0-499f-9065-f0c80ffc6362"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-p8h7m.18b067d804ca6305",
+        "namespace": "default",
+        "resourceVersion": "167564",
+        "uid": "ccee67c0-7bc0-455e-bfee-316ffec0925b"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-4scps",
+        "namespace": "default",
+        "resourceVersion": "166726",
+        "uid": "bbe7096c-66b1-4467-b7fa-08ecf9441703"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-4scps.18b067d80a528cfd",
+        "namespace": "default",
+        "resourceVersion": "167565",
+        "uid": "bd0d38a7-df88-4665-944e-220d765732b0"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-srrfx",
+        "namespace": "default",
+        "resourceVersion": "166610",
+        "uid": "e5264fec-e241-43eb-9caf-f342b82c16c7"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-srrfx.18b067d80c0dec20",
+        "namespace": "default",
+        "resourceVersion": "167566",
+        "uid": "80711a0d-804c-4919-84b0-bce127037c7f"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zpgrd",
+        "namespace": "default",
+        "resourceVersion": "166653",
+        "uid": "1026600b-6cbd-4978-a753-0dac724ec434"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zpgrd.18b067d8101c11e6",
+        "namespace": "default",
+        "resourceVersion": "167567",
+        "uid": "0b68a762-2190-4169-ac67-cd54617fe27b"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 5,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:17Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{coredns}",
+        "kind": "Pod",
+        "name": "coredns-6f6b679f8f-4cr7r",
+        "namespace": "kube-system",
+        "resourceVersion": "166858",
+        "uid": "8b68477c-46de-463f-b5ef-3194371e7509"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Readiness probe failed: HTTP probe failed with statuscode: 503",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:17Z",
+        "name": "coredns-6f6b679f8f-4cr7r.18b067d521c01279",
+        "namespace": "kube-system",
+        "resourceVersion": "167568",
+        "uid": "af4bb2a0-8661-4052-80f5-78ac9f3a3193"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-srrfx",
+        "namespace": "default",
+        "resourceVersion": "166610",
+        "uid": "e5264fec-e241-43eb-9caf-f342b82c16c7"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-srrfx.18b067d81e99aa9a",
+        "namespace": "default",
+        "resourceVersion": "167569",
+        "uid": "e8fcd992-aefa-415e-ac10-e8fd5fd2143e"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-5pjgz",
+        "namespace": "default",
+        "resourceVersion": "166643",
+        "uid": "bb7b75b4-ef39-4a0d-8fe5-f828f17f1ca3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-5pjgz.18b067d8200c4d0c",
+        "namespace": "default",
+        "resourceVersion": "167570",
+        "uid": "af9f900e-ca3f-4c0e-a980-f47ea40d2f82"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-hk7hj",
+        "namespace": "default",
+        "resourceVersion": "166602",
+        "uid": "22fb10a4-d2a7-499a-b306-6d1330ce213a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-hk7hj.18b067d823b39a93",
+        "namespace": "default",
+        "resourceVersion": "167571",
+        "uid": "f1050fe2-e6c6-463c-b5c6-ddac8dc9d523"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qcgwr",
+        "namespace": "default",
+        "resourceVersion": "166618",
+        "uid": "ffd688fb-16f4-44b2-bbd6-ea221feeaff6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qcgwr.18b067d82822b026",
+        "namespace": "default",
+        "resourceVersion": "167573",
+        "uid": "bb13a78e-2985-47fc-a19a-726fd8b5978e"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:30Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xdrjs",
+        "namespace": "default",
+        "resourceVersion": "166751",
+        "uid": "b0e63639-8665-4296-b935-2b4ec96f42a9"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:30Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:30Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xdrjs.18b067d82946333e",
+        "namespace": "default",
+        "resourceVersion": "167575",
+        "uid": "e6f4f14b-e628-4a19-8886-879bac6ff197"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-hk7hj",
+        "namespace": "default",
+        "resourceVersion": "166602",
+        "uid": "22fb10a4-d2a7-499a-b306-6d1330ce213a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-hk7hj.18b067d8313cb253",
+        "namespace": "default",
+        "resourceVersion": "167577",
+        "uid": "2ad01408-171d-4f38-8693-5036728fca19"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xdrjs",
+        "namespace": "default",
+        "resourceVersion": "166751",
+        "uid": "b0e63639-8665-4296-b935-2b4ec96f42a9"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xdrjs.18b067d832ca9c51",
+        "namespace": "default",
+        "resourceVersion": "167578",
+        "uid": "3fbcec3d-a8d0-49bb-9a80-30d2bf9d8bdf"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gnbpd",
+        "namespace": "default",
+        "resourceVersion": "166461",
+        "uid": "9b16f529-710e-4c15-8896-0286a189ae9d"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gnbpd.18b067d84361cfa7",
+        "namespace": "default",
+        "resourceVersion": "167579",
+        "uid": "e4477a87-5303-4bf8-a923-b55f2426394d"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7szrk",
+        "namespace": "default",
+        "resourceVersion": "166755",
+        "uid": "bdba2ffd-86c2-4240-9afb-8a177392f08a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7szrk.18b067d8452b7b5b",
+        "namespace": "default",
+        "resourceVersion": "167580",
+        "uid": "c03580ef-0f1b-4231-a38a-6d0a246b6301"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7ds5g",
+        "namespace": "default",
+        "resourceVersion": "166843",
+        "uid": "afc49cc8-91cc-4817-81cd-6e4015a97b29"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7ds5g.18b067d8477a4923",
+        "namespace": "default",
+        "resourceVersion": "167581",
+        "uid": "b7590027-6b86-482f-8eb1-971a8cffc1bc"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-rp2jv",
+        "namespace": "default",
+        "resourceVersion": "166709",
+        "uid": "c0e40b7c-aa6b-4400-95b2-5c723a7e11ca"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-rp2jv.18b067d84785a851",
+        "namespace": "default",
+        "resourceVersion": "167582",
+        "uid": "f7ab820c-f9e4-40f4-9cf6-b39ac4c7d546"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-lpjrm",
+        "namespace": "default",
+        "resourceVersion": "166801",
+        "uid": "c997fc61-e628-4d63-bcce-3621d31cb5ef"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-lpjrm.18b067d855189068",
+        "namespace": "default",
+        "resourceVersion": "167583",
+        "uid": "88077fb1-1631-4e7f-bfdb-b09bd643f8b8"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2kxqp",
+        "namespace": "default",
+        "resourceVersion": "166677",
+        "uid": "bf8d1627-97dd-4b7c-92ce-862ad6095332"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2kxqp.18b067d8583a2897",
+        "namespace": "default",
+        "resourceVersion": "167584",
+        "uid": "d48ae5c3-ba7e-484b-9403-4888ca60e80b"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7ds5g",
+        "namespace": "default",
+        "resourceVersion": "166843",
+        "uid": "afc49cc8-91cc-4817-81cd-6e4015a97b29"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7ds5g.18b067d85b39c964",
+        "namespace": "default",
+        "resourceVersion": "167585",
+        "uid": "aca9e8af-abb7-43ce-b10b-6ac902a430ba"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-lpjrm",
+        "namespace": "default",
+        "resourceVersion": "166801",
+        "uid": "c997fc61-e628-4d63-bcce-3621d31cb5ef"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-lpjrm.18b067d85dd81ac6",
+        "namespace": "default",
+        "resourceVersion": "167586",
+        "uid": "27fe4cbb-51c6-4093-9978-d4798e476088"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-rp2jv",
+        "namespace": "default",
+        "resourceVersion": "166709",
+        "uid": "c0e40b7c-aa6b-4400-95b2-5c723a7e11ca"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-rp2jv.18b067d85ddfc53e",
+        "namespace": "default",
+        "resourceVersion": "167587",
+        "uid": "1b31b712-35a9-406e-93e2-59f53950af0d"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qhdkf",
+        "namespace": "default",
+        "resourceVersion": "166659",
+        "uid": "6b885135-f7d8-462c-9605-ae40c4f18249"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qhdkf.18b067d861e05c27",
+        "namespace": "default",
+        "resourceVersion": "167588",
+        "uid": "247d30ed-15a8-4a9d-ba84-a50eef0bb6de"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2wn7r",
+        "namespace": "default",
+        "resourceVersion": "166782",
+        "uid": "c350d12b-43f7-467c-bb85-ab945256ee2b"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2wn7r.18b067d8639bbb39",
+        "namespace": "default",
+        "resourceVersion": "167589",
+        "uid": "fbced5b5-fc2f-4fc6-ade5-b309e8ee7bcd"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:31Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-blrnb",
+        "namespace": "default",
+        "resourceVersion": "166719",
+        "uid": "6687adf7-479e-47b3-af5f-31a85f776d18"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:31Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:31Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-blrnb.18b067d867aa53bb",
+        "namespace": "default",
+        "resourceVersion": "167590",
+        "uid": "62df8708-d2bc-483b-8e3b-7d21eccd1f87"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-44j8r",
+        "namespace": "default",
+        "resourceVersion": "166648",
+        "uid": "48ca41cb-8baa-4643-a18d-e43805e91b1f"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-44j8r.18b067d87659b15a",
+        "namespace": "default",
+        "resourceVersion": "167591",
+        "uid": "b0cd73ba-f2af-45c3-b969-b9ed8dce38e4"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-t79bn",
+        "namespace": "default",
+        "resourceVersion": "166779",
+        "uid": "16b2f274-a629-414a-b865-70cd1faffa51"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-t79bn.18b067d8793feb6b",
+        "namespace": "default",
+        "resourceVersion": "167592",
+        "uid": "d8321684-b823-4e86-a157-8c2b92e68415"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-wl7hk",
+        "namespace": "default",
+        "resourceVersion": "166795",
+        "uid": "e1de2364-f901-4587-8428-2ed0a0ab93cc"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-wl7hk.18b067d881151789",
+        "namespace": "default",
+        "resourceVersion": "167594",
+        "uid": "0a2879ea-b1c4-49d9-a9d1-5cb58aba8b44"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-l2hvt",
+        "namespace": "default",
+        "resourceVersion": "166674",
+        "uid": "4f51bbeb-858f-4917-a8ad-b435297254d8"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-l2hvt.18b067d88284616a",
+        "namespace": "default",
+        "resourceVersion": "167595",
+        "uid": "1899b318-cabd-4afb-91ba-739fa0ff345a"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7vrf6",
+        "namespace": "default",
+        "resourceVersion": "166721",
+        "uid": "24fdc7b0-4d14-44e6-99b5-53831a413f5a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7vrf6.18b067d882b5285e",
+        "namespace": "default",
+        "resourceVersion": "167596",
+        "uid": "0a196e33-817b-4f44-8928-ffce6699bdaa"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-fr2n4",
+        "namespace": "default",
+        "resourceVersion": "166807",
+        "uid": "6cd199cf-a137-4880-a319-7671a3767b8e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-fr2n4.18b067d88470cb5e",
+        "namespace": "default",
+        "resourceVersion": "167597",
+        "uid": "902946b5-f5ed-4bc2-9ecb-d753e348f61d"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-bcv8r",
+        "namespace": "default",
+        "resourceVersion": "166656",
+        "uid": "5a213718-dad7-42eb-b8dd-27dd67685344"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-bcv8r.18b067d885a174e0",
+        "namespace": "default",
+        "resourceVersion": "167598",
+        "uid": "7353d14f-2bd1-4122-a677-f45c0ff10cd3"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xqqbt",
+        "namespace": "default",
+        "resourceVersion": "166797",
+        "uid": "47df4892-7eec-45e2-b7d4-9ecc1e7c5b51"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xqqbt.18b067d88f0512c1",
+        "namespace": "default",
+        "resourceVersion": "167602",
+        "uid": "b66eb28f-d461-4849-8922-f1dca6aaebea"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "coordination.k8s.io/v1",
+        "kind": "Lease",
+        "name": "kube-controller-manager",
+        "namespace": "kube-system",
+        "resourceVersion": "167600",
+        "uid": "e4aab84b-b4db-4fb0-b045-fe47688844a2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "forensic-k8s-control-plane_353a8f43-e270-48ab-b8f9-9327015c7441 became leader",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "kube-controller-manager.18b067d88e5ced9d",
+        "namespace": "kube-system",
+        "resourceVersion": "167603",
+        "uid": "77565a74-d5f4-445f-bc37-65844ac991f5"
+    },
+    "reason": "LeaderElection",
+    "reportingComponent": "kube-controller-manager",
+    "reportingInstance": "",
+    "source": {
+        "component": "kube-controller-manager"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-fr2n4",
+        "namespace": "default",
+        "resourceVersion": "166807",
+        "uid": "6cd199cf-a137-4880-a319-7671a3767b8e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-fr2n4.18b067d897f7d77c",
+        "namespace": "default",
+        "resourceVersion": "167604",
+        "uid": "50245bac-79e7-45e5-bb08-0dcc342aa869"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7vrf6",
+        "namespace": "default",
+        "resourceVersion": "166721",
+        "uid": "24fdc7b0-4d14-44e6-99b5-53831a413f5a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7vrf6.18b067d8980e2db8",
+        "namespace": "default",
+        "resourceVersion": "167606",
+        "uid": "10a0c6e7-1481-4f04-8af0-65b9d53cb723"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kw2g4",
+        "namespace": "default",
+        "resourceVersion": "166825",
+        "uid": "5d50af22-2227-4a50-86df-d2e1151c4ba2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kw2g4.18b067d89a2e9e07",
+        "namespace": "default",
+        "resourceVersion": "167607",
+        "uid": "8a7647c4-16eb-44dc-bc17-73ef6ab8b167"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:32Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-x547t",
+        "namespace": "default",
+        "resourceVersion": "166694",
+        "uid": "91d9d161-9985-43c5-b204-21730934eb31"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:32Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:32Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-x547t.18b067d89d8dc84e",
+        "namespace": "default",
+        "resourceVersion": "167608",
+        "uid": "dfecf957-f10c-4923-b168-f1f7c2679b8a"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xskwp",
+        "namespace": "default",
+        "resourceVersion": "166701",
+        "uid": "6c6e59d7-145e-409c-aacd-1f369f46e8f9"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xskwp.18b067d8b1e5408a",
+        "namespace": "default",
+        "resourceVersion": "167614",
+        "uid": "4cabc13b-860c-42ad-8b87-958b6a801d25"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-ljlbw",
+        "namespace": "default",
+        "resourceVersion": "166698",
+        "uid": "3264e8d1-ae90-471c-9ff8-16cfa65fd654"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-ljlbw.18b067d8b35beddd",
+        "namespace": "default",
+        "resourceVersion": "167616",
+        "uid": "8b40bb0b-0ba4-4712-b258-2e262b12bbbd"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-shzv9",
+        "namespace": "default",
+        "resourceVersion": "166716",
+        "uid": "c877e75d-4e2e-48a5-8a93-0c3a9be35b68"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-shzv9.18b067d8bb093704",
+        "namespace": "default",
+        "resourceVersion": "167618",
+        "uid": "8868ef85-5265-4def-b404-1346f4567e54"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nl6tp",
+        "namespace": "default",
+        "resourceVersion": "166788",
+        "uid": "9dac82a8-8851-4701-8965-c55974ab871f"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nl6tp.18b067d8bbf629bf",
+        "namespace": "default",
+        "resourceVersion": "167620",
+        "uid": "0a186a1f-07c6-46ab-ae51-23baa36fcd93"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-shzv9",
+        "namespace": "default",
+        "resourceVersion": "166716",
+        "uid": "c877e75d-4e2e-48a5-8a93-0c3a9be35b68"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-shzv9.18b067d8c0bf24bc",
+        "namespace": "default",
+        "resourceVersion": "167622",
+        "uid": "c6a07804-fde6-45d6-bfdd-d749e489ac16"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-8gl79",
+        "namespace": "default",
+        "resourceVersion": "166672",
+        "uid": "a7044731-73c0-43c5-bd8b-527d67bdf186"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-8gl79.18b067d8c4c1cfcd",
+        "namespace": "default",
+        "resourceVersion": "167624",
+        "uid": "77e495ec-cfe4-4dd9-9aef-8bd2737210f7"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nl6tp",
+        "namespace": "default",
+        "resourceVersion": "166788",
+        "uid": "9dac82a8-8851-4701-8965-c55974ab871f"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nl6tp.18b067d8c52aade2",
+        "namespace": "default",
+        "resourceVersion": "167625",
+        "uid": "d65a97bb-45bb-43dc-9716-05a8913ed3fd"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-9q66l",
+        "namespace": "default",
+        "resourceVersion": "166761",
+        "uid": "cfc5f0bf-6a79-43f1-bb58-08c9286d70d0"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-9q66l.18b067d8c6faa0de",
+        "namespace": "default",
+        "resourceVersion": "167626",
+        "uid": "c3ca29e4-b4db-4bc4-8f79-7f09505f80e0"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 4,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:20Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{coredns}",
+        "kind": "Pod",
+        "name": "coredns-6f6b679f8f-bs7g7",
+        "namespace": "kube-system",
+        "resourceVersion": "166865",
+        "uid": "5d61e90a-8669-4316-a6d6-0508d5bae6a9"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Readiness probe failed: HTTP probe failed with statuscode: 503",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:20Z",
+        "name": "coredns-6f6b679f8f-bs7g7.18b067d5b5913f88",
+        "namespace": "kube-system",
+        "resourceVersion": "167627",
+        "uid": "e57ae8c5-a4a3-41a5-842b-075540d8f738"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 3,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:21Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{tetragon-operator}",
+        "kind": "Pod",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m",
+        "namespace": "kube-system",
+        "resourceVersion": "166907",
+        "uid": "8e77b37e-d33c-42e2-9af2-9032142e1e8a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Readiness probe failed: Get \"http://10.244.0.4:8081/readyz\": dial tcp 10.244.0.4:8081: connect: connection refused",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:21Z",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m.18b067d5da88c0e4",
+        "namespace": "kube-system",
+        "resourceVersion": "167628",
+        "uid": "ea23acd1-6a92-4459-905a-f1b9541185ba"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-8gl79",
+        "namespace": "default",
+        "resourceVersion": "166672",
+        "uid": "a7044731-73c0-43c5-bd8b-527d67bdf186"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-8gl79.18b067d8cafd6602",
+        "namespace": "default",
+        "resourceVersion": "167629",
+        "uid": "13b3b3c6-d19d-4870-9bd6-e202a6c4ec95"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-njc5k",
+        "namespace": "default",
+        "resourceVersion": "166713",
+        "uid": "e824dd34-75eb-4b8a-b928-1d0c9f7faa1b"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-njc5k.18b067d8cb25a57f",
+        "namespace": "default",
+        "resourceVersion": "167630",
+        "uid": "9dcbacaa-27cc-47a5-8311-5d5639117ea3"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xlqvt",
+        "namespace": "default",
+        "resourceVersion": "166837",
+        "uid": "c284cfc3-5c8a-44f8-81e3-a3ca4eac8df0"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xlqvt.18b067d8cc1d0fe1",
+        "namespace": "default",
+        "resourceVersion": "167631",
+        "uid": "dcf57685-e83a-4b2f-997b-11c78e7e5ac9"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-c942p",
+        "namespace": "default",
+        "resourceVersion": "166623",
+        "uid": "dbbd9b7d-4be9-4dc6-bb9f-b4d999f961f6"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-c942p.18b067d8cc93f986",
+        "namespace": "default",
+        "resourceVersion": "167632",
+        "uid": "3d3cac1a-a72b-4f4c-b7cc-a85618a78f94"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nxrtb",
+        "namespace": "default",
+        "resourceVersion": "166594",
+        "uid": "10854f3e-4a1e-4c6b-acf3-1abafc6a43c5"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nxrtb.18b067d8d27ac610",
+        "namespace": "default",
+        "resourceVersion": "167633",
+        "uid": "a28d1e11-cfbf-4746-93df-145fabd2b04f"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-njc5k",
+        "namespace": "default",
+        "resourceVersion": "166713",
+        "uid": "e824dd34-75eb-4b8a-b928-1d0c9f7faa1b"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-njc5k.18b067d8d30ef978",
+        "namespace": "default",
+        "resourceVersion": "167634",
+        "uid": "0a0953f3-31cb-420f-918f-99b83319af6d"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:33Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kp7xp",
+        "namespace": "default",
+        "resourceVersion": "166774",
+        "uid": "133ea8e0-4c91-4250-abb6-4de8101b2e25"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:33Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:33Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kp7xp.18b067d8e040a78c",
+        "namespace": "default",
+        "resourceVersion": "167635",
+        "uid": "7f936459-b450-4895-955b-e05040a5b9e8"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-4scps",
+        "namespace": "default",
+        "resourceVersion": "166726",
+        "uid": "bbe7096c-66b1-4467-b7fa-08ecf9441703"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-4scps.18b067d8e3bf4bb0",
+        "namespace": "default",
+        "resourceVersion": "167636",
+        "uid": "fabe9284-d8fd-400e-8a94-608e27ddb23c"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xdrjs",
+        "namespace": "default",
+        "resourceVersion": "166751",
+        "uid": "b0e63639-8665-4296-b935-2b4ec96f42a9"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xdrjs.18b067d8e3bf7d02",
+        "namespace": "default",
+        "resourceVersion": "167637",
+        "uid": "bab29a46-4ea5-48c5-805f-c6895b2b42b5"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xlqvt",
+        "namespace": "default",
+        "resourceVersion": "166837",
+        "uid": "c284cfc3-5c8a-44f8-81e3-a3ca4eac8df0"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xlqvt.18b067d8e5a80e8f",
+        "namespace": "default",
+        "resourceVersion": "167638",
+        "uid": "9fdd6c85-a638-4cde-82f3-9446e1ffa9b9"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-m6xkt",
+        "namespace": "default",
+        "resourceVersion": "166745",
+        "uid": "ac7fae4b-8175-4d15-b93c-8204d4c96ba5"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-m6xkt.18b067d8e7b8ad3e",
+        "namespace": "default",
+        "resourceVersion": "167639",
+        "uid": "514fed00-ca86-4edd-93be-2471018229f5"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kfg4c",
+        "namespace": "default",
+        "resourceVersion": "166810",
+        "uid": "070ef1c5-36cf-494a-b84c-9df11ff6b4fa"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kfg4c.18b067d8e7e59752",
+        "namespace": "default",
+        "resourceVersion": "167642",
+        "uid": "cd152e30-ca19-4f06-bae0-c7b9db1aa991"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-4scps",
+        "namespace": "default",
+        "resourceVersion": "166726",
+        "uid": "bbe7096c-66b1-4467-b7fa-08ecf9441703"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-4scps.18b067d8eebc1457",
+        "namespace": "default",
+        "resourceVersion": "167644",
+        "uid": "98be3f0d-27bf-451a-bbd9-25b4f381d383"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-srrfx",
+        "namespace": "default",
+        "resourceVersion": "166610",
+        "uid": "e5264fec-e241-43eb-9caf-f342b82c16c7"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-srrfx.18b067d8f11e8cf9",
+        "namespace": "default",
+        "resourceVersion": "167645",
+        "uid": "e88cfe7e-eae7-412b-848d-1b3cc816b148"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Node",
+        "name": "forensic-k8s-control-plane",
+        "uid": "76aff854-0899-49a3-a8e3-09d9c4c44349"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Node forensic-k8s-control-plane event: Registered Node forensic-k8s-control-plane in Controller",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "forensic-k8s-control-plane.18b067d8f2d82a16",
+        "namespace": "default",
+        "resourceVersion": "167646",
+        "uid": "9eddfbd4-4037-4223-9642-1a441f186d24"
+    },
+    "reason": "RegisteredNode",
+    "reportingComponent": "node-controller",
+    "reportingInstance": "",
+    "source": {
+        "component": "node-controller"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:34Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-dcgxv",
+        "namespace": "default",
+        "resourceVersion": "166834",
+        "uid": "da4df8bd-64f1-43c4-afe5-57422d71ad84"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:34Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:34Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-dcgxv.18b067d8f4ce6ae8",
+        "namespace": "default",
+        "resourceVersion": "167647",
+        "uid": "5f59efe5-d771-4379-bd5b-b100c109958b"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-hk7hj",
+        "namespace": "default",
+        "resourceVersion": "166602",
+        "uid": "22fb10a4-d2a7-499a-b306-6d1330ce213a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-hk7hj.18b067d925605836",
+        "namespace": "default",
+        "resourceVersion": "167663",
+        "uid": "a4adae65-61d5-4d8d-9898-441e3f2805cc"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-lpjrm",
+        "namespace": "default",
+        "resourceVersion": "166801",
+        "uid": "c997fc61-e628-4d63-bcce-3621d31cb5ef"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-lpjrm.18b067d92668cc86",
+        "namespace": "default",
+        "resourceVersion": "167664",
+        "uid": "b63853aa-e62d-47fd-9b38-57237c05c457"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-mqb5m",
+        "namespace": "default",
+        "resourceVersion": "166785",
+        "uid": "aebb0668-71b7-474c-a437-75a61dc1dbac"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-mqb5m.18b067d9277a8fdd",
+        "namespace": "default",
+        "resourceVersion": "167667",
+        "uid": "edb35e64-a358-4f1b-95c6-18905edf53ce"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zsvjr",
+        "namespace": "default",
+        "resourceVersion": "166642",
+        "uid": "bb903e5a-ebc7-4889-aee2-9b8b6158c94c"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zsvjr.18b067d929dd5657",
+        "namespace": "default",
+        "resourceVersion": "167669",
+        "uid": "d65cbcd6-044e-4a70-97cd-01a8115a119f"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-g6b85",
+        "namespace": "default",
+        "resourceVersion": "166828",
+        "uid": "b18c7df5-ede5-4e75-b65b-223f6df08485"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-g6b85.18b067d929e3c5bf",
+        "namespace": "default",
+        "resourceVersion": "167670",
+        "uid": "5ac07bbd-2db8-425b-a902-6ac412fcb143"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-rp2jv",
+        "namespace": "default",
+        "resourceVersion": "166709",
+        "uid": "c0e40b7c-aa6b-4400-95b2-5c723a7e11ca"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-rp2jv.18b067d92d510501",
+        "namespace": "default",
+        "resourceVersion": "167671",
+        "uid": "f3269e40-b5c4-49d2-a493-df66d82f155e"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zsvjr",
+        "namespace": "default",
+        "resourceVersion": "166642",
+        "uid": "bb903e5a-ebc7-4889-aee2-9b8b6158c94c"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zsvjr.18b067d937a9f97f",
+        "namespace": "default",
+        "resourceVersion": "167672",
+        "uid": "a72126a8-1903-4224-bb56-42bf0de4075a"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cp7fh",
+        "namespace": "default",
+        "resourceVersion": "166776",
+        "uid": "435b656c-e581-4d35-ae70-0f45065550d4"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cp7fh.18b067d93b29919a",
+        "namespace": "default",
+        "resourceVersion": "167673",
+        "uid": "5c4c2362-da9f-4c6a-81fa-9b22db99db92"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-6d8lw",
+        "namespace": "default",
+        "resourceVersion": "166840",
+        "uid": "71bb73c2-ecfe-4618-b879-100474be3dbc"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-6d8lw.18b067d93b57c8ad",
+        "namespace": "default",
+        "resourceVersion": "167674",
+        "uid": "8a470f83-b0c7-44ef-b232-c7d3d35f2e0b"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7ds5g",
+        "namespace": "default",
+        "resourceVersion": "166843",
+        "uid": "afc49cc8-91cc-4817-81cd-6e4015a97b29"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7ds5g.18b067d93f8f5e98",
+        "namespace": "default",
+        "resourceVersion": "167675",
+        "uid": "a003ee49-27a5-46cb-a92e-95dba3e27203"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-njc5k",
+        "namespace": "default",
+        "resourceVersion": "166713",
+        "uid": "e824dd34-75eb-4b8a-b928-1d0c9f7faa1b"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-njc5k.18b067d95320e4ed",
+        "namespace": "default",
+        "resourceVersion": "167682",
+        "uid": "c4b8fee5-2f3c-4827-b8a8-d0ae28611343"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-fr2n4",
+        "namespace": "default",
+        "resourceVersion": "166807",
+        "uid": "6cd199cf-a137-4880-a319-7671a3767b8e"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:35Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-fr2n4.18b067d953257a7d",
+        "namespace": "default",
+        "resourceVersion": "167684",
+        "uid": "9b07e5fa-9045-4473-98c8-0eaade91e498"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zpgrd",
+        "namespace": "default",
+        "resourceVersion": "166653",
+        "uid": "1026600b-6cbd-4978-a753-0dac724ec434"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zpgrd.18b067d954448f2e",
+        "namespace": "default",
+        "resourceVersion": "167686",
+        "uid": "65b3f94f-1552-4cde-8456-61beab4be1da"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:35Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nl6tp",
+        "namespace": "default",
+        "resourceVersion": "166788",
+        "uid": "9dac82a8-8851-4701-8965-c55974ab871f"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:35Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nl6tp.18b067d955f6409d",
+        "namespace": "default",
+        "resourceVersion": "167688",
+        "uid": "edd0b5f1-7c4c-4b13-ac89-a87377b8549d"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j9dx2",
+        "namespace": "default",
+        "resourceVersion": "166704",
+        "uid": "7e7186d4-6175-4c9d-84c7-e0fb8f9f21a2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j9dx2.18b067d97236e64b",
+        "namespace": "default",
+        "resourceVersion": "167695",
+        "uid": "c80a3f50-f559-402e-8a5c-12f39b1fce29"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cw9zj",
+        "namespace": "default",
+        "resourceVersion": "166738",
+        "uid": "cca2d92d-9437-41af-8c81-43e8ed143624"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cw9zj.18b067d972ed4e91",
+        "namespace": "default",
+        "resourceVersion": "167696",
+        "uid": "9c17e4a1-3761-4f50-be5c-d35e0f6d82a3"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-5pjgz",
+        "namespace": "default",
+        "resourceVersion": "166643",
+        "uid": "bb7b75b4-ef39-4a0d-8fe5-f828f17f1ca3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-5pjgz.18b067d97606a035",
+        "namespace": "default",
+        "resourceVersion": "167697",
+        "uid": "4fe4854f-e60f-409e-83d2-48ba8823cfad"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-5pjgz",
+        "namespace": "default",
+        "resourceVersion": "166643",
+        "uid": "bb7b75b4-ef39-4a0d-8fe5-f828f17f1ca3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-5pjgz.18b067d97c7a6837",
+        "namespace": "default",
+        "resourceVersion": "167700",
+        "uid": "e53de2c7-7cab-4b7e-a130-8e604be938fb"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7vrf6",
+        "namespace": "default",
+        "resourceVersion": "166721",
+        "uid": "24fdc7b0-4d14-44e6-99b5-53831a413f5a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7vrf6.18b067d97f0cdb0c",
+        "namespace": "default",
+        "resourceVersion": "167702",
+        "uid": "3509d6ff-6bb5-4d5f-bc19-f65ae3991fec"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7szrk",
+        "namespace": "default",
+        "resourceVersion": "166755",
+        "uid": "bdba2ffd-86c2-4240-9afb-8a177392f08a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7szrk.18b067d98a662b4f",
+        "namespace": "default",
+        "resourceVersion": "167704",
+        "uid": "753090ba-4fa7-44ea-8476-f804e2e8ba90"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2kxqp",
+        "namespace": "default",
+        "resourceVersion": "166677",
+        "uid": "bf8d1627-97dd-4b7c-92ce-862ad6095332"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2kxqp.18b067d98e0e5982",
+        "namespace": "default",
+        "resourceVersion": "167705",
+        "uid": "2fbacbcd-87a5-4f51-928c-0b8e89040e68"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-shzv9",
+        "namespace": "default",
+        "resourceVersion": "166716",
+        "uid": "c877e75d-4e2e-48a5-8a93-0c3a9be35b68"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-shzv9.18b067d98e92373b",
+        "namespace": "default",
+        "resourceVersion": "167706",
+        "uid": "c3f75ceb-dbf7-439b-afb1-3f4d2e0460cc"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-bcv8r",
+        "namespace": "default",
+        "resourceVersion": "166656",
+        "uid": "5a213718-dad7-42eb-b8dd-27dd67685344"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-bcv8r.18b067d9912ce56c",
+        "namespace": "default",
+        "resourceVersion": "167707",
+        "uid": "2496a547-9d43-4df7-a3eb-004c03a02c9e"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:36Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7szrk",
+        "namespace": "default",
+        "resourceVersion": "166755",
+        "uid": "bdba2ffd-86c2-4240-9afb-8a177392f08a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:36Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:36Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7szrk.18b067d9928c89a6",
+        "namespace": "default",
+        "resourceVersion": "167708",
+        "uid": "dde4f263-10e1-4db8-a31e-b4f1bfa2ef31"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2kxqp",
+        "namespace": "default",
+        "resourceVersion": "166677",
+        "uid": "bf8d1627-97dd-4b7c-92ce-862ad6095332"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2kxqp.18b067d996131fff",
+        "namespace": "default",
+        "resourceVersion": "167710",
+        "uid": "280df101-4588-43ef-8768-60db52d0a301"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-bcv8r",
+        "namespace": "default",
+        "resourceVersion": "166656",
+        "uid": "5a213718-dad7-42eb-b8dd-27dd67685344"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-bcv8r.18b067d997860454",
+        "namespace": "default",
+        "resourceVersion": "167711",
+        "uid": "7deb03ea-7f3c-4cb1-b566-2fa08d922baa"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-k7hm4",
+        "namespace": "default",
+        "resourceVersion": "166819",
+        "uid": "3a701537-c5ec-4af5-ada1-a7e31f41fa2b"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-k7hm4.18b067d9a16b01ba",
+        "namespace": "default",
+        "resourceVersion": "167712",
+        "uid": "e748d507-d6ab-4f90-b6e5-7292b6b99e78"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-s8n4w",
+        "namespace": "default",
+        "resourceVersion": "166805",
+        "uid": "fbe5e585-a994-4a49-a0ab-7942e16faf77"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-s8n4w.18b067d9a24fc27c",
+        "namespace": "default",
+        "resourceVersion": "167713",
+        "uid": "454cfab8-a27a-4e7f-b813-a54cda7e082f"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-8gl79",
+        "namespace": "default",
+        "resourceVersion": "166672",
+        "uid": "a7044731-73c0-43c5-bd8b-527d67bdf186"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-8gl79.18b067d9a3b78d18",
+        "namespace": "default",
+        "resourceVersion": "167714",
+        "uid": "d27a0e00-d2c5-4606-b311-f5fc5b384466"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kw2g4",
+        "namespace": "default",
+        "resourceVersion": "166825",
+        "uid": "5d50af22-2227-4a50-86df-d2e1151c4ba2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kw2g4.18b067d9b3c853ce",
+        "namespace": "default",
+        "resourceVersion": "167715",
+        "uid": "66d8aa8b-61df-45e3-9b0c-110d08e493b1"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-x547t",
+        "namespace": "default",
+        "resourceVersion": "166694",
+        "uid": "91d9d161-9985-43c5-b204-21730934eb31"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-x547t.18b067d9c23a3535",
+        "namespace": "default",
+        "resourceVersion": "167716",
+        "uid": "60ffd219-c139-4782-aeb1-f16e43bee08d"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kw2g4",
+        "namespace": "default",
+        "resourceVersion": "166825",
+        "uid": "5d50af22-2227-4a50-86df-d2e1151c4ba2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kw2g4.18b067d9c3c07907",
+        "namespace": "default",
+        "resourceVersion": "167717",
+        "uid": "2d84c15e-9aed-44ef-86e3-88ce5a039fe9"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-t79bn",
+        "namespace": "default",
+        "resourceVersion": "166779",
+        "uid": "16b2f274-a629-414a-b865-70cd1faffa51"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-t79bn.18b067d9c456130f",
+        "namespace": "default",
+        "resourceVersion": "167718",
+        "uid": "a86045b4-2465-4904-a6e7-657b5d5ec916"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gw6th",
+        "namespace": "default",
+        "resourceVersion": "166831",
+        "uid": "b84eca23-b0a0-4f0b-b688-b8fea29bff4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:37Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gw6th.18b067d9c7655cd1",
+        "namespace": "default",
+        "resourceVersion": "167720",
+        "uid": "88039808-b8ea-4b66-873c-7562857eaddc"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nbcls",
+        "namespace": "default",
+        "resourceVersion": "166822",
+        "uid": "a0f5fa27-8232-423f-bd9b-3f27b1e5b991"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nbcls.18b067d9c99af4bc",
+        "namespace": "default",
+        "resourceVersion": "167723",
+        "uid": "a59f758d-3b11-46a4-97f0-c77b28e665c4"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:37Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kfg4c",
+        "namespace": "default",
+        "resourceVersion": "166810",
+        "uid": "070ef1c5-36cf-494a-b84c-9df11ff6b4fa"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:37Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kfg4c.18b067d9cb4ce456",
+        "namespace": "default",
+        "resourceVersion": "167724",
+        "uid": "b6079096-fc5f-4216-bb84-cda50116e6da"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xlqvt",
+        "namespace": "default",
+        "resourceVersion": "166837",
+        "uid": "c284cfc3-5c8a-44f8-81e3-a3ca4eac8df0"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xlqvt.18b067d9d140f993",
+        "namespace": "default",
+        "resourceVersion": "167726",
+        "uid": "15ff32ae-31dc-471c-a5b1-e3197b5964fd"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j5g55",
+        "namespace": "default",
+        "resourceVersion": "166816",
+        "uid": "2ec27f2a-f6ae-4e7f-a462-259bebbbd6dd"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Pod sandbox changed, it will be killed and re-created.",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j5g55.18b067d9d1a03b56",
+        "namespace": "default",
+        "resourceVersion": "167729",
+        "uid": "a9cfea35-fe5a-41b1-a868-bb1acc40eeeb"
+    },
+    "reason": "SandboxChanged",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-t79bn",
+        "namespace": "default",
+        "resourceVersion": "166779",
+        "uid": "16b2f274-a629-414a-b865-70cd1faffa51"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-t79bn.18b067d9d8bcc864",
+        "namespace": "default",
+        "resourceVersion": "167731",
+        "uid": "668727d3-999c-4e22-9550-d77b543d9992"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-x547t",
+        "namespace": "default",
+        "resourceVersion": "166694",
+        "uid": "91d9d161-9985-43c5-b204-21730934eb31"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-x547t.18b067d9d8bf121b",
+        "namespace": "default",
+        "resourceVersion": "167734",
+        "uid": "dd5e51f7-9219-492c-a9bf-2e7e6f2ab9c6"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-4scps",
+        "namespace": "default",
+        "resourceVersion": "166726",
+        "uid": "bbe7096c-66b1-4467-b7fa-08ecf9441703"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-4scps.18b067d9d9979e0b",
+        "namespace": "default",
+        "resourceVersion": "167735",
+        "uid": "e3fa6afc-5486-40f2-b4e6-9b7d76206294"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qhdkf",
+        "namespace": "default",
+        "resourceVersion": "166659",
+        "uid": "6b885135-f7d8-462c-9605-ae40c4f18249"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qhdkf.18b067d9e55fb75d",
+        "namespace": "default",
+        "resourceVersion": "167736",
+        "uid": "0d454281-8af5-4f35-8919-1e4935833072"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xqqbt",
+        "namespace": "default",
+        "resourceVersion": "166797",
+        "uid": "47df4892-7eec-45e2-b7d4-9ecc1e7c5b51"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xqqbt.18b067d9ea6f7dc2",
+        "namespace": "default",
+        "resourceVersion": "167737",
+        "uid": "2794fac8-28b6-4e32-9455-261c132776e1"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kfg4c",
+        "namespace": "default",
+        "resourceVersion": "166810",
+        "uid": "070ef1c5-36cf-494a-b84c-9df11ff6b4fa"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kfg4c.18b067d9f420f329",
+        "namespace": "default",
+        "resourceVersion": "167740",
+        "uid": "06b341e6-14cb-4aa9-9203-16302530510c"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-dcgxv",
+        "namespace": "default",
+        "resourceVersion": "166834",
+        "uid": "da4df8bd-64f1-43c4-afe5-57422d71ad84"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-dcgxv.18b067d9f69602d8",
+        "namespace": "default",
+        "resourceVersion": "167743",
+        "uid": "678328eb-a7d5-42fd-9806-7265519441a5"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-wl7hk",
+        "namespace": "default",
+        "resourceVersion": "166795",
+        "uid": "e1de2364-f901-4587-8428-2ed0a0ab93cc"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-wl7hk.18b067d9f859d718",
+        "namespace": "default",
+        "resourceVersion": "167746",
+        "uid": "b23727eb-59bb-4e71-88de-78af78411a07"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qhdkf",
+        "namespace": "default",
+        "resourceVersion": "166659",
+        "uid": "6b885135-f7d8-462c-9605-ae40c4f18249"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qhdkf.18b067da06c44080",
+        "namespace": "default",
+        "resourceVersion": "167755",
+        "uid": "e5dd1707-22c0-471b-b8cb-72c23f37a90e"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:38Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xqqbt",
+        "namespace": "default",
+        "resourceVersion": "166797",
+        "uid": "47df4892-7eec-45e2-b7d4-9ecc1e7c5b51"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:38Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:38Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xqqbt.18b067da0898fa0b",
+        "namespace": "default",
+        "resourceVersion": "167757",
+        "uid": "b0f00fc9-0faf-4623-97cb-eda9a84eb199"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-wl7hk",
+        "namespace": "default",
+        "resourceVersion": "166795",
+        "uid": "e1de2364-f901-4587-8428-2ed0a0ab93cc"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-wl7hk.18b067da0cd3de5a",
+        "namespace": "default",
+        "resourceVersion": "167761",
+        "uid": "b52f3397-73cf-4a1a-9439-b6c5a463dae5"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-dcgxv",
+        "namespace": "default",
+        "resourceVersion": "166834",
+        "uid": "da4df8bd-64f1-43c4-afe5-57422d71ad84"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-dcgxv.18b067da0d32c0df",
+        "namespace": "default",
+        "resourceVersion": "167765",
+        "uid": "13f805ac-b6f7-463e-bd3b-c0e5101ba46a"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zsvjr",
+        "namespace": "default",
+        "resourceVersion": "166642",
+        "uid": "bb903e5a-ebc7-4889-aee2-9b8b6158c94c"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-zsvjr.18b067da18eb8a0e",
+        "namespace": "default",
+        "resourceVersion": "167771",
+        "uid": "33c9d9f5-4e95-401e-a984-7d199e6020f2"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-6d8lw",
+        "namespace": "default",
+        "resourceVersion": "166840",
+        "uid": "71bb73c2-ecfe-4618-b879-100474be3dbc"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-6d8lw.18b067da29e6d05d",
+        "namespace": "default",
+        "resourceVersion": "167772",
+        "uid": "e6f32625-0f60-43a3-aacb-4406b03cb872"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-g6b85",
+        "namespace": "default",
+        "resourceVersion": "166828",
+        "uid": "b18c7df5-ede5-4e75-b65b-223f6df08485"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-g6b85.18b067da2ab651ba",
+        "namespace": "default",
+        "resourceVersion": "167773",
+        "uid": "7382cbd1-b0c1-4cb9-8659-48a20ef31f98"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-mqb5m",
+        "namespace": "default",
+        "resourceVersion": "166785",
+        "uid": "aebb0668-71b7-474c-a437-75a61dc1dbac"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-mqb5m.18b067da30c984ac",
+        "namespace": "default",
+        "resourceVersion": "167774",
+        "uid": "a86ec58c-6cac-48d5-bb3d-0e2510f15f24"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-m6xkt",
+        "namespace": "default",
+        "resourceVersion": "166745",
+        "uid": "ac7fae4b-8175-4d15-b93c-8204d4c96ba5"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-m6xkt.18b067da315e57c1",
+        "namespace": "default",
+        "resourceVersion": "167775",
+        "uid": "40963fe7-5c98-4492-858b-a6550bc76a12"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-6d8lw",
+        "namespace": "default",
+        "resourceVersion": "166840",
+        "uid": "71bb73c2-ecfe-4618-b879-100474be3dbc"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-6d8lw.18b067da3254ab4a",
+        "namespace": "default",
+        "resourceVersion": "167776",
+        "uid": "40ab9880-3e9c-487c-960f-e115b7cf3e79"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cw9zj",
+        "namespace": "default",
+        "resourceVersion": "166738",
+        "uid": "cca2d92d-9437-41af-8c81-43e8ed143624"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cw9zj.18b067da3b90e1b8",
+        "namespace": "default",
+        "resourceVersion": "167777",
+        "uid": "26981734-7151-4e69-b22f-816ab13b7557"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-mqb5m",
+        "namespace": "default",
+        "resourceVersion": "166785",
+        "uid": "aebb0668-71b7-474c-a437-75a61dc1dbac"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-mqb5m.18b067da3b91ac0a",
+        "namespace": "default",
+        "resourceVersion": "167778",
+        "uid": "9f4f0b9c-fede-43c0-97be-b8284dc60793"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-g6b85",
+        "namespace": "default",
+        "resourceVersion": "166828",
+        "uid": "b18c7df5-ede5-4e75-b65b-223f6df08485"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-g6b85.18b067da3cb8962d",
+        "namespace": "default",
+        "resourceVersion": "167779",
+        "uid": "7c2bd5fd-3056-42fd-8ccc-ef201664466b"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:39Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-m6xkt",
+        "namespace": "default",
+        "resourceVersion": "166745",
+        "uid": "ac7fae4b-8175-4d15-b93c-8204d4c96ba5"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:39Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:39Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-m6xkt.18b067da40778146",
+        "namespace": "default",
+        "resourceVersion": "167780",
+        "uid": "3f36fcfe-08fd-48f9-b8c2-09254eea0338"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cw9zj",
+        "namespace": "default",
+        "resourceVersion": "166738",
+        "uid": "cca2d92d-9437-41af-8c81-43e8ed143624"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cw9zj.18b067da489d3311",
+        "namespace": "default",
+        "resourceVersion": "167781",
+        "uid": "79d36cb4-5407-4c54-8c12-51c82be3a791"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cp7fh",
+        "namespace": "default",
+        "resourceVersion": "166776",
+        "uid": "435b656c-e581-4d35-ae70-0f45065550d4"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cp7fh.18b067da4a496bc7",
+        "namespace": "default",
+        "resourceVersion": "167782",
+        "uid": "85c0db35-d5ee-4567-8da0-a08da66a494d"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2kxqp",
+        "namespace": "default",
+        "resourceVersion": "166677",
+        "uid": "bf8d1627-97dd-4b7c-92ce-862ad6095332"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-2kxqp.18b067da514897ac",
+        "namespace": "default",
+        "resourceVersion": "167783",
+        "uid": "162a5905-ba6b-47ff-b24d-aeaefb455311"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-5pjgz",
+        "namespace": "default",
+        "resourceVersion": "166643",
+        "uid": "bb7b75b4-ef39-4a0d-8fe5-f828f17f1ca3"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-5pjgz.18b067da5191c643",
+        "namespace": "default",
+        "resourceVersion": "167784",
+        "uid": "049e0ca5-1988-4a1e-81ea-4fff95e1844c"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7szrk",
+        "namespace": "default",
+        "resourceVersion": "166755",
+        "uid": "bdba2ffd-86c2-4240-9afb-8a177392f08a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-7szrk.18b067da51942d3f",
+        "namespace": "default",
+        "resourceVersion": "167785",
+        "uid": "dbe7f20b-3a3e-470b-a47a-8bfd891d49ff"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cp7fh",
+        "namespace": "default",
+        "resourceVersion": "166776",
+        "uid": "435b656c-e581-4d35-ae70-0f45065550d4"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cp7fh.18b067da5660aaf5",
+        "namespace": "default",
+        "resourceVersion": "167786",
+        "uid": "f1e3c7db-9e87-43d5-9412-f188741ac60f"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-bcv8r",
+        "namespace": "default",
+        "resourceVersion": "166656",
+        "uid": "5a213718-dad7-42eb-b8dd-27dd67685344"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-bcv8r.18b067da5e88f84b",
+        "namespace": "default",
+        "resourceVersion": "167787",
+        "uid": "eb59cad9-5326-4591-b26e-e10abbd0999d"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 6,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:17Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{coredns}",
+        "kind": "Pod",
+        "name": "coredns-6f6b679f8f-4cr7r",
+        "namespace": "kube-system",
+        "resourceVersion": "166858",
+        "uid": "8b68477c-46de-463f-b5ef-3194371e7509"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Readiness probe failed: HTTP probe failed with statuscode: 503",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:17Z",
+        "name": "coredns-6f6b679f8f-4cr7r.18b067d521c01279",
+        "namespace": "kube-system",
+        "resourceVersion": "167788",
+        "uid": "af4bb2a0-8661-4052-80f5-78ac9f3a3193"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j9dx2",
+        "namespace": "default",
+        "resourceVersion": "166704",
+        "uid": "7e7186d4-6175-4c9d-84c7-e0fb8f9f21a2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j9dx2.18b067da698d3fff",
+        "namespace": "default",
+        "resourceVersion": "167789",
+        "uid": "ab6b9902-93c6-4969-a6e9-2b9a8027aa56"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j9dx2",
+        "namespace": "default",
+        "resourceVersion": "166704",
+        "uid": "7e7186d4-6175-4c9d-84c7-e0fb8f9f21a2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j9dx2.18b067da77897ef5",
+        "namespace": "default",
+        "resourceVersion": "167795",
+        "uid": "1f98ed44-eaa9-49cd-8329-0aad86ca15b4"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:40Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kfg4c",
+        "namespace": "default",
+        "resourceVersion": "166810",
+        "uid": "070ef1c5-36cf-494a-b84c-9df11ff6b4fa"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:40Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:40Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kfg4c.18b067da81a70ad0",
+        "namespace": "default",
+        "resourceVersion": "167798",
+        "uid": "73e973fa-c1a2-4de0-84db-a7f87666bdad"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gw6th",
+        "namespace": "default",
+        "resourceVersion": "166831",
+        "uid": "b84eca23-b0a0-4f0b-b688-b8fea29bff4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gw6th.18b067da9276941a",
+        "namespace": "default",
+        "resourceVersion": "167803",
+        "uid": "6ff5a1ad-5b8d-4a4b-9a11-9941b1223553"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-x547t",
+        "namespace": "default",
+        "resourceVersion": "166694",
+        "uid": "91d9d161-9985-43c5-b204-21730934eb31"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-x547t.18b067da9534862e",
+        "namespace": "default",
+        "resourceVersion": "167804",
+        "uid": "bfe73d7a-0106-4ada-b338-def9ccff5063"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qhdkf",
+        "namespace": "default",
+        "resourceVersion": "166659",
+        "uid": "6b885135-f7d8-462c-9605-ae40c4f18249"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-qhdkf.18b067da981d3e48",
+        "namespace": "default",
+        "resourceVersion": "167805",
+        "uid": "cc46202e-3715-43bf-a859-e05754270476"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-k7hm4",
+        "namespace": "default",
+        "resourceVersion": "166819",
+        "uid": "3a701537-c5ec-4af5-ada1-a7e31f41fa2b"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-k7hm4.18b067da9d6cf763",
+        "namespace": "default",
+        "resourceVersion": "167806",
+        "uid": "6bb9545f-f337-4592-b3c4-ec38dac8ccbf"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-t79bn",
+        "namespace": "default",
+        "resourceVersion": "166779",
+        "uid": "16b2f274-a629-414a-b865-70cd1faffa51"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-t79bn.18b067da9f5bcec4",
+        "namespace": "default",
+        "resourceVersion": "167807",
+        "uid": "6e5c5b2a-2610-4561-b014-621324928123"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-s8n4w",
+        "namespace": "default",
+        "resourceVersion": "166805",
+        "uid": "fbe5e585-a994-4a49-a0ab-7942e16faf77"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-s8n4w.18b067da9f89a471",
+        "namespace": "default",
+        "resourceVersion": "167808",
+        "uid": "623bd2ca-2cc9-4ec2-90ae-9b164cf5018e"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gw6th",
+        "namespace": "default",
+        "resourceVersion": "166831",
+        "uid": "b84eca23-b0a0-4f0b-b688-b8fea29bff4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gw6th.18b067daa0a6728b",
+        "namespace": "default",
+        "resourceVersion": "167809",
+        "uid": "748da1f7-6390-454d-a4a7-393ab8479514"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-k7hm4",
+        "namespace": "default",
+        "resourceVersion": "166819",
+        "uid": "3a701537-c5ec-4af5-ada1-a7e31f41fa2b"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-k7hm4.18b067daa2a77307",
+        "namespace": "default",
+        "resourceVersion": "167810",
+        "uid": "49ba6b80-303b-48d5-9287-9bf4362ed444"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-dcgxv",
+        "namespace": "default",
+        "resourceVersion": "166834",
+        "uid": "da4df8bd-64f1-43c4-afe5-57422d71ad84"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-dcgxv.18b067daa48d3656",
+        "namespace": "default",
+        "resourceVersion": "167811",
+        "uid": "62e5f79a-ea92-47cd-bf91-85a73bc5565a"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-s8n4w",
+        "namespace": "default",
+        "resourceVersion": "166805",
+        "uid": "fbe5e585-a994-4a49-a0ab-7942e16faf77"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-s8n4w.18b067daa49e4825",
+        "namespace": "default",
+        "resourceVersion": "167812",
+        "uid": "3bf7ce0c-b7df-4da8-a206-956eae109c8c"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kw2g4",
+        "namespace": "default",
+        "resourceVersion": "166825",
+        "uid": "5d50af22-2227-4a50-86df-d2e1151c4ba2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-kw2g4.18b067daae42d55e",
+        "namespace": "default",
+        "resourceVersion": "167813",
+        "uid": "4333a0b7-bab6-47bd-b0e1-7f38dfa93b18"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xqqbt",
+        "namespace": "default",
+        "resourceVersion": "166797",
+        "uid": "47df4892-7eec-45e2-b7d4-9ecc1e7c5b51"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-xqqbt.18b067dab0ee5fbb",
+        "namespace": "default",
+        "resourceVersion": "167814",
+        "uid": "d2d59fb7-7a77-4ed7-b7cd-9a9e58802543"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:41Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j5g55",
+        "namespace": "default",
+        "resourceVersion": "166816",
+        "uid": "2ec27f2a-f6ae-4e7f-a462-259bebbbd6dd"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:41Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:41Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j5g55.18b067daba57f4b7",
+        "namespace": "default",
+        "resourceVersion": "167815",
+        "uid": "a85cd9d1-fed7-4eae-bb2d-bad056f8e601"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j5g55",
+        "namespace": "default",
+        "resourceVersion": "166816",
+        "uid": "2ec27f2a-f6ae-4e7f-a462-259bebbbd6dd"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j5g55.18b067dabecabb88",
+        "namespace": "default",
+        "resourceVersion": "167816",
+        "uid": "0622fea0-dedb-424e-b136-3e881cd87961"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-mqb5m",
+        "namespace": "default",
+        "resourceVersion": "166785",
+        "uid": "aebb0668-71b7-474c-a437-75a61dc1dbac"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-mqb5m.18b067dac0a5cca9",
+        "namespace": "default",
+        "resourceVersion": "167817",
+        "uid": "ff6196eb-a0ed-496d-b450-95a8c622a824"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cw9zj",
+        "namespace": "default",
+        "resourceVersion": "166738",
+        "uid": "cca2d92d-9437-41af-8c81-43e8ed143624"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cw9zj.18b067dac64de615",
+        "namespace": "default",
+        "resourceVersion": "167818",
+        "uid": "091563c5-7338-4883-a278-93b57e8bcb19"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nbcls",
+        "namespace": "default",
+        "resourceVersion": "166822",
+        "uid": "a0f5fa27-8232-423f-bd9b-3f27b1e5b991"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Container image \"nginx:alpine\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nbcls.18b067dac6a912a0",
+        "namespace": "default",
+        "resourceVersion": "167819",
+        "uid": "4aee82bb-8edb-47a7-9709-3951063b474a"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-g6b85",
+        "namespace": "default",
+        "resourceVersion": "166828",
+        "uid": "b18c7df5-ede5-4e75-b65b-223f6df08485"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-g6b85.18b067dac77e3ed8",
+        "namespace": "default",
+        "resourceVersion": "167820",
+        "uid": "4cf5aed7-90a7-4871-860d-f2baa1ad579d"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cp7fh",
+        "namespace": "default",
+        "resourceVersion": "166776",
+        "uid": "435b656c-e581-4d35-ae70-0f45065550d4"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-cp7fh.18b067dacbc0dd7e",
+        "namespace": "default",
+        "resourceVersion": "167821",
+        "uid": "96095141-e027-4423-b545-ec011f2c6bca"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j9dx2",
+        "namespace": "default",
+        "resourceVersion": "166704",
+        "uid": "7e7186d4-6175-4c9d-84c7-e0fb8f9f21a2"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j9dx2.18b067dacfdd8af6",
+        "namespace": "default",
+        "resourceVersion": "167822",
+        "uid": "eeffb237-96c3-4b41-a42d-cb2c845cbb1a"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-6d8lw",
+        "namespace": "default",
+        "resourceVersion": "166840",
+        "uid": "71bb73c2-ecfe-4618-b879-100474be3dbc"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-6d8lw.18b067dad0023bfa",
+        "namespace": "default",
+        "resourceVersion": "167824",
+        "uid": "38f15659-64c3-4bac-8db2-31e1604cefe9"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-wl7hk",
+        "namespace": "default",
+        "resourceVersion": "166795",
+        "uid": "e1de2364-f901-4587-8428-2ed0a0ab93cc"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-wl7hk.18b067dad019e70b",
+        "namespace": "default",
+        "resourceVersion": "167825",
+        "uid": "c0140c36-03d1-46ca-ac48-f6c17c6f25b6"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nbcls",
+        "namespace": "default",
+        "resourceVersion": "166822",
+        "uid": "a0f5fa27-8232-423f-bd9b-3f27b1e5b991"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Created container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nbcls.18b067dad01bee14",
+        "namespace": "default",
+        "resourceVersion": "167828",
+        "uid": "2d3f3d3f-573d-4713-a373-95a4eb74e25b"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-m6xkt",
+        "namespace": "default",
+        "resourceVersion": "166745",
+        "uid": "ac7fae4b-8175-4d15-b93c-8204d4c96ba5"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-m6xkt.18b067dad01d50e3",
+        "namespace": "default",
+        "resourceVersion": "167830",
+        "uid": "f9bd06e1-4672-42cf-9065-b063d4ffbd0a"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-s8n4w",
+        "namespace": "default",
+        "resourceVersion": "166805",
+        "uid": "fbe5e585-a994-4a49-a0ab-7942e16faf77"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-s8n4w.18b067dae8e0714d",
+        "namespace": "default",
+        "resourceVersion": "167847",
+        "uid": "33d7d5ac-9845-44f8-836b-d8c3d878405f"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-k7hm4",
+        "namespace": "default",
+        "resourceVersion": "166819",
+        "uid": "3a701537-c5ec-4af5-ada1-a7e31f41fa2b"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-k7hm4.18b067dae9f44d9d",
+        "namespace": "default",
+        "resourceVersion": "167850",
+        "uid": "6f9a2001-d837-4098-a79c-aa99197aec15"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gw6th",
+        "namespace": "default",
+        "resourceVersion": "166831",
+        "uid": "b84eca23-b0a0-4f0b-b688-b8fea29bff4a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-gw6th.18b067daec362243",
+        "namespace": "default",
+        "resourceVersion": "167852",
+        "uid": "61c2c927-80ab-4432-a6f6-2b296b0ef409"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j5g55",
+        "namespace": "default",
+        "resourceVersion": "166816",
+        "uid": "2ec27f2a-f6ae-4e7f-a462-259bebbbd6dd"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-j5g55.18b067daef4e46fb",
+        "namespace": "default",
+        "resourceVersion": "167858",
+        "uid": "01a55453-2a97-4526-8eaf-4f16321d1164"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:42Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{nginx}",
+        "kind": "Pod",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nbcls",
+        "namespace": "default",
+        "resourceVersion": "166822",
+        "uid": "a0f5fa27-8232-423f-bd9b-3f27b1e5b991"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:42Z",
+    "message": "Started container nginx",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:42Z",
+        "name": "baseline-0cd-scale100-59cc7c9cff-nbcls.18b067daf4ac7aed",
+        "namespace": "default",
+        "resourceVersion": "167866",
+        "uid": "b530addd-48bf-4ab9-9d10-7073271e55db"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 5,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:20Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{coredns}",
+        "kind": "Pod",
+        "name": "coredns-6f6b679f8f-bs7g7",
+        "namespace": "kube-system",
+        "resourceVersion": "166865",
+        "uid": "5d61e90a-8669-4316-a6d6-0508d5bae6a9"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:43Z",
+    "message": "Readiness probe failed: HTTP probe failed with statuscode: 503",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:20Z",
+        "name": "coredns-6f6b679f8f-bs7g7.18b067d5b5913f88",
+        "namespace": "kube-system",
+        "resourceVersion": "167881",
+        "uid": "e57ae8c5-a4a3-41a5-842b-075540d8f738"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 4,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:21Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{tetragon-operator}",
+        "kind": "Pod",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m",
+        "namespace": "kube-system",
+        "resourceVersion": "166907",
+        "uid": "8e77b37e-d33c-42e2-9af2-9032142e1e8a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:43Z",
+    "message": "Readiness probe failed: Get \"http://10.244.0.4:8081/readyz\": dial tcp 10.244.0.4:8081: connect: connection refused",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:21Z",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m.18b067d5da88c0e4",
+        "namespace": "kube-system",
+        "resourceVersion": "167882",
+        "uid": "ea23acd1-6a92-4459-905a-f1b9541185ba"
+    },
+    "reason": "Unhealthy",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:48Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{tetragon-operator}",
+        "kind": "Pod",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m",
+        "namespace": "kube-system",
+        "resourceVersion": "166907",
+        "uid": "8e77b37e-d33c-42e2-9af2-9032142e1e8a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:48Z",
+    "message": "Back-off restarting failed container tetragon-operator in pod tetragon-operator-55c5f4f6df-jqg2m_kube-system(8e77b37e-d33c-42e2-9af2-9032142e1e8a)",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:48Z",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m.18b067dc59808795",
+        "namespace": "kube-system",
+        "resourceVersion": "167916",
+        "uid": "0af94593-9ddb-4d0f-9d75-1521df0fa212"
+    },
+    "reason": "BackOff",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 2,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:48Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{tetragon-operator}",
+        "kind": "Pod",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m",
+        "namespace": "kube-system",
+        "resourceVersion": "166907",
+        "uid": "8e77b37e-d33c-42e2-9af2-9032142e1e8a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:49Z",
+    "message": "Back-off restarting failed container tetragon-operator in pod tetragon-operator-55c5f4f6df-jqg2m_kube-system(8e77b37e-d33c-42e2-9af2-9032142e1e8a)",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:48Z",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m.18b067dc59808795",
+        "namespace": "kube-system",
+        "resourceVersion": "167919",
+        "uid": "0af94593-9ddb-4d0f-9d75-1521df0fa212"
+    },
+    "reason": "BackOff",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 1,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:49Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{local-path-provisioner}",
+        "kind": "Pod",
+        "name": "local-path-provisioner-ccc7bf7fc-pptzc",
+        "namespace": "local-path-storage",
+        "resourceVersion": "166891",
+        "uid": "ed854a47-019a-4eaf-be26-c4127628c090"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:40:49Z",
+    "message": "Back-off restarting failed container local-path-provisioner in pod local-path-provisioner-ccc7bf7fc-pptzc_local-path-storage(ed854a47-019a-4eaf-be26-c4127628c090)",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:49Z",
+        "name": "local-path-provisioner-ccc7bf7fc-pptzc.18b067dc959ac563",
+        "namespace": "local-path-storage",
+        "resourceVersion": "167921",
+        "uid": "ce809cda-8d6b-42fb-81d3-0cc1d8c34b93"
+    },
+    "reason": "BackOff",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Warning"
+}
+{
+    "apiVersion": "v1",
+    "count": 2,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:13Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{local-path-provisioner}",
+        "kind": "Pod",
+        "name": "local-path-provisioner-ccc7bf7fc-pptzc",
+        "namespace": "local-path-storage",
+        "resourceVersion": "166891",
+        "uid": "ed854a47-019a-4eaf-be26-c4127628c090"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:41:05Z",
+    "message": "Container image \"docker.io/kindest/local-path-provisioner:v20241108-5c6d2daf\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:13Z",
+        "name": "local-path-provisioner-ccc7bf7fc-pptzc.18b067d41191edd7",
+        "namespace": "local-path-storage",
+        "resourceVersion": "167950",
+        "uid": "99b5426c-c83b-4469-8100-cb9927a60d8f"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 2,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:13Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{local-path-provisioner}",
+        "kind": "Pod",
+        "name": "local-path-provisioner-ccc7bf7fc-pptzc",
+        "namespace": "local-path-storage",
+        "resourceVersion": "166891",
+        "uid": "ed854a47-019a-4eaf-be26-c4127628c090"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:41:05Z",
+    "message": "Created container local-path-provisioner",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:13Z",
+        "name": "local-path-provisioner-ccc7bf7fc-pptzc.18b067d42e732c5a",
+        "namespace": "local-path-storage",
+        "resourceVersion": "167952",
+        "uid": "242b1279-38a2-4e67-b994-a0e6f80c084e"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 2,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:16Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{local-path-provisioner}",
+        "kind": "Pod",
+        "name": "local-path-provisioner-ccc7bf7fc-pptzc",
+        "namespace": "local-path-storage",
+        "resourceVersion": "166891",
+        "uid": "ed854a47-019a-4eaf-be26-c4127628c090"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:41:05Z",
+    "message": "Started container local-path-provisioner",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:16Z",
+        "name": "local-path-provisioner-ccc7bf7fc-pptzc.18b067d4ea1be320",
+        "namespace": "local-path-storage",
+        "resourceVersion": "167953",
+        "uid": "ab8d771e-a2c2-45b1-842b-38ea03d4b65b"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 2,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:12Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{tetragon-operator}",
+        "kind": "Pod",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m",
+        "namespace": "kube-system",
+        "resourceVersion": "166907",
+        "uid": "8e77b37e-d33c-42e2-9af2-9032142e1e8a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:41:07Z",
+    "message": "Container image \"quay.io/cilium/tetragon-operator:v1.7.0\" already present on machine",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:12Z",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m.18b067d3dd33617e",
+        "namespace": "kube-system",
+        "resourceVersion": "167962",
+        "uid": "92b60b0e-a0d0-4f79-ac54-0159f839d6fb"
+    },
+    "reason": "Pulled",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 2,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:12Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{tetragon-operator}",
+        "kind": "Pod",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m",
+        "namespace": "kube-system",
+        "resourceVersion": "166907",
+        "uid": "8e77b37e-d33c-42e2-9af2-9032142e1e8a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:41:07Z",
+    "message": "Created container tetragon-operator",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:12Z",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m.18b067d3ea9b1dbd",
+        "namespace": "kube-system",
+        "resourceVersion": "167963",
+        "uid": "09eec571-2394-42b4-8b2d-0c421b710990"
+    },
+    "reason": "Created",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
+{
+    "apiVersion": "v1",
+    "count": 2,
+    "eventTime": null,
+    "firstTimestamp": "2026-05-17T16:40:14Z",
+    "involvedObject": {
+        "apiVersion": "v1",
+        "fieldPath": "spec.containers{tetragon-operator}",
+        "kind": "Pod",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m",
+        "namespace": "kube-system",
+        "resourceVersion": "166907",
+        "uid": "8e77b37e-d33c-42e2-9af2-9032142e1e8a"
+    },
+    "kind": "Event",
+    "lastTimestamp": "2026-05-17T16:41:07Z",
+    "message": "Started container tetragon-operator",
+    "metadata": {
+        "creationTimestamp": "2026-05-17T16:40:14Z",
+        "name": "tetragon-operator-55c5f4f6df-jqg2m.18b067d46822e3b1",
+        "namespace": "kube-system",
+        "resourceVersion": "167964",
+        "uid": "31d05b96-b2fa-4a45-98e9-3c556d99db9a"
+    },
+    "reason": "Started",
+    "reportingComponent": "kubelet",
+    "reportingInstance": "forensic-k8s-control-plane",
+    "source": {
+        "component": "kubelet",
+        "host": "forensic-k8s-control-plane"
+    },
+    "type": "Normal"
+}
