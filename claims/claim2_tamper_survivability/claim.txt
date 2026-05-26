@@ -1,0 +1,24 @@
+Claim ID: CLAIM-2
+
+Title:
+Telemetry Survivability Under Active Tampering
+
+Paper Mapping:
+- RQ2
+- Scenario_B
+- Section 5.2
+- Table 6
+- Figure 4
+
+Claim:
+Under T1610+T1609 active tampering, in-band telemetry becomes fragile:
+Istio survivability collapses at Scale 50p, while eBPF preserves positive
+evidence capture.
+
+Expected Findings:
+- Istio Mesh survivability S≈0.313 at Scale 50p.
+- Kubernetes Event Telemetry / K8s Event source determinism D≈0.452 at Scale 4p.
+- eBPF maintains positive survivability under measured tiers.
+
+Artifact Type:
+Metric recomputation + survivability plot regeneration from existing normalized evidence.

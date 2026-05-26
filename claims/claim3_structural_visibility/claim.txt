@@ -1,0 +1,24 @@
+Claim ID: CLAIM-3
+
+Title:
+Structural Visibility Gap for Credential Access
+
+Paper Mapping:
+- RQ3
+- Scenario_C
+- Section 5.3
+- Section 6.3
+- Table 7
+
+Claim:
+Projected-volume service-account token access through local file reads is
+structurally invisible to Kubernetes Event Telemetry and Istio Mesh, while
+eBPF preserves execution-level visibility through PROC_EXEC.
+
+Expected Findings:
+- Kubernetes Event Telemetry / K8s Event source: structurally undefined for Scenario_C.
+- Istio Mesh: structurally undefined for Scenario_C.
+- eBPF: positive Scenario_C evidence capture through PROC_EXEC.
+
+Artifact Type:
+Metric recomputation from existing normalized evidence.
