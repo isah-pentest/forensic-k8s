@@ -1,0 +1,16 @@
+Expected Scenario_C values:
+
+eBPF:
+Scale 4p:   R≈0.570, D≈1.000
+Scale 50p:  R≈0.423, D≈0.879
+Scale 100p: R≈0.549, D≈0.993
+
+Fused:
+Scale 4p:   R≈0.730, D≈1.000
+Scale 50p:  R≈0.440, D≈0.889
+Scale 100p: R≈0.560, D≈0.994
+
+Structural interpretation:
+Kubernetes Event Telemetry and Istio Mesh are undefined for Scenario_C,
+not failed and not zero, because local projected-volume reads generate
+neither API-server activity nor mesh traffic.

@@ -1,0 +1,12 @@
+Validation criteria:
+
+1. compute_completeness.py completes successfully.
+2. compute_determinism.py completes successfully.
+3. compute_metrics.py completes successfully.
+4. Scenario_C shows active eBPF and Fused cells.
+5. Kubernetes Event Telemetry and Istio are interpreted as structurally undefined, not zero.
+6. Outputs are copied into this claim's outputs/ directory.
+
+Reviewer note:
+This claim validates structural visibility boundaries. It does not duplicate
+experiment logic; it calls existing analysis scripts.
