@@ -1,0 +1,27 @@
+Claim ID: CLAIM-4
+
+Title:
+Resource Floor for Four-Source Fused Telemetry
+
+Paper Mapping:
+- RQ4
+- Scenario_B Tier 3
+- Section 5.2
+- Section 6.4
+- Figure 6
+- Table 2
+
+Claim:
+At Scale 100p, concurrent four-source telemetry collection
+on the evaluated single-node environment exhausted available
+host resources and triggered Linux OOM-killer termination
+before complete exhibit generation in all ten runs.
+
+Expected Findings:
+- All ten Scale 100p Scenario_B runs executed.
+- All telemetry collectors terminated before complete exhibit generation.
+- Quantitative R, S, and D computation excluded by design.
+- Resource exhaustion establishes a practical fused telemetry floor.
+
+Artifact Type:
+Execution-boundary validation from preserved experiment outputs.
