@@ -1,0 +1,23 @@
+Claim ID: CLAIM-1
+
+Title:
+Forensic Congestion Under Workload Scaling
+
+Paper Mapping:
+- RQ1
+- Scenario_A
+- Section 5.1
+- Table 6
+- Figure 3
+
+Claim:
+Under T1046 workload scaling, in-band telemetry reliability degrades
+below the operational sufficiency threshold R=0.80 at Scale 100p.
+
+Expected Findings:
+- Kubernetes Event Telemetry / K8s Event source: R≈0.68, D≈0.713 at Scale 100p.
+- Istio Mesh: R≈0.74, D≈0.609 at Scale 100p.
+- Fused telemetry also falls below R=0.80 at Scale 100p.
+
+Artifact Type:
+Metric recomputation + plot regeneration from existing normalized evidence.
