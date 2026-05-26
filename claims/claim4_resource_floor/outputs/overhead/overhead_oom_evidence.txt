@@ -1,0 +1,54 @@
+ScenB T3S100 — Resource Overhead & OOM Evidence Report
+============================================================
+
+Host:     Ubuntu 24.04 (WSL2), 8 vCPUs, 16 GB RAM
+Scenario: B (T1610+T1609), Tier 3, Scale 100p
+Runs with valid sys_top data: 10/10
+
+AGGREGATE WINDOW STATISTICS
+--------------------------------------------------
+  w1_deploy             : load1=36.75±17.71 (peak=40.08), mem=14831±355MB (peak=14927MB)
+  w2_expansion          : load1=27.00±10.35 (peak=36.38), mem=14960±139MB (peak=14994MB)
+  w3_steady_oom         : load1=15.37±5.80 (peak=18.93), mem=14998±113MB (peak=15004MB)
+  full_90s              : load1=24.77±9.82 (peak=41.43), mem=14952±158MB (peak=15014MB)
+
+PER-RUN OOM SIGNALS
+--------------------------------------------------
+  Run  1:  86 OOM events, load_max=33.60, mem_max=14843MB
+  Run  2:  90 OOM events, load_max=29.40, mem_max=14895MB
+  Run  3:  90 OOM events, load_max=35.68, mem_max=14882MB
+  Run  4:  90 OOM events, load_max=45.44, mem_max=14966MB
+  Run  5:  90 OOM events, load_max=40.55, mem_max=14978MB
+  Run  6:  90 OOM events, load_max=83.32, mem_max=15157MB
+  Run  7:  90 OOM events, load_max=34.62, mem_max=15040MB
+  Run  8:  66 OOM events, load_max=18.05, mem_max=15067MB
+  Run  9:  90 OOM events, load_max=48.02, mem_max=15158MB
+  Run 10:  90 OOM events, load_max=45.60, mem_max=15165MB
+
+FILE INTEGRITY SUMMARY
+--------------------------------------------------
+  Run  1: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run  2: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run  3: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run  4: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run  5: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run  6: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run  7: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run  8: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run  9: populated=[audit,ebpf,network]  empty/missing=[istio]
+  Run 10: populated=[audit,ebpf,network]  empty/missing=[istio]
+
+KEY FINDING (MANUSCRIPT §7.2)
+--------------------------------------------------
+During the pod expansion phase (t=15–60s) at Scale 100p,
+the 1-minute load average reached 27.00±10.35 (8-vCPU saturation threshold: 8.0),
+peaking at 36.38 across n=10 runs.
+Host memory consumption reached 14960±139 MB (peak: 14994 MB of 16,384 MB).
+
+In the steady/OOM window (t=60–90s),
+load=15.37±5.80 (peak=18.93), mem=14998±113MB (peak=15004MB).
+
+All three telemetry collectors (kubectl/Audit, kubectl/Tetragon,
+tcpdump) received SIGKILL in every run (confirmed by 'Killed'
+termination status in execution logs — OOM-killer signature,
+distinct from script-issued kill -9 at teardown).
