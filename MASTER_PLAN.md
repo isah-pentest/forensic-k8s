@@ -9,8 +9,8 @@ To evaluate the reliability and performance overhead of fused telemetry sources 
 
 | ID | Scenario | MITRE ATT&CK | Scale (Pods) | Telemetry Sources | Runs | Purpose |
 |:---|:---|:---|:---|:---|:---|:---|
-| **0-AB** | Baseline A/B | N/A | 4/50/100 | Audit, Istio,| 10 | Control group for Service Mesh/Network |
-| **0-CD** | Baseline C/D | N/A | 4/50/100 | PCAP, eBPF | 10 | Control group for Kernel/Identity |
+| **0-AB** | Baseline A/B | N/A | 4/50/100 | Audit, Istio,| 30 | Control group for Service Mesh/Network |
+| **0-CD** | Baseline C/D | N/A | 4/50/100 | PCAP, eBPF | 30 | Control group for Kernel/Identity |
 | **A** | Workload Scaling | T1046 | 4/50/100 | Audit, Istio, | 30 | Measure impact of discovery noise on capture |
 | **B** | Active Tampering | T1610+T1609 | 4/50/100 | Audit, Istio, PCAP, eBPF| 30 | Evaluate log deletion survivability |
 | **C** | Credential Access | T1552.007 | 4/50/100 | PCAP, eBPF | 30 | Assess attribution with service account theft |
