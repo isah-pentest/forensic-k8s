@@ -1,49 +1,80 @@
-# MDPI Electronics Artifact: Measuring Telemetry Retention and Stability for Post-Termination Forensics in a Single-Node Kubernetes Cluster
+# forensic-k8s: data and code for "Measuring Telemetry Retention and Stability for Post-Termination Forensics in a Single-Node Kubernetes Cluster"
 
-[![Target Journal](https://img.shields.io/badge/Journal-MDPI%20Electronics-blue.svg)](https://www.mdpi.com/journal/electronics)
-[![Artifact Branch](https://img.shields.io/badge/Artifact%20Branch-main-orange.svg)](https://github.com/isah-pentest/forensic-k8s/tree/main)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+Isah Mohammed, Qingzhong Liu, Narasimha Shashidhar
+Department of Computer Science, Sam Houston State University, Huntsville, TX 77341, USA
+Manuscript submitted to *Electronics* (MDPI), Special Issue "Cybersecurity, Intelligent Systems Security, and Trustworthy Electronic Systems".
 
-This repository contains the complete experimental execution suite, telemetry normalization parsers, preserved normalized evidentiary exhibits, metric computation code, and figure-generation pipelines supporting the manuscript:
+This archive contains the experiment execution and normalization scripts, the raw
+Kubernetes Event, Istio control-plane and Tetragon streams, the 171 normalized exhibits,
+and the analysis code that regenerates every number, table and figure in the manuscript.
 
-> **Measuring Telemetry Retention and Stability for Post-Termination Forensics in a Single-Node Kubernetes Cluster**  
-> Isah Mohammed, Qingzhong Liu, and Narasimha Shashidhar  
-> *Department of Computer Science, Sam Houston State University, Huntsville, TX 77341, USA*  
+## Reproduce everything with one command
 
----
+Requirements: Linux, macOS or WSL2 with Python 3.11-3.14 (all four tested). No cluster is needed.
 
-## 📋 Overview & Abstract
+    ./install.sh        # creates .venv with the pinned packages in requirements.txt
+    ./reproduce.sh      # about 1-2 minutes
 
-Ephemeral Kubernetes workloads often terminate before investigators can acquire volatile runtime evidence, leaving incident reconstruction dependent on heterogeneous telemetry sources (orchestration Event objects, service-mesh control-plane logs, node packet captures, and eBPF/Tetragon kernel process events). 
+`./reproduce.sh` works from any clone location and stops with a non-zero exit status at the
+first failed check. It:
 
-This study empirically evaluates 180 trial attempts across baseline conditions, workload scaling tiers (4, 50, and 100 replicas), adversarial scenarios (discovery probes, in-pod deletions, projected-volume credential reads, and application exhaustion), and high-scale resource exhaustion. We formalize forensic sufficiency through a four-dimensional measurement suite $\mathcal{P} = \{C, R, S, D\}$:
-- **Completeness ($C$):** Target-set attack-relevant signal recovery relative to matched baselines.
-- **Volume Ratio ($R$):** Baseline-relative telemetry volume preservation.
-- **Survivability ($S$):** Telemetry retention under active in-band suppression (Scenario B).
-- **Determinism ($D$):** Run-to-run event-count stability ($1 - \sigma_R / \mu_R$).
+0. verifies that all 1,018 files carried over from commit `4217cd2` (raw streams, exhibits,
+   execution and normalization scripts, metric pipeline and tables, configuration) are
+   byte-identical to the SHA-256 values in `INTEGRITY_SHA256SUMS`;
+1. regenerates the metric tables (R, D, C, S) with the original pipeline and requires them to be
+   **byte-identical** to the released versions;
+2. recomputes all quantities independently from the exhibits and raw streams and re-verifies the
+   SHA-256 provenance anchor of every exhibit against its raw files;
+3. compares **every number printed in the manuscript's tables and text** with the recomputed
+   values (`analysis/manuscript/expected_values.csv` lists each value and where it is printed);
+4. re-runs the six normalizers on the raw streams in a temporary tree and requires all 170 analysed
+   exhibits to regenerate record-for-record (skip with `--fast`);
+5. regenerates manuscript Figures 2-7;
+6. prints the findings for each research question with the values that support them.
 
----
+`claims/run_all_claims.sh` runs the same pipeline. Outputs go to `analysis/manuscript/output/`
+and logs to `reproduce_logs/`.
 
-## 🗂️ Repository Architecture
+**Cryptographic integrity.** No released file is edited. The original scripts hard-code the
+authors' path `/home/pentestnet/forensic-k8s`; `analysis/manuscript/run_original.py` runs each
+of them from a temporary copy in which only that path is replaced, so the files on disk keep
+their SHA-256 values.
 
-```text
-.
-├── analysis/
-│   ├── paper_forensic_sufficiency/
-│   │   ├── metrics/               # Automated CSV matrices and LaTeX tables (Table 3)
-│   │   ├── plots/                 # Rendered PDF figures (Figures 2–7)
-│   │   └── scripts/               # Core metric computation & plotting engines
-├── artifact/
-│   ├── data/                      # Normalized JSON exhibits and raw log streams
-│   └── src/                       # Per-scenario normalization parsers
-├── claims/
-│   ├── claim1_forensic_congestion/# RQ1: Workload scaling & congestion validation
-│   ├── claim2_tamper_survivability/# RQ2: Tamper survivability validation
-│   ├── claim3_structural_visibility/# RQ3: eBPF structural visibility validation
-│   ├── claim4_resource_floor/     # RQ4: Host resource exhaustion & OOM metrics
-│   ├── claim5_fusion_determinism/ # Multi-source fusion stability analysis
-│   └── run_all_claims.sh          # Master validation and regeneration runner
-├── infrastructure/                # Kind cluster manifests, Istio config, & audit policies
-├── manifests/                     # Deployment manifests (nginx:alpine scales 4, 50, 100)
-├── install.sh                     # Environment verification script
-└── MASTER_PLAN.md                 # Publication tracking and commit anchors
+## What the data show (summary of the manuscript's findings)
+
+| RQ | Finding | Status of the evidence |
+|---|---|---|
+| RQ1, scale (Scenario A) | At 100 replicas, Kubernetes Event and Istio control-plane volume falls to R = 0.68 and 0.74 of matched baselines, with lower run-to-run stability than at 4 or 50 replicas | Probe action recorded in 28/30 runs; carry-over 3.7%. Main quantitative finding; association in one single-node configuration |
+| RQ2, adversarial conditions (B-D) | The in-pod deletion was recorded in 10/10 runs at 4 replicas and 0/10 at 50; no token read (0/30); no stress-pod process (0/30) | Scenario B-D actions largely not recorded; values describe collector behaviour and ambient process activity, not tampering survivability or credential-access visibility (see `KNOWN_ISSUES.md`) |
+| RQ3, capacity (B, 100 replicas) | 10/10 four-collector trials failed to produce a complete exhibit under host load and memory pressure | From preserved summaries; sampler logs and console output are not included |
+| RQ4, measurement validity | Event carry-over between trials, constant PCAP summands, analysis-time PCAP truncation and ratio clipping change the reported metrics | Quantified by the scripts in `analysis/manuscript/` |
+
+## Layout
+
+    reproduce.sh, install.sh, requirements.txt
+    artifact/data/Scenario_{0AB,0CD,A,B,C,D}/
+        Tier{1,2,3}_Scale{4,50,100}/raw/        raw streams per run (run_N_audit.json = Event objects,
+                                                run_N_istio.json, run_N_ebpf.json)
+        Tier*/exhibits/run_N_normalized.json   normalized exhibits with SHA-256 provenance anchors
+        analysis_scripts/                       execute_*.sh (as run) and normalize_*.py
+    analysis/paper_forensic_sufficiency/        original metric pipeline (scripts/, metrics/, plots/)
+    analysis/manuscript/                        recomputation, value check, manuscript figures (see its README)
+    claims/check_claims.py                      findings by research question (RQ1-RQ4), as in the manuscript
+    claims/claim*/                              earlier claim wrappers, preserved unchanged; their claim.txt
+                                                statements predate the re-analysis and are superseded by
+                                                the manuscript and KNOWN_ISSUES.md
+    infrastructure/                             cluster configuration, Istio 1.29.2 distribution, versions
+    manifests/                                  nginx:alpine workloads at 4, 50 and 100 replicas
+
+Scenario codes: 0AB and 0CD are no-attack baselines; A discovery probe (T1046); B in-pod deletion
+(T1610 + T1609); C service-account token read and use (T1552.007); D `stress-ng` pod (T1499.003, approximate).
+
+## Data availability and limitations
+
+See `DATA_AVAILABILITY.md` (what is and is not included) and `KNOWN_ISSUES.md` (execution and
+pipeline properties that affect interpretation). `CHANGES.md` lists the additions made after
+commit `4217cd2`.
+
+## Licence and citation
+
+Released under CC BY 4.0 (`license.txt`). Please cite the article and this archive (`CITATION.cff`).
