@@ -1,7 +1,7 @@
 # MDPI Electronics Artifact: Measuring Telemetry Retention and Stability for Post-Termination Forensics in a Single-Node Kubernetes Cluster
 
 [![Target Journal](https://img.shields.io/badge/Journal-MDPI%20Electronics-blue.svg)](https://www.mdpi.com/journal/electronics)
-[![Artifact Commit](https://img.shields.io/badge/Artifact%20Commit-4217cd2-orange.svg)](https://github.com/isah-pentest/forensic-k8s/tree/4217cd2817b78af16c653c118b8ca64892a9130d)
+[![Artifact Branch](https://img.shields.io/badge/Artifact%20Branch-main-orange.svg)](https://github.com/isah-pentest/forensic-k8s/tree/main)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 This repository contains the complete experimental execution suite, telemetry normalization parsers, preserved normalized evidentiary exhibits, metric computation code, and figure-generation pipelines supporting the manuscript:
